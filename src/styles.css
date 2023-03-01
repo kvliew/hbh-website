@@ -21,7 +21,7 @@ a:hover {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 20px 50px;
 }
 header svg:hover {
   cursor: pointer;
@@ -39,6 +39,7 @@ header svg:hover {
 
 body {
   background-color: #0A1210;
+  min-height: 100vh;
 }
 
 nav {
@@ -106,4 +107,14 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* ABOUT PAGE */
+.about {
+  height: 75vh;
+  width: 50vw;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
