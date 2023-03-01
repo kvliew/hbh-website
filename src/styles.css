@@ -23,6 +23,19 @@ header {
   justify-content: space-between;
   padding: 20px 80px;
 }
+header svg:hover {
+  cursor: pointer;
+  stroke-dasharray: 889;
+  animation: 0.5s fillSvg linear;
+}
+@keyframes fillSvg {
+  0% {
+    stroke-dashoffset: 889;
+  } 
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
 
 body {
   background-color: #0A1210;
@@ -34,8 +47,7 @@ nav {
 }
 
 footer {
-  position:absolute;
-  bottom: 0;
+  padding: 30px;
 }
 
 #nav-links {
