@@ -138,6 +138,7 @@ button:hover {
   header {
     width: 100%;
     background-color: rgb(10, 18, 16, 70%);
+    padding: 15px 20px;
   }
   #nav-links {
     display: none;
@@ -155,7 +156,7 @@ button:hover {
     font-size: 1em;
   }
   .landing-container {
-    height: 60vh;
+    height: 50vh;
   }
   #overlay-wrapper {
     display: none;
