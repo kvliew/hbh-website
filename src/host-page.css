@@ -2,6 +2,13 @@
   display: flex;
   gap: 50px;
   padding: 5%;
+  line-height: 1.4;
+}
+.hosts svg {
+  transition-duration: 0.7s;
+}
+.hosts svg:hover {
+  transform: scale(1.5);
 }
 .hosts h3 {
   text-align: center;
