@@ -43,6 +43,7 @@ nav {
   align-items: center;
 }
 footer {
+  margin-top: auto;
   padding: 20px;
   background-color: black;
 }
