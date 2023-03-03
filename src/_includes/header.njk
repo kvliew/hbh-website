@@ -9,10 +9,10 @@
   <nav>
     <ul id="nav-links">
       <li><a href="/">Home</a></li>
-      <li><a href="/episodes">Episodes</a></li>
-      <li><a href="/about">Our Mission</a></li>
-      <li><a href="/meet-hosts">Meet the Hosts</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li><a class="{{ 'highlight' if '/episodes' in page.url }}" href="/episodes">Episodes</a></li>
+      <li><a class="{{ 'highlight' if '/about' in page.url }}" href="/about">Our Mission</a></li>
+      <li><a class="{{ 'highlight' if '/meet-hosts' in page.url }}" href="/meet-hosts">Meet the Hosts</a></li>
+      <li><a class="{{ 'highlight' if '/contact' in page.url }}" href="/contact">Contact</a></li>
     </ul>
     <svg onClick="handleMenu()" id="menu-icon" width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0.75 19.5H29.25V16.3333H0.75V19.5ZM0.75 11.5833H29.25V8.41667H0.75V11.5833ZM0.75 0.5V3.66667H29.25V0.5H0.75Z" fill="white"/>

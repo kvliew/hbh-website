@@ -10,6 +10,7 @@
   <meta name=”robots” content="index, follow">
 
   <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/host-page.css">
   <link rel="icon" href="/assets/logo.svg">
 
   <title>About Home Building Hub</title>
@@ -26,10 +27,10 @@
   <nav>
     <ul id="nav-links">
       <li><a href="/">Home</a></li>
-      <li><a href="/episodes">Episodes</a></li>
-      <li><a href="/about">Our Mission</a></li>
-      <li><a href="/meet-hosts">Meet the Hosts</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li><a class="" href="/episodes">Episodes</a></li>
+      <li><a class="highlight" href="/about">Our Mission</a></li>
+      <li><a class="" href="/meet-hosts">Meet the Hosts</a></li>
+      <li><a class="" href="/contact">Contact</a></li>
     </ul>
     <svg onClick="handleMenu()" id="menu-icon" width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0.75 19.5H29.25V16.3333H0.75V19.5ZM0.75 11.5833H29.25V8.41667H0.75V11.5833ZM0.75 0.5V3.66667H29.25V0.5H0.75Z" fill="white"/>
@@ -37,48 +38,59 @@
   </nav>
 </header>
   <main>
+    <div id="overlay-wrapper">
+  <ul id="menu-overlay">
+    <li><a href="/">Home</a></li>
+    <li><a href="/episodes">Episodes</a></li>
+    <li><a href="/about">Our Mission</a></li>
+    <li><a href="/meet-hosts">Meet the Hosts</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</div>
     
 <section class="about-wrapper">
-  <h2>
-    About Us
-  </h2>
+  <div class="about">
+    <h2>
+      About Us
+    </h2>
+    
+    <p>
+      <span style="color:#1ED760">Home Building Hub</span> is an independent podcast designed to provide education 
+      and value to anyone looking to build a new home with a volume home builder 
+      in Australia. Hosted by industry experts Colin Bischof & Darren Brennan, 
+      the <span style="color:#1ED760">Home Building Hub</span> is a conversational podcast that provides insights 
+      to help better educate listeners about new home building so they can avoid 
+      costly mistakes, but more so enjoy their building experience regardless of 
+      which home builder they choose. 
+    </p>
+    <br>
+    <h2>
+      Goals
+    </h2>
   
-  <p>
-    <span style="color:#1ED760">Home Building Hub</span> is an independent podcast designed to provide education 
-    and value to anyone looking to build a new home with a volume home builder 
-    in Australia. Hosted by industry experts Colin Bischof & Darren Brennan, 
-    the <span style="color:#1ED760">Home Building Hub</span> is a conversational podcast that provides insights 
-    to help better educate listeners about new home building so they can avoid 
-    costly mistakes, but more so enjoy their building experience regardless of 
-    which home builder they choose. 
-  </p>
-
-  <h2>
-    Goals
-  </h2>
-
-  <ul>
-    <li>
-      <p>
-        Become the industry leading podcast that all new home buyers listen to in 
-        order to get independent and objective education about new home building 
-        without sales pitches.
-      </p>
-    </li>
-    <li>
-      <p>
-        Grow the brand of the podcast and the brand of the host, co-hosts and guests 
-        as a way to establish ourselves and themselves as authorities in the industry. 
-        This will lead to more recognition of the actual brands / companies that we all 
-        work for. Only good can come from that.
-      </p>
-    </li>
-  </ul>
-  <a href="/episodes">
-    <button>
-      Listen Now
-    </button>
-  </a>
+    <ul>
+      <li>
+        <p>
+          Become the industry leading podcast that all new home buyers listen to in 
+          order to get independent and objective education about new home building 
+          without sales pitches.
+        </p>
+      </li>
+      <li>
+        <p>
+          Grow the brand of the podcast and the brand of the host, co-hosts and guests 
+          as a way to establish ourselves and themselves as authorities in the industry. 
+          This will lead to more recognition of the actual brands / companies that we all 
+          work for. Only good can come from that.
+        </p>
+      </li>
+    </ul>
+    <a href="/episodes">
+      <button>
+        Listen Now
+      </button>
+    </a>
+  </div>
 </section>
   </main>
   <footer>
