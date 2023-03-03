@@ -1,8 +1,14 @@
 .hosts {
   display: flex;
-  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
   padding: 5%;
   line-height: 1.4;
+}
+.hosts h1 {
+  flex-basis: 100%;
+  text-align: center;
 }
 .hosts svg {
   transition-duration: 0.4s;
@@ -18,6 +24,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  width: 30%;
 }
 .host-block a {
   color: rgb(29, 185, 84);
@@ -37,6 +44,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
   }
   .host-block img {
     width: 200px;
