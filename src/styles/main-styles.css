@@ -7,7 +7,6 @@
 }
 body {
   background-color: #0A1210;
-  min-height: 100vh;
 }
 
 /* Styles for common components (logo, navigation menu, footer) */
@@ -23,7 +22,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 19px 50px;
 }
 #logo:hover {
   cursor: pointer;
@@ -43,7 +42,7 @@ nav {
   align-items: center;
 }
 footer {
-  margin-top: auto;
+  width: 100%;
   padding: 20px;
   background-color: black;
 }
@@ -113,25 +112,8 @@ button {
   align-items: center;
 }
 
-/* ABOUT PAGE */
-.about-wrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  line-height: 1.6;
-  padding: 10px;
-}
-
-.about {
-  width: 50%;
-  padding: 20px;
-}
-
 @media screen and (max-width: 1000px) {
   header {
-    /* position: fixed; */
     width: 100%;
     background-color: rgb(10, 18, 16, 70%);
   }
