@@ -29,7 +29,7 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-size: larger;
 }
-a:hover {
+header a:hover {
   color: rgb(29, 185, 84);
 }
 header {
