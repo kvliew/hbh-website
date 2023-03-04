@@ -128,9 +128,10 @@ button:hover {
 
 .secondary-container {
   background-color: #001F17;
-  padding: 10rem;
+  padding: 10%;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   align-items: center;
 }
 
