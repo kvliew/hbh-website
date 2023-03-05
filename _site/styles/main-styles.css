@@ -180,7 +180,13 @@ button:hover {
     font-size: 1em;
   }
   .landing-container {
-    height: 50vh;
+    height: 60vh;
+  }
+  #landing-home {
+    margin-left: 3vh;
+  }
+  .secondary-container {
+    padding-top: 45%;
   }
   #overlay-wrapper {
     display: none;
