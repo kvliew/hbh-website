@@ -21,12 +21,15 @@
   <link rel="icon" href="/assets/logo.svg">
 
   <title>{{ title }}</title>
+  {% block head %}{% endblock %}
 </head>
 <body>
   {% include 'header.njk' %}
   <main>
     {% include 'menu-overlay.njk' %}
-    {{ content | safe }}
+    {% block content %}
+      {{ content | safe }}
+    {% endblock %}
   </main>
   {% include 'footer.njk' %}
   <script type="text/javascript" src="/script.js"></script>

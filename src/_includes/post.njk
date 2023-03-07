@@ -1,0 +1,15 @@
+{% extends "base.njk" %}
+
+{% block head %}
+  <link rel="stylesheet" href="/styles/post.css">
+{% endblock %}
+
+{% block content %}
+  <section class="post-section">
+    <h1>{{ title }}</h1>
+    <p>
+      {{ number }}
+    </p>
+    {{ content | safe }}
+  </section>
+{% endblock %}
