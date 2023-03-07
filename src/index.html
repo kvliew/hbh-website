@@ -44,15 +44,17 @@ layout: "base.njk"
   <ul class="recent-episodes">
     {% for post in collections.posts %}
       <li>
-        <div class="recent-episode-item">
-          <div class="placeholder-thumbnail"></div>
-            <h3>
-              <a href="{{ post.url }}">Episode #{{ post.data.number }}</a>
-            </h3>
-            <h3>
-              {{ post.data.title}}
-            </h3>
-        </div>
+        <a href="{{ post.url }}">
+          <div class="recent-episode-item">
+            <div class="placeholder-thumbnail"></div>
+              <h3>
+                Episode #{{ post.data.number }}
+              </h3>
+              <h3>
+                {{ post.data.title}}
+              </h3>
+          </div>
+        </a>
       </li>
     {% endfor %}
   </ul>
