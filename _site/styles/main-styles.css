@@ -141,6 +141,32 @@ button:hover {
   font-size: 20px;
   line-height: 1.6;
 }
+.recent-episodes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.recent-episode-item {
+  color: black;
+  padding: 10%;
+  width: 300px;
+  height: 350px;
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.recent-episode-item h3 {
+  text-align: center;
+  color: black;
+}
+.placeholder-thumbnail {
+  background-color: black;
+  width: 100%;
+  height: 50%;
+}
 #see-more {
   border-radius: 10px;
   padding: 0.6rem;
@@ -202,6 +228,13 @@ button:hover {
   }
   #about {
     width: 100%;
+  }
+  .recent-episodes {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .recent-episode-item {
+    
   }
   #overlay-wrapper {
     display: none;
