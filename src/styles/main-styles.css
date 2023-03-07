@@ -152,8 +152,8 @@ button:hover {
   transition: 0.3s;
 }
 .recent-episode-item:hover {
-  /* transform: scale(1.02); */
-  box-shadow: 0px 0px 10px #074e3b;
+  transform: scale(1.01);
+  box-shadow: 3px 0px 10px #074e3b;
 }
 .recent-episode-item p {
   text-align: center;
