@@ -41,62 +41,21 @@ layout: "base.njk"
   </p>
   <br>
   <h2 id="home-section-2">Recent Episodes</h2>
-  <div class="recent-episodes">
-    <div class="recent-episode-item">
-      <div class="placeholder-thumbnail"></div>
-      <h3>
-        Episode #1
-      </h3>
-      <h3>
-        Introduction to the Home Building Hub Podcast
-      </h3>
-    </div>
-    <div class="recent-episode-item">
-      <div class="placeholder-thumbnail"></div>
-      <h3>
-        Episode #2
-      </h3>
-      <h3>
-        Should you be building a new home right now?
-      </h3>
-    </div>
-    <div class="recent-episode-item">
-      <div class="placeholder-thumbnail"></div>
-      <h3>
-        Episode #3
-      </h3>
-      <h3>
-        Essential insights from an industry leading finance broker
-      </h3>
-    </div>
-    <div class="recent-episode-item">
-      <div class="placeholder-thumbnail"></div>
-      <h3>
-        Episode #4
-      </h3>
-      <h3>
-        Title
-      </h3>
-    </div>
-    <div class="recent-episode-item">
-      <div class="placeholder-thumbnail"></div>
-      <h3>
-        Episode #4
-      </h3>
-      <h3>
-        Title
-      </h3>
-    </div>
-    <div class="recent-episode-item">
-      <div class="placeholder-thumbnail"></div>
-      <h3>
-        Episode #4
-      </h3>
-      <h3>
-        Title
-      </h3>
-    </div>
-  </div>
+  <ul class="recent-episodes">
+    {% for post in collections.posts %}
+      <li>
+        <div class="recent-episode-item">
+          <div class="placeholder-thumbnail"></div>
+            <h3>
+              <a href="{{ post.url }}">Episode #{{ post.data.number }}</a>
+            </h3>
+            <h3>
+              {{ post.data.title}}
+            </h3>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
   <a id="see-more" href="/episodes">See More</a>
   <br>
   <h2>Follow Us</h2>
