@@ -144,12 +144,13 @@ button:hover {
   width: 350px;
   height: 450px;
   background-color: #042e23;
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   transition: 0.3s;
+  box-shadow: 3px 3px 10px black;
 }
 .recent-episode-item:hover {
   transform: scale(1.01);
@@ -193,7 +194,7 @@ button:hover {
   transition: all 1.5s;
 }
 .hidden-ep-card {
-  transform: translate(-4px);
+  transform: translate(-8px);
 }
 .show {
   opacity: 1;
@@ -280,5 +281,8 @@ button:hover {
   }
   .hidden-ep-card:nth-child(5) {
     transition-delay: 400ms;
+  }
+  .hidden-ep-card:nth-child(6) {
+    transition-delay: 600ms;
   }
 }
