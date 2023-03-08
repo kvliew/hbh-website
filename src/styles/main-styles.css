@@ -140,25 +140,22 @@ button:hover {
 }
 .recent-episode-item {
   color: black;
-  padding: 5%;
+  padding: 4%;
   width: 350px;
   height: 450px;
   background-color: #042e23;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 10px;
   transition: 0.3s;
   box-shadow: 3px 3px 10px black;
+  background-image: linear-gradient(to bottom, #0a1210, #0c1a17, #0c221c, #092a22, #053227);
 }
 .recent-episode-item:hover {
   transform: scale(1.01);
   box-shadow: 3px 0px 10px #074e3b;
 }
-.recent-episode-item p {
-  text-align: center;
-}
-
 .placeholder-thumbnail {
   background-color: black;
   width: 100%;

@@ -26,12 +26,12 @@
   gap: 20px;
   width: 30%;
 }
-.host-block a {
+#company-link {
   text-decoration: underline;
   background-color: #000000;
   color: white;
 }
-.host-block a:hover {
+#company-link:hover {
   text-decoration: none;
 }
 .host-block img {
