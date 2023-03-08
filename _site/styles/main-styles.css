@@ -177,7 +177,6 @@ button:hover {
 .socials {
   display: flex;
   gap: 25px;
-  justify-content: center;
   align-items: center;
 }
 .socials svg {
