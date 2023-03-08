@@ -227,6 +227,10 @@ button:hover {
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
   }
+  .recent-episode-item {
+    width: 300px;
+    height: 400px;
+  }
   #overlay-wrapper {
     display: none;
   }
