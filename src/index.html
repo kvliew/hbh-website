@@ -46,13 +46,15 @@ layout: "base.njk"
       <li class="hidden hidden-ep-card">
         <a href="{{ post.url }}">
           <div class="recent-episode-item">
-            <div class="placeholder-thumbnail"></div>
-              <h3>
-                Episode {{ post.data.number }}
-              </h3>
-              <p>
-                {{ post.data.title}}
-              </p>
+            <img src="{{ post.data.thumbnail }}" alt="episode preview photo"></img>
+            <br>
+            <h3>
+              Episode {{ post.data.number }}
+            </h3>
+            <br>
+            <p>
+              {{ post.data.title}}
+            </p>
           </div>
         </a>
       </li>

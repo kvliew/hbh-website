@@ -147,15 +147,17 @@ button:hover {
   color: black;
   padding: 4%;
   width: 350px;
-  height: 450px;
+  height: 400px;
   background-color: #042e23;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  gap: 10px;
   transition: 0.3s;
   box-shadow: 3px 3px 10px black;
   background-image: linear-gradient(to bottom, #0a1210, #0c1a17, #0c221c, #092a22, #053227);
+}
+.recent-episode-item img {
+  width: 100%;
+  height: 60%;
 }
 .recent-episode-item:hover {
   transform: scale(1.01);
@@ -183,10 +185,10 @@ button:hover {
 }
 .socials svg {
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .socials svg:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
 /* Scroll Transition Classes */
@@ -240,7 +242,7 @@ button:hover {
   }
   .recent-episodes {
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 30px;
   }
   .recent-episode-item {
     width: 300px;
