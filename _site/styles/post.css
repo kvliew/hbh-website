@@ -1,6 +1,5 @@
 .post-section {
   padding: 5%;
-  height: 70vh;
 }
 
 #episode-content {
@@ -29,5 +28,9 @@
 @media screen and (max-width: 1100px) {
   #episode-content {
     flex-direction: column;
+  }
+  iframe {
+    width: 320px;
+    height: 220px;
   }
 }

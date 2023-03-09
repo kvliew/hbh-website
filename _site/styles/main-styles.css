@@ -29,6 +29,8 @@ a {
   color: white;
   transition: color 0.5s ease-out;
   font-family: 'Montserrat', sans-serif;
+}
+header a {
   font-size: larger;
 }
 header a:hover {
@@ -61,6 +63,9 @@ footer {
   width: 100%;
   padding: 20px;
   background-color: black;
+}
+footer a {
+  color: #1DB954;
 }
 #nav-links {
   list-style-type: none;
