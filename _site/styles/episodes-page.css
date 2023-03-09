@@ -1,4 +1,29 @@
 .episodes {
-  height: 80vh;
-  padding: 50px;
+  padding: 70px;
+}
+
+#episodes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.episode-card {
+  width: 70vw;
+  background-color: #11201c;
+  padding: 30px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.episode-link:hover {
+  color: rgb(29, 185, 84);
+}
+
+@media screen and (max-width: 1100px) {
+  .episodes {
+    padding: 5%;
+  }
+  .episode-card {
+    width: 100%;
+  }
 }
