@@ -2,9 +2,14 @@
   padding: 70px;
 }
 
+.episodes h1 {
+  text-align: center;
+}
+
 #episodes-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
 }
 
