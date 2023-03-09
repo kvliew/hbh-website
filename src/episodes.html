@@ -9,7 +9,7 @@ layout: "base.njk"
   <br>
   <ul id="episodes-container">
     {% for post in collections.posts %}
-      <li>
+      <li class="hidden hidden-ep-card">
         <div class="episode-card">
           <h2>
             <a class="episode-link" href="{{ post.url }}"> Episode {{ post.data.number }}: {{ post.data.title }}</a>
@@ -42,3 +42,4 @@ layout: "base.njk"
     {% endfor %}
   </ul>
 </section>
+<script type="text/javascript" src="/transition-script.js"></script>
