@@ -207,7 +207,6 @@ button:hover {
 @media screen and (max-width: 1100px) {
   header {
     width: 100%;
-    background-color: rgb(10, 18, 16, 70%);
     padding: 15px 8%;
   }
   #nav-links {
@@ -253,8 +252,6 @@ button:hover {
   }
   #overlay-wrapper.active {
     display: block;
-    border-color: white;
-    height: 50vh;
     width: 100vw;
     background-color: rgb(10, 18, 16, 95%);
   }
