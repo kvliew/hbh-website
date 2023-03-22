@@ -2,8 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px;
-  padding: 5%;
+  gap: 55px;
+  padding-bottom: 5%;
   line-height: 1.4;
 }
 .hosts h1 {
