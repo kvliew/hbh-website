@@ -8,7 +8,8 @@ layout: "base.njk"
   </h1>
   <br>
   <ul id="episodes-container">
-    {% for post in collections.posts %}
+    {% assign recentPosts = collections.posts | reverse %}
+    {% for post in recentPosts %}
       <li class="hidden">
         <div class="episode-card">
           <h2>
