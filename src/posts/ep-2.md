@@ -6,6 +6,7 @@ description: Coming Soon...
 youtube: https://www.youtube.com/@homebuildinghub
 id:
 thumbnail: /assets/thumbnails/coming-soon.jpg
+uploaded: TBD
 ---
 
 Second post content
