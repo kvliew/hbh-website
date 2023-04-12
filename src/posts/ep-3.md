@@ -5,8 +5,8 @@ layout: post.njk
 description: Coming Soon...
 youtube: https://www.youtube.com/@homebuildinghub
 id:
-thumbnail: /assets/thumbnails/coming-soon.jpg
-uploaded: TBD
+thumbnail: /assets/thumbnails/ep-3-thumbnail.jpg
+uploaded: COMING SOON
 ---
 
 Third post content
