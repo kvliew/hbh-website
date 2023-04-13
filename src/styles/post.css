@@ -25,12 +25,33 @@
   justify-content:center;
 }
 
+#episode-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+#episode-navigation a {
+  width: 15%;
+  background-color: rgb(12, 81, 36);
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-out;
+}
+
+#episode-navigation a:hover {
+  background-color: rgb(7, 48, 22);
+}
+
 @media screen and (max-width: 1100px) {
-  #episode-content {
+  #episode-content {  
     flex-direction: column;
   }
   iframe {
     width: 320px;
     height: 220px;
+  }
+  #episode-navigation a {
+    width: 40%;
   }
 }

@@ -36,7 +36,20 @@
         </div>
       </div>
     </div>
+    <br>
     {{ content | safe }}
     <br>
+    <div id="episode-navigation">
+      {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+      {% set nextPost = collections.posts | getNextCollectionItem(page) %}
+
+      {% if previousPost %}
+        <a href="{{ previousPost.url }}">&lt&lt Previous Episode <br> {{ previousPost.data.number }}. {{ previousPost.data.title }}</a>
+      {% endif %}
+
+      {% if nextPost %}
+        <a href="{{ nextPost.url }}">&gt&gt Next Episode <br> {{ nextPost.data.number }}. {{ nextPost.data.title }}</a>
+      {% endif %}
+    </div>
   </section>
 {% endblock %}
