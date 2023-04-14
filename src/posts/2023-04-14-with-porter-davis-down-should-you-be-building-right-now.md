@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post.njk
 title: With Porter Davis down, should you be building right now?
 number: 3
 youtube: https://www.youtube.com/watch?v=sVtAmamHhtc
