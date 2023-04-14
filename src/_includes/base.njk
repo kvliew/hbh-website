@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="/styles/episodes-page.css">
   <link rel="stylesheet" href="/styles/contact-page.css">
   <link rel="icon" href="/assets/logo.svg">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   <title> {{ title }}</title>
   {% block head %}{% endblock %}
@@ -32,5 +33,16 @@
   </main>
   {% include 'footer.njk' %}
   <script type="text/javascript" src="/mobile-menu-script.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>
