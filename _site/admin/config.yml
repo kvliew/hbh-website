@@ -16,6 +16,8 @@ collections:
       - {label: "Episode Number", name: "number", widget: "number"}
       - {label: "YouTube Link", name: "youtube", widget: "string"}
       - {label: "YouTube ID", name: "id", widget: "string"}
+      - {label: "Spotify Link", name: "spotify", widget: "string"}
+      - {label: "Apple Podcasts Link", name: "applepodcasts", widget: "string"}
       - {label: "Publish Date", name: "uploaded", widget: "date", format: "Do MMMM YYYY"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "string"}
