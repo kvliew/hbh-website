@@ -27,11 +27,17 @@ Grant Thornton (liquidators) website: https://www.grantthornton.com.au
 
 State Revenue Office website: https://www.sro.vic.gov.au/buying-property 
 
+<br>
+
 ### Liking the show?
 Please leave us a 5 star rating on your podcast platform and share the show with others - thank you.
 
+<br>
+
 ### Got a question, topic idea or feedback?
 Drop us a line <a href="/contact" id="contact-us" target="_blank">here</a>
+
+<br>
 
 ### Timestamps:
 
