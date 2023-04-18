@@ -6,8 +6,12 @@ youtube: https://www.youtube.com/watch?v=l7ZS8vKlrfE
 id: l7ZS8vKlrfE
 spotify: https://open.spotify.com/episode/5xn9a9x8mOdj3zKomxLw8U?si=9f1792ae716d4eff
 applepodcasts: https://podcasts.apple.com/au/podcast/ep-2-essential-insights-from-one-of-australias/id1681936589?i=1000608529204
+iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/episode/ep-2-essential-insights-from-112811196/
+amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/episodes/a76ccd19-5c1a-4f8a-86e1-ffb378ef68a6/home-building-hub-ep-2-essential-insights-from-one-of-australia%E2%80%99s-leading-finance-brokers
+googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjYyNzM1MQ?sa=X&ved=0CAUQkfYCahcKEwjAqN7S1bP-AhUAAAAAHQAAAAAQAQ
 uploaded: 12 April 2023
 thumbnail: /assets/thumbnails/ep-2-thumbnail.jpg
+duration: 0:43:14
 description: Today we are joined by Mark Polatkesen - the Founder and Managing
   Director of Mortgage Domayne. Mark is one of Australia’s leading finance
   brokers and has settled over 1.5 billion dollars in loans during his career so
