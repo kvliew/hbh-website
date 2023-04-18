@@ -182,6 +182,7 @@ button:hover {
   display: flex;
   gap: 25px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .socials svg {
   cursor: pointer;
