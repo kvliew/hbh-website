@@ -7,7 +7,7 @@ id: sVtAmamHhtc
 spotify: https://open.spotify.com/episode/7fn03YEctMuiINC8SOE0ul?si=ca812446234c4ddf
 applepodcasts: https://podcasts.apple.com/ph/podcast/home-building-hub/id1681936589?i=1000609209607
 uploaded: 17th April 2023
-thumbnail: assets/thumbnails/ep-3-thumbnail.jpg
+thumbnail: assets/thumbnails/ep-3-thumbnail-copy.jpg
 description: We discuss and acknowledge Porter Davis heading into liquidation,
   but with respect to those involved, our focus shifts to providing valuable
   insights to those who are considering buying right now. We give you a genuine
