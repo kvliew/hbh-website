@@ -2,7 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "/assets/thumbnails" # Media files will be stored in the repo under assets/thumbnails
+media_folder: "src/assets/thumbnails" # Media files will be stored in the repo under assets/thumbnails
+public_folder: "./"
 
 collections:
   - name: "episodes" # Used in routes, e.g., /admin/collections/episodes
