@@ -7,7 +7,7 @@ id: l7ZS8vKlrfE
 spotify: https://open.spotify.com/episode/5xn9a9x8mOdj3zKomxLw8U?si=9f1792ae716d4eff
 applepodcasts: https://podcasts.apple.com/au/podcast/ep-2-essential-insights-from-one-of-australias/id1681936589?i=1000608529204
 uploaded: 12 April 2023
-thumbnail: /src/assets/thumbnails/ep-3-thumbnail-copy.jpg
+thumbnail: /assets/thumbnails/ep-2-thumbnail.jpg
 description: Today we are joined by Mark Polatkesen - the Founder and Managing
   Director of Mortgage Domayne. Mark is one of Australia’s leading finance
   brokers and has settled over 1.5 billion dollars in loans during his career so
