@@ -19,7 +19,7 @@ description: In episode one, you get to meet us - Darren and Colin - your hosts
   mistakes when choosing their preferred home builder.
 ---
 ### Resources:  
-L﻿earn more about us <a href="/meet-hosts" id="contact-us" target="_blank">here</a>.
+Learn more about us <a href="/meet-hosts" id="contact-us" target="_blank">here</a>.
 
 <a href="https://www.linkedin.com/in/darren-brennan-7577a9a0" id="contact-us" target="_blank">Darren Brennan LinkedIn</a>
 
