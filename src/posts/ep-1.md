@@ -9,7 +9,7 @@ applepodcasts: https://podcasts.apple.com/au/podcast/ep-1-introduction-to-the-ho
 iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/episode/ep-1-introduction-to-the-112809988/
 amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/episodes/16b1b41a-65ff-44f6-9f4e-f037758f62a3/home-building-hub-ep-1-introduction-to-the-home-building-hub-podcast
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjYyNzMxMA?sa=X&ved=0CAUQkfYCahcKEwjAqN7S1bP-AhUAAAAAHQAAAAAQAQ
-uploaded: 12 April 2023
+uploaded: 12th April 2023
 thumbnail: /assets/thumbnails/ep-1-thumbnail.jpg
 duration: 0:12:38
 description: In episode one, you get to meet us - Darren and Colin - your hosts
