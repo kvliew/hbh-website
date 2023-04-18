@@ -43,13 +43,13 @@
   background-color: rgb(7, 48, 22);
 }
 
-#contact-us {
+#intext-link {
   color:rgb(185, 185, 228); 
-  text-decoration:underline;
+  /* text-decoration:none; */
 }
 
-#contact-us:hover {
-  text-decoration: none;
+#intext-link:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1100px) {

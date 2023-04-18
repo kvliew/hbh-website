@@ -19,11 +19,11 @@ description: In episode one, you get to meet us - Darren and Colin - your hosts
   mistakes when choosing their preferred home builder.
 ---
 ### Resources:  
-Learn more about us <a href="/meet-hosts" id="contact-us" target="_blank">here</a>.
+Learn more about us <a href="/meet-hosts" id="intext-link" target="_blank">here</a>.
 
-<a href="https://www.linkedin.com/in/darren-brennan-7577a9a0" id="contact-us" target="_blank">Darren Brennan LinkedIn</a>
+Darren Brennan LinkedIn: <a href="https://www.linkedin.com/in/darren-brennan-7577a9a0" id="intext-link" target="_blank">https://www.linkedin.com/in/darren-brennan-7577a9a0</a>
 
-<a href="https://www.linkedin.com/in/colin-bischof-7426646b" id="contact-us" target="_blank">Colin Bischof LinkedIn</a>
+Colin Bischof Linkedin: <a href="https://www.linkedin.com/in/colin-bischof-7426646b" id="intext-link" target="_blank">https://www.linkedin.com/in/colin-bischof-7426646b</a>
 
 <br>
 
@@ -33,4 +33,4 @@ Please leave us a 5 star rating on your podcast platform and share the show with
 <br>
 
 ### Got a question, topic idea or feedback?
-Drop us a line <a href="/contact" id="contact-us" target="_blank">here</a>.
+Drop us a line <a href="/contact" id="intext-link" target="_blank">here</a>.

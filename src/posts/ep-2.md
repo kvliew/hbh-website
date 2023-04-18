@@ -42,7 +42,7 @@ Please leave us a 5 star rating on your podcast platform and share the show with
 <br>
 
 ### Got a question, topic idea or feedback?
-Drop us a line <a href="/contact" id="contact-us" target="_blank">here</a>
+Drop us a line <a href="/contact" id="intext-link" target="_blank">here</a>.
 
 <br>
 
