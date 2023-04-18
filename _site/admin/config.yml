@@ -3,7 +3,7 @@ backend:
   branch: main
 
 media_folder: "src/assets/thumbnails" # Media files will be stored in the repo under assets/thumbnails
-public_folder: "./"
+public_folder: "assets/thumbnails"
 
 collections:
   - name: "episodes" # Used in routes, e.g., /admin/collections/episodes
