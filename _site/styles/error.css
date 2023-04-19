@@ -1,0 +1,13 @@
+.error-page {
+  padding: 20px;
+  height: 60vh;
+}
+
+.error-page a {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(80, 80, 236);
+}
+
+.error-page a:hover {
+  text-decoration: underline;
+}
