@@ -8,7 +8,7 @@ spotify: https://open.spotify.com/episode/7fn03YEctMuiINC8SOE0ul?si=ca812446234c
 applepodcasts: https://podcasts.apple.com/ph/podcast/home-building-hub/id1681936589?i=1000609209607
 iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/episode/ep-3-with-porter-davis-113186048/
 amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/episodes/6eb44b3a-1ab7-48e6-8695-14e56c94b14b/home-building-hub-ep-3-with-porter-davis-down-should-you-be-building-right-now
-googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw
+googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjYzNTE1Mg?sa=X&ved=0CAUQkfYCahcKEwj4lNao8rX-AhUAAAAAHQAAAAAQBA
 uploaded: 17th April 2023
 thumbnail: assets/thumbnails/ep-3-thumbnail.jpg
 duration: 0:54:04
