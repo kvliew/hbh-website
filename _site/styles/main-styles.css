@@ -71,6 +71,9 @@ footer {
 footer a {
   color: #1DB954;
 }
+footer a:hover {
+  text-decoration: underline;
+}
 #nav-links {
   list-style-type: none;
   display: flex;

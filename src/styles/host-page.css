@@ -27,12 +27,10 @@
   width: 30%;
 }
 #company-link {
-  text-decoration: underline;
-  background-color: #000000;
   color: white;
 }
 #company-link:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .host-block img {
   width: 400px;

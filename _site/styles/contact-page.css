@@ -36,6 +36,10 @@
   outline-width: 0;
 }
 
+input {
+  height: 50px;
+}
+
 textarea {
   height: 250px;
   resize: none;
