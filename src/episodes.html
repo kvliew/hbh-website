@@ -13,7 +13,7 @@ layout: "base.njk"
       <li class="hidden">
         <div class="episode-card">
           <h2>
-            <a class="episode-link" href="{{ post.url }}"> {{ post.data.title }}</a>
+            <a class="episode-link" href="{{ post.url }}"> Episode {{ post.data.number }}: {{ post.data.title }}</a>
           </h2>
           <p>
             {{ post.data.uploaded }} | &#x23F3 {{ post.data.duration }}
