@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: Essential insights from one of Australia’s leading finance brokers
+title: Ep 2 | Essential insights from one of Australia’s leading finance brokers
 number: 2
 youtube: https://www.youtube.com/watch?v=l7ZS8vKlrfE
 id: l7ZS8vKlrfE
