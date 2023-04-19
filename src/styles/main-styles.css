@@ -63,6 +63,10 @@ footer {
   width: 100%;
   padding: 20px;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 footer a {
   color: #1DB954;
@@ -121,9 +125,9 @@ button {
   font-weight: 600;
   color: black;
 }
-button:hover {
+/* button:hover {
   transform: scale(1.1);
-}
+} */
 .secondary-container {
   background-color: #001F17;
   padding: 10%;
