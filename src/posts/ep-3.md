@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: With Porter Davis down, should you be building right now?
+title: Ep 3 | With Porter Davis down, should you be building right now?
 number: 3
 youtube: https://youtu.be/sVtAmamHhtc
 id: sVtAmamHhtc
