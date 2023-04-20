@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: Ep 1 | Introduction to the Home Building Hub Podcast
+title: Introduction to the Home Building Hub Podcast
 number: 1
 youtube: https://www.youtube.com/watch?v=Wb-EJxmP4RY
 id: Wb-EJxmP4RY
