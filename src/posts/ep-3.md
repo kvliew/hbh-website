@@ -25,11 +25,11 @@ description: We discuss and acknowledge Porter Davis heading into liquidation,
 
 For Porter Davis customers
 
-Access info on the VMIA website: https://www.vmia.vic.gov.au 
+Access info on the VMIA website: <a href="https://www.vmia.vic.gov.au" id="intext-link" target="_blank">https://www.vmia.vic.gov.au</a>
 
-Grant Thornton (liquidators) website: https://www.grantthornton.com.au
+Grant Thornton (liquidators) website: <a href="https://www.grantthornton.com.au" id="intext-link" target="_blank">https://www.grantthornton.com.au</a>
 
-State Revenue Office website: https://www.sro.vic.gov.au/buying-property 
+State Revenue Office website: <a href="https://www.sro.vic.gov.au/buying-property" id="intext-link" target="_blank">https://www.sro.vic.gov.au/buying-property</a>
 
 <br>
 
