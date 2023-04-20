@@ -16,7 +16,7 @@
 body {
   background-color: #0A1210;
 }
-h1, h2, h3 {
+h1, h2, h3, strong {
   font-family: 'Montserrat', sans-serif;
 }
 p {
@@ -73,6 +73,19 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+#disclaimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+#disclaimer p {
+  width: 40%;
+  line-height: 1.5;
+}
+#copyright-msg {
+  text-align: center;
 }
 #nav-links {
   list-style-type: none;
@@ -282,6 +295,9 @@ button {
     padding: 5vh;
     gap: 30px;
     font-size: 1.5rem;
+  }
+  #disclaimer p {
+    width: 90%;
   }
 }
 
