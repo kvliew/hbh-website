@@ -8,6 +8,10 @@
   padding-top: 20px;
 }
 
+.post-section p {
+  /* width: 80%; */
+}
+
 #placeholder-video {
   flex: 1;
   background-color: grey;
