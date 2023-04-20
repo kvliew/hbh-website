@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="/styles/episodes-page.css">
   <link rel="stylesheet" href="/styles/contact-page.css">
   <link rel="stylesheet" href="/styles/error.css">
+  <link rel="stylesheet" href="/styles/success.css">
   <link rel="icon" href="/assets/logo.svg">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
@@ -66,12 +67,12 @@
     Have something you'd like to share about an episode? We'd love to hear from you!
   </p>
   <br>
-  <form name="Messages" netlify>
+  <form name="Messages" action="/success" netlify>
     <div class="form-wrapper">
       <!-- <p>Name</p> -->
       <input placeholder="Name" id="field-1" type="text" name="name" required="required"/>
       <!-- <p>Email</p> -->
-      <input placeholder="example@email.com" id="field-2" type="email" name="email" required="required"/>
+      <input placeholder="Email" id="field-2" type="email" name="email" required="required"/>
       <!-- <p>Message</p> -->
       <textarea placeholder="Your message here" name="message" required="required"></textarea>
       <p>
