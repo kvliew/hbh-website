@@ -30,9 +30,9 @@ https://mortgagedomayne.com.au
 
 Learn more about grants, schemes and incentives:
 
-https://mortgagedomayne.com.au
+<a href="https://mortgagedomayne.com.au" id="intext-link" target="_blank">https://mortgagedomayne.com.au</a>
 
-https://www.sro.vic.gov.au
+<a href="https://www.sro.vic.gov.au" id="intext-link" target="_blank">https://www.sro.vic.gov.au</a>
 
 <br>
 
