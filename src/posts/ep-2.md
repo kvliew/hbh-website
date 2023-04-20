@@ -24,7 +24,7 @@ description: Today we are joined by Mark Polatkesen - the Founder and Managing
 ### Resources:  
 For finance help, contact Mortgage Domayne:
 
-https://mortgagedomayne.com.au
+<a href="https://mortgagedomayne.com.au" id="intext-link" target="_blank">https://mortgagedomayne.com.au</a>
 
 <br>
 
