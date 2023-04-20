@@ -24,15 +24,15 @@ description: Today we are joined by Mark Polatkesen - the Founder and Managing
 ### Resources:  
 For finance help, contact Mortgage Domayne:
 
-<a href="https://mortgagedomayne.com.au" id="intext-link" target="_blank">https://mortgagedomayne.com.au</a>
+<a href="https://mortgagedomayne.com.au" id="intext-link" target="_blank">https://mortgagedomayne.com.au/</a>
 
 <br>
 
 Learn more about grants, schemes and incentives:
 
-<a href="https://mortgagedomayne.com.au" id="intext-link" target="_blank">https://mortgagedomayne.com.au</a>
+<a href="https://mortgagedomayne.com.au" id="intext-link" target="_blank">https://mortgagedomayne.com.au/</a>
 
-<a href="https://www.sro.vic.gov.au" id="intext-link" target="_blank">https://www.sro.vic.gov.au</a>
+<a href="https://www.sro.vic.gov.au" id="intext-link" target="_blank">https://www.sro.vic.gov.au/</a>
 
 <br>
 
