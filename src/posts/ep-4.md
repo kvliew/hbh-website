@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: Ep. 4 | Here's why pricing will go up & designs will change in 2023
+title: Here's why pricing will go up & designs will change in 2023
 number: 4
 youtube: https://youtu.be/G4a2BclLbVI
 id: G4a2BclLbVI
@@ -11,7 +11,7 @@ amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992ca
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjY5NTQ3Mg?sa=X&ved=0CAUQkfYCahcKEwiA1Kf1j8H-AhUAAAAAHQAAAAAQAg
 uploaded: 24th April 2023
 thumbnail: assets/thumbnails/ep4_thumbnail.png
-duration: 39:08
+duration: 0:39:08
 description: "Today we talk about the main regulation changes related to energy
   rating and livable housing, proposed to be coming in 2023 (well, at the time
   of recording this). Using the information that is available to date, we
