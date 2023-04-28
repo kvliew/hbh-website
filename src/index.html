@@ -41,7 +41,7 @@ layout: "base.njk"
   <br>
   <h2 id="home-section-2">Episodes</h2>
   <ul class="recent-episodes">
-    {% assign recentPosts = collections.posts | reverse %}
+    {% assign recentPosts = collections.posts %}
     {% for post in recentPosts %}
       <li class="hidden hidden-ep-card">
         <a href="{{ post.url }}">

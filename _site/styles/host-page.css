@@ -6,6 +6,12 @@
   padding-bottom: 5%;
   line-height: 1.4;
 }
+.hosts a {
+  color: #1DB954;
+}
+.hosts a:hover {
+  text-decoration: underline;
+}
 .hosts h1 {
   flex-basis: 100%;
   text-align: center;
@@ -26,12 +32,12 @@
   gap: 20px;
   width: 30%;
 }
-#company-link {
+/* #company-link {
   color: white;
 }
 #company-link:hover {
   text-decoration: underline;
-}
+} */
 .host-block img {
   width: 400px;
   height: 400px;
