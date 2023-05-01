@@ -2,8 +2,8 @@
 layout: post.njk
 title: Top tips when visiting display homes
 number: 5
-youtube: https://www.youtube.com/watch?v=FqBpD6-hyZw&t=7s
-id: FqBpD6-hyZw&t=7s
+youtube: https://www.youtube.com/watch?v=FqBpD6-hyZw
+id: FqBpD6-hyZw
 spotify: https://open.spotify.com/episode/0CQqvcv5LgZI5dEzkEHgtQ?si=FNeqLW27Tb6_taC_JjH4KA
 applepodcasts: https://podcasts.apple.com/us/podcast/home-building-hub/id1681936589
 iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/
@@ -54,6 +54,8 @@ Drop us a line <a href="/contact" id="contact-us" target="_blank">here</a>
 21:51 - A couple of our funniest display home experiences 
 
 24:36 - Top tips for you when going to display homes and speaking with builders
+
+<﻿br>
 
 Want to reach out to Colin or Darren directly?
 
