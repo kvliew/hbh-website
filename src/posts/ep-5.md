@@ -55,8 +55,9 @@ Drop us a line <a href="/contact" id="contact-us" target="_blank">here</a>
 
 24:36 - Top tips for you when going to display homes and speaking with builders
 
+<br>
 
-Want to reach out to Colin or Darren directly?
+### Want to reach out to Colin or Darren directly?
 
 Colin - 0419 220 140 - colin@hlvictoria.com.au
 
