@@ -6,8 +6,13 @@
   line-height: 2;
 }
 
-#contact-message {
-  text-align: center;
+.contact-message {
+  width: 50%;
+  line-height: 1.5;
+}
+
+.contact a {
+  color:#1DB954;
 }
 
 .form-wrapper {
@@ -16,7 +21,7 @@
 }
 
 ::placeholder {
-  /* color: white; */
+  color: white;
 }
 
 .form-wrapper input, textarea {
@@ -57,6 +62,9 @@ textarea {
 
 @media screen and (max-width: 1000px) {
   .form-wrapper input, textarea {
-    width: 70vw;
+    width: 80vw;
+  }
+  .contact-message {
+    width: 80%;
   }
 }
