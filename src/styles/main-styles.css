@@ -14,7 +14,7 @@
   list-style-type: none;
 }
 body {
-  background-color: #0A1210;
+  background-color: #191414;
 }
 h1, h2, h3, strong {
   font-family: 'Montserrat', sans-serif;
@@ -62,7 +62,7 @@ nav {
 footer {
   width: 100%;
   padding: 20px;
-  background-color: black;
+  background-color: #191414;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,20 +102,22 @@ footer a:hover {
 
 /* HOME PAGE */
 .landing-container {
+  padding: 3% 10%;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 10%;
-  height: 60vh;
+  height: 75vh;
 }
-#landing-home {
-  margin-left: 5vh;
-  width: 40%;
+#introduction-video {
+  box-shadow: 3px 3px 10px black;
+  width: 70%;
+  height: 70%;
 }
 .headline {
   width: 50%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
   margin-bottom: 100px;
   margin-right: 5vh;
@@ -123,16 +125,37 @@ footer a:hover {
 .headline h1 {
   font-size: 50px;
   font-weight: 400; 
+  text-align: center;
 }
-.headline h2 {
-  font-weight: 150;
+.subheading-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.subheading-text {
+  font-size: 25px;
+}
+.soundwave {
+  z-index: 0;
+  opacity: 0.5;
+  width: 100%;
+}
+.subheading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+.hashtag {
+  text-align: center;
 }
 button {
   padding: 15px;
   background-color: #1DB954;
   width: 150px;
   border-style: none;
-  border-radius: 30px; 
+  border-radius: 30px;
   font-weight: 100;
   cursor: pointer;
   transition-duration: 0.2s;
@@ -256,15 +279,32 @@ button {
   }
   .headline h1 {
     font-size: 25px;
+    width: 70vw;
   }
   .headline h2 {
     font-size: 1em;
   }
   .landing-container {
-    height: 60vh;
+    flex-direction: column;
   }
-  #landing-home {
-    margin-left: 3vh;
+  #introduction-video {
+    width: 100%;
+  }
+  .soundwave {
+    width: 300px;
+  }
+  .subheading {
+    width: 300px;
+    transform: translate(-30%, -50%);
+  }
+  .subheading-text {
+    font-size: 15px;
+    text-align: center;
+    width: 70%;
+  }
+  .subheading-hashtag {
+    font-size: 10px;
+    width: 50%;
   }
   .secondary-container {
     padding: 45% 5%;
