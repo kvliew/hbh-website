@@ -278,7 +278,7 @@ button {
     margin-bottom: 40px;
   }
   .headline h1 {
-    font-size: 25px;
+    font-size: 30px;
     width: 70vw;
   }
   .headline h2 {
@@ -294,11 +294,11 @@ button {
     width: 300px;
   }
   .subheading {
-    width: 300px;
+    /* width: 300px; */
     transform: translate(-30%, -50%);
   }
   .subheading-text {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     width: 70%;
   }
