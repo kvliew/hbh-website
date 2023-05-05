@@ -307,7 +307,7 @@ button {
     width: 50%;
   }
   .secondary-container {
-    padding: 45% 5%;
+    padding: 25% 5%;
   }
   #about {
     width: 100%;
@@ -326,7 +326,7 @@ button {
   #overlay-wrapper.active {
     display: block;
     width: 100vw;
-    background-color: rgb(10, 18, 16, 95%);
+    background-color: #191414;
   }
   #menu-overlay {
     display: flex;
