@@ -3,7 +3,7 @@ layout: post.njk
 title: Should you buy your house or land first? …and why?
 number: 6
 youtube: https://youtu.be/bKJoKA7SZFY
-id: bKJoKA7SZFY&feature=youtu.be
+id: bKJoKA7SZFY
 spotify: https://open.spotify.com/episode/4YfHnc4M8Puf5xsEHTx6cI?si=WxSeB3JxTfeapJvxVEn7YQ
 applepodcasts: https://podcasts.apple.com/us/podcast/home-building-hub/id1681936589
 iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/
