@@ -11,7 +11,7 @@ amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992ca
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw==
 uploaded: 15th May 2023
 thumbnail: assets/thumbnails/episode-7-thumbnail.png
-duration: 25:37
+duration: 0:25:37
 description: We dive right in by explaining exactly what a house and land
   package is, as well as providing an outline of the actual items usually
   included in the price as well. We share our answer about house and land
