@@ -4,8 +4,8 @@ title: 4 steps to getting the best building quotes
 number: 8
 youtube: https://www.youtube.com/watch?v=Jb2JcILamZk
 id: Jb2JcILamZk
-spotify: https://open.spotify.com/show/6PnOjGdSKtJyMNA41Vhakk?si=2a4878d5e188483c
-applepodcasts: https://podcasts.apple.com/us/podcast/home-building-hub/id1681936589
+spotify: https://open.spotify.com/episode/3sqtKuadMQEsQDYKai5NiM?si=A4IyxvkUTVCSA0K9ZBqurA
+applepodcasts: https://open.spotify.com/episode/3sqtKuadMQEsQDYKai5NiM?si=A4IyxvkUTVCSA0K9ZBqurA
 iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/
 amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/home-building-hub
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw==
