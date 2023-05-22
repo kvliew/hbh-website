@@ -11,7 +11,7 @@ amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992ca
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw==
 uploaded: 22nd May 2023
 thumbnail: assets/thumbnails/episode-8.png
-duration: 35:29
+duration: 0:35:29
 description: In this episode, we outline 4 key steps to take to give yourself
   the best chance at getting the best building quotes for your circumstances and
   your budget. We also round up the episode with our top 3 preparation tips for
