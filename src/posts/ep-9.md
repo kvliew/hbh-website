@@ -4,11 +4,11 @@ title: Common items found in building quotes
 number: 9
 youtube: https://www.youtube.com/watch?v=mBzt4EQSh9o
 id: mBzt4EQSh9o
-spotify: https://open.spotify.com/show/6PnOjGdSKtJyMNA41Vhakk
-applepodcasts: https://podcasts.apple.com/us/podcast/home-building-hub/id1681936589
+spotify: https://open.spotify.com/episode/6lH7dHtTAbnomWFSxKyOOy?si=7q2f3YYkSguJ6lvHMmf5XA
+applepodcasts: https://podcasts.apple.com/us/podcast/ep-9-common-items-found-in-building-quotes/id1681936589?i=1000614789637
 iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/
-amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/home-building-hub
-googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw==
+amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/episodes/d457c1e0-ff96-427e-bfd0-64e714c722d9/home-building-hub-ep-9-common-items-found-in-building-quotes
+googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjg3ODMzMg?sa=X&ved=0CAUQkfYCahcKEwjYiZ-AhJn_AhUAAAAAHQAAAAAQAQ
 uploaded: 29th May 2023
 thumbnail: assets/thumbnails/episode-9.png
 duration: 32:56
