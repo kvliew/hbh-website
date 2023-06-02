@@ -11,7 +11,7 @@ amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992ca
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjg3ODMzMg?sa=X&ved=0CAUQkfYCahcKEwjYiZ-AhJn_AhUAAAAAHQAAAAAQAQ
 uploaded: 29th May 2023
 thumbnail: assets/thumbnails/episode-9.png
-duration: 32:56
+duration: 0:32:56
 description: In this episode, we provide a summary to you outlining and
   explaining the most common items found in building quotes. We also share some
   insights into what makes up a good building quote and finish off with 4 common
