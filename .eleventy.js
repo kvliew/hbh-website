@@ -4,6 +4,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/watch-now-script.js");
   eleventyConfig.addPassthroughCopy("./src/mobile-menu-script.js");
   eleventyConfig.addPassthroughCopy("./src/transition-script.js");
+  eleventyConfig.addCollection("resources", function(collection) {
+    return collection.getFilteredByGlob("./src/resources/*.md")
+  });
   eleventyConfig.addCollection("posts", function(collection) {
     return collection.getFilteredByGlob("./src/posts/*.md")
       .sort((a, b) => a.data.number - b.data.number);

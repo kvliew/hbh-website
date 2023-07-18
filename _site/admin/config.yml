@@ -6,6 +6,16 @@ media_folder: "src/assets/thumbnails" # Media files will be stored in the repo u
 public_folder: "assets/thumbnails"
 
 collections:
+  - name: "resources"
+    label: "Resources"
+    folder: "src/resources"
+    create: true
+    fields:
+      - {label: "File Title", name: "filetitle", widget: "string"}
+      - {label: "Episode Number", name: "episodenumber", widget: "string"}
+      - {label: "Episode Title", name: "episodetitle", widget: "string"}
+      - {label: "File", name: "file", widget: "file"}
+
   - name: "episodes" # Used in routes, e.g., /admin/collections/episodes
     label: "Episodes" # Used in the UI
     folder: "src/posts" # The path to the folder where the documents are stored
