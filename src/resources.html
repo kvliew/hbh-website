@@ -14,7 +14,7 @@ preloadcss: "/styles/resources.css"
   {% for resource in collections.resources %}
     <li>
       Access the PDF:
-      <a href="{{ resource.data.file }}" target="_blank">
+      <a href="/{{ resource.data.file }}" target="_blank">
         {{ resource.data.filetitle }}
       </a> - Discussed in
       <a href="/posts/ep-{{resource.data.episodenumber}}" target="_blank">
