@@ -10,7 +10,7 @@ collections:
     label: "Resources"
     folder: "src/resources"
     create: true
-    slug: "ep-{{episodenumber}}"
+    slug: "ep-{{episodenumber}}-resource"
     fields:
       - {label: "File Title", name: "filetitle", widget: "string"}
       - {label: "Episode Number", name: "episodenumber", widget: "number"}
