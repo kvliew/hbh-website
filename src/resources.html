@@ -10,10 +10,10 @@ preloadcss: "/styles/resources.css"
     Podcast Resources
   </h1>
   {% for resource in collections.resources %}
-    {{ resource.data.filetitle }}
-    {{ resource.data.episodenumber }}
-    {{ resource.data.episodetitle }}
-    <a href="/{{ resource.data.file }}" target="_blank">link</a>
+    {{ resource.data.filetitle }} | 
+    {{ resource.data.episodenumber }} | 
+    {{ resource.data.episodetitle }}| 
+    <a href="/{{ resource.data.file }}" target="_blank">link</a> | 
     <br>
   {% endfor %}
 </section>

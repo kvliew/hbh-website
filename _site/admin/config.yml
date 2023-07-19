@@ -13,7 +13,7 @@ collections:
     slug: "ep-{{episodenumber}}"
     fields:
       - {label: "File Title", name: "filetitle", widget: "string"}
-      - {label: "Episode Number", name: "episodenumber", widget: "string"}
+      - {label: "Episode Number", name: "episodenumber", widget: "number"}
       - {label: "Episode Title", name: "episodetitle", widget: "string"}
       - {label: "File", name: "file", widget: "file"}
 
