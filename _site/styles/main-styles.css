@@ -47,11 +47,6 @@ header {
   justify-content: space-between;
   padding: 19px 6%;
 }
-#logo:hover {
-  cursor: pointer;
-  stroke-dasharray: 889;
-  animation: 0.5s fillSvg linear;
-}
 @keyframes fillSvg {
   0% {
     stroke-dashoffset: 889;
