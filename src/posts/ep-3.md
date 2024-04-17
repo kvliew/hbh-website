@@ -11,7 +11,7 @@ amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992ca
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjYzNTE1Mg?sa=X&ved=0CAUQkfYCahcKEwj4lNao8rX-AhUAAAAAHQAAAAAQBA
 uploaded: 17th April 2023
 thumbnail: assets/uploads/ep-3-thumbnail.jpg
-duration: 0:54:04
+duration: 54m 04s
 description: We discuss and acknowledge Porter Davis heading into liquidation,
   but with respect to those involved, our focus shifts to providing valuable
   insights to those who are considering buying right now. We give you a genuine

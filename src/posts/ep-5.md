@@ -11,7 +11,7 @@ amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992ca
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw==
 uploaded: 1st May 2023
 thumbnail: assets/uploads/episode-5-thumbnail.png
-duration: 0:35:08
+duration: 35m 08s
 description: "We reveal some insider insights and share our top tips to help you
   navigate your way through display villages (and initial builder discussions)
   more effectively. We cover a range of topics such as the real purpose behind

@@ -11,7 +11,7 @@ amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992ca
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw==
 uploaded: 8th May 2023
 thumbnail: assets/uploads/episode-6-thumbnail-1-.png
-duration: 0:24:20
+duration: 24m 20s
 description: Not only do we answer the question - Should you buy your house or
   land first? …but we also reveal some important factors to consider when buying
   along with outlining our top 5 tips for those ready to start the process of

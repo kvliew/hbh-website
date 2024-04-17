@@ -11,7 +11,7 @@ amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992ca
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjYyNzMxMA?sa=X&ved=0CAUQkfYCahcKEwjAqN7S1bP-AhUAAAAAHQAAAAAQAQ
 uploaded: 12th April 2023
 thumbnail: assets/uploads/ep-1-thumbnail.jpg
-duration: 0:12:38
+duration: 12m 38s
 description: In episode one, you get to meet us - Darren and Colin - your hosts
   of the Home Building Hub podcast. We share a bit about our experience, why
   we’re doing this podcast, and most importantly how this podcast will help
