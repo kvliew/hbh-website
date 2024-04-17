@@ -14,6 +14,7 @@ preloadcss: "/styles/episodes-page.css"
     {% for post in recentPosts %}
       <li class="hidden">
         <div class="episode-card">
+          <img width="300" src="/{{ post.data.thumbnail }}" alt="episode preview photo"></img>
           <h2>
             <a class="episode-link" href="{{ post.url }}"> Episode {{ post.data.number }}: {{ post.data.title }}</a>
           </h2>
