@@ -10,7 +10,7 @@ iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/
 amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/episodes/931d6e94-9c0e-4c55-bfc9-8e3ed30a77e3/home-building-hub-ep-6-should-you-buy-your-house-or-land-first-%E2%80%A6and-why
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw==
 uploaded: 8th May 2023
-thumbnail: assets/uploads/episode-6-thumbnail-1-.png
+thumbnail: /assets/uploads/episode-6-thumbnail-1-.png
 duration: 0:24:20
 description: Not only do we answer the question - Should you buy your house or
   land first? …but we also reveal some important factors to consider when buying

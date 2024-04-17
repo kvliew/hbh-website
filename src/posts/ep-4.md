@@ -10,7 +10,7 @@ iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/
 amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/episodes/6cdf0d26-543a-46a8-8bac-574cd407146f/home-building-hub-ep-4-here's-why-pricing-will-go-up-designs-will-change-in-2023
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjY5NTQ3Mg?sa=X&ved=0CAUQkfYCahcKEwiA1Kf1j8H-AhUAAAAAHQAAAAAQAg
 uploaded: 24th April 2023
-thumbnail: assets/uploads/ep4_thumbnail.png
+thumbnail: /assets/uploads/ep4_thumbnail.png
 duration: 0:39:08
 description: "Today we talk about the main regulation changes related to energy
   rating and livable housing, proposed to be coming in 2023 (well, at the time

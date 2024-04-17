@@ -10,7 +10,7 @@ iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/
 amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/episodes/ab64f473-5229-4435-ac6d-cc9dd676fb6c/home-building-hub-ep-5-top-tips-when-visiting-display-homes
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw==
 uploaded: 1st May 2023
-thumbnail: assets/uploads/episode-5-thumbnail.png
+thumbnail: /assets/uploads/episode-5-thumbnail.png
 duration: 0:35:08
 description: "We reveal some insider insights and share our top tips to help you
   navigate your way through display villages (and initial builder discussions)
