@@ -12,8 +12,10 @@ preloadcss: "/styles/episodes-page.css"
   <ul id="episodes-container">
     {% assign recentPosts = collections.posts | reverse %}
     {% for post in recentPosts %}
-      <li class="hidden">
-        <div class="episode-card">
+    <li class="hidden">
+      <div class="episode-card">
+        <img src="/{{ post.data.thumbnail }}" alt="episode preview photo"></img>
+        <div class="content">
           <h2>
             <a class="episode-link" href="{{ post.url }}"> Episode {{ post.data.number }}: {{ post.data.title }}</a>
           </h2>
@@ -25,10 +27,12 @@ preloadcss: "/styles/episodes-page.css"
             {{ post.data.description }}
           </p>
           <br>
+          <br>
+        </div>
+        <div class="socials-container">
           <p>
             Watch or listen to episode {{ post.data.number }} on:
           </p>
-          <br>
           <div class="socials">
             <a href="{{ post.data.youtube }}" target="_blank" class="labeled-icons">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 180"><path fill="red" d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134Z"/><path fill="#FFF" d="m102.421 128.06l66.328-38.418l-66.328-38.418z"/></svg>
@@ -56,8 +60,9 @@ preloadcss: "/styles/episodes-page.css"
             </a>
           </div>
         </div>
-      </li>
-    {% endfor %}
+      </div>
+    </li>
+  {% endfor %}
   </ul>
 </section>
 <script type="text/javascript" src="/transition-script.js"></script>
