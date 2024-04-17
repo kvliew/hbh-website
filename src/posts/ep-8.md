@@ -10,7 +10,7 @@ iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/
 amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/home-building-hub
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw==
 uploaded: 22nd May 2023
-thumbnail: /assets/uploads/episode-8.png
+thumbnail: assets/uploads/episode-8.png
 duration: 0:35:29
 description: In this episode, we outline 4 key steps to take to give yourself
   the best chance at getting the best building quotes for your circumstances and

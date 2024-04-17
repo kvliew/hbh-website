@@ -10,7 +10,7 @@ iheart: https://www.iheart.com/podcast/269-home-building-hub-112809987/
 amazonmusic: https://music.amazon.com/podcasts/7004d7d7-fb06-473b-8f26-8ce9992cac11/episodes/d457c1e0-ff96-427e-bfd0-64e714c722d9/home-building-hub-ep-9-common-items-found-in-building-quotes
 googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTM5MTU1LnJzcw/episode/QnV6enNwcm91dC0xMjg3ODMzMg?sa=X&ved=0CAUQkfYCahcKEwjYiZ-AhJn_AhUAAAAAHQAAAAAQAQ
 uploaded: 29th May 2023
-thumbnail: /assets/uploads/episode-9.png
+thumbnail: assets/uploads/episode-9.png
 duration: 0:32:56
 description: In this episode, we provide a summary to you outlining and
   explaining the most common items found in building quotes. We also share some
