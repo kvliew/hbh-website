@@ -13,6 +13,7 @@ collections:
     slug: "ep-{{guestepisodenumber}}-guest"
     fields:
       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Position", name: "Position", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Guest Episode Number", name: "guestepisodenumber", widget: "number"}
       - {label: "Guest Episode Title", name: "guestepisodetitle", widget: "number"}

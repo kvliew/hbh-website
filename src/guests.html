@@ -6,36 +6,39 @@ preloadcss: "/styles/guest-page.css"
 ---
 <section class="guests">
   <h1>
-    Our Guests
+    Our Guest Lineup
   </h1>
   <br>
   <p id="guests-page-description">
-    Our guest lineup. Explore the diverse voices and expertise featured 
+    Explore the diverse voices and expertise featured 
     on the Home Building Hub Podcast, where every episode brings fresh perspectives and insights.
     Want to be on our podcast? Contact us <a href="/contact">here</a> to share your story!
   </p>
   <br>
   <ul id="guests-container">
     {% for guest in collections.guests %}
-    <li id="guest-tile">
-      <a href="/posts/ep-{{ guest.data.guestepisodenumber }}">
-        <div id="guest-content">
-          <img src="/{{ guest.data.headshot }}" id="headshot" alt="profile image">
-          <h2>
-            {{ guest.data.name }}
-          </h2>
-          <br>
-          <p>
-            Appeared in Episode {{ guest.data.guestepisodenumber }}, {{ guest.data.guestepisodetitle }}
-          </p>
-          <br>
-          <p>
-            {{ guest.data.description }}
-          </p>
-        </div>
-      </a>
+    <li id="guest-tile" class="hidden">
+      <img src="/{{ guest.data.headshot }}" id="headshot" alt="profile image">
+      <br>
+      <h2>
+        {{ guest.data.name }}
+      </h2>
+      <h3>
+        {{ guest.data.position }}
+      </h3>
+      <br>
+      <p>
+        Appeared in <a href="/posts/ep-{{resource.data.episodenumber}}"> Episode {{ guest.data.guestepisodenumber }}, {{ guest.data.guestepisodetitle }}</a>
+      </p>
+      <br>
+      <p>
+        {{ guest.data.description }}
+      </p>
     </li>
+    <br>
     {% endfor %}
   </ul>
+  <br>
+  <br>
 </section>
-<!-- <script type="text/javascript" src="/transition-script.js"></script> -->
+<script type="text/javascript" src="/transition-script.js"></script>
