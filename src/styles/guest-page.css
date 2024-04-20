@@ -3,6 +3,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.guests a {
+  color:rgb(29, 185, 84);
 }
 
 #guests-page-description {
@@ -23,15 +28,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#guest-tile a {
-  color: rgb(29, 185, 84);
-}
-
-#guest-tile a:hover {
-  text-decoration: underline;
 }
 
 #headshot {
