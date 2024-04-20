@@ -21,6 +21,9 @@ preloadcss: "/styles/episodes-page.css"
           </h2>
           <p>
             {{ post.data.uploaded }} | {{ post.data.duration }}
+            {% if post.data.guests %}
+              | Guest(s): {{ post.data.guests }}
+            {% endif %}
           </p>
           <br>
           <p>

@@ -38,6 +38,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Guests", name: "guests", widget: "string", required: "false"}
       - {label: "Episode Number", name: "number", widget: "number"}
       - {label: "YouTube Link", name: "youtube", widget: "string"}
       - {label: "YouTube ID", name: "id", widget: "string"}

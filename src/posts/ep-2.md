@@ -12,6 +12,7 @@ googlepodcasts: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V
 uploaded: 12th April 2023
 thumbnail: assets/uploads/ep-2-thumbnail.jpg
 duration: 43m 14s
+guests: Mark Polatkesen
 description: Today we are joined by Mark Polatkesen - the Founder and Managing
   Director of Mortgage Domayne. Mark is one of Australia’s leading finance
   brokers and has settled over 1.5 billion dollars in loans during his career so
