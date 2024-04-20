@@ -1,0 +1,38 @@
+.guests {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#guests-page-description {
+  width: 80%;
+}
+
+#guests-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#guest-tile {
+  width: 30%;
+  border-style: solid;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headshot {
+  width: 100%;
+  max-height: 60%;
+}
+
+#guest-content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}

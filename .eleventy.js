@@ -4,6 +4,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/watch-now-script.js");
   eleventyConfig.addPassthroughCopy("./src/mobile-menu-script.js");
   eleventyConfig.addPassthroughCopy("./src/transition-script.js");
+  eleventyConfig.addCollection("guests", function(collection) {
+    return collection.getFilteredByGlob("./src/guests/*.md")
+      .sort((a, b) => a.data.guestepisodenumber - b.data.guestepisodenumber);
+  });
   eleventyConfig.addCollection("resources", function(collection) {
     return collection.getFilteredByGlob("./src/resources/*.md")
       .sort((a, b) => a.data.episodenumber - b.data.episodenumber);
