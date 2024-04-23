@@ -22,25 +22,21 @@
 .hosts svg:hover {
   transform: scale(1.15);
 }
-.hosts h3 {
-  text-align: center;
-}
 .host-block {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  gap: 5px;
   width: 30%;
 }
-/* #company-link {
-  color: white;
-}
-#company-link:hover {
-  text-decoration: underline;
-} */
 .host-block img {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  border-radius: 2%;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-out;
+}
+
+.host-block img:hover {
+  filter: grayscale(0%);
 }
 
 @media screen and (max-width: 1000px) {
@@ -55,7 +51,6 @@
     width: 100%;
   }
   .host-block img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
   } 
 }
