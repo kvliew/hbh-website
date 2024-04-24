@@ -14,7 +14,7 @@ collections:
     fields:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Position", name: "Position", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", required: "false"}
+      - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Guest Episode Number", name: "guestepisodenumber", widget: "number"}
       - {label: "Guest Episode Title", name: "guestepisodetitle", widget: "number"}
       - {label: "Head Shot", name: "headshot", widget: "file"}
@@ -38,7 +38,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post.njk"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Guests", name: "guests", widget: "string", required: "false"}
+      - {label: "Guests", name: "guests", widget: "string", required: false}
       - {label: "Episode Number", name: "number", widget: "number"}
       - {label: "YouTube Link", name: "youtube", widget: "string"}
       - {label: "YouTube ID", name: "id", widget: "string"}
