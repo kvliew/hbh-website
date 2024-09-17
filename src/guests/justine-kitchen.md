@@ -2,8 +2,9 @@
 name: Justine Kitchen
 position: Director, Fastrack Conveyancing
 description: 
-guestepisodenumber: 45
-guestepisodetitle: Amazing insights and tips from 2 leading Conveyancers
+guestepisodelist:
+  - episodename: "Amazing insights and tips from 2 leading Conveyancers" 
+    episodenumber: "45"
 headshot: assets/uploads/justine-kitchen.png
 
 ---

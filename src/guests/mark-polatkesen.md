@@ -2,7 +2,8 @@
 name: Mark Polatkesen
 position: Director, Mortgage Domayne 
 description: 
-guestepisodenumber: 2
-guestepisodetitle: Essential insights from one of Australia’s leading finance brokers
+guestepisodelist:
+  - episodename: "Essential insights from one of Australia’s leading finance brokers" 
+    episodenumber: 2
 headshot: assets/uploads/mark-polatkesen.png
 ---

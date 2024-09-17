@@ -1,7 +1,8 @@
 ---
 name: Brian Haines
 position: Director, Energy Labs
-guestepisodenumber: 24
-guestepisodetitle: Brian Haines from Energy Lab
+guestepisodelist:
+  - episodename: "Brian Haines from Energy Lab" 
+    episodenumber: "24"
 headshot: assets/uploads/brian-haines.png
 ---

@@ -2,7 +2,8 @@
 name: William Anderson
 position: Director, RPM Real Estate Group
 description: null
-guestepisodenumber: 25
-guestepisodetitle: Land update with Will Anderson from RPM
+guestepisodelist:
+  - episodename: "Land update with Will Anderson from RPM" 
+    episodenumber: 25
 headshot: assets/uploads/will-anderson.png
 ---

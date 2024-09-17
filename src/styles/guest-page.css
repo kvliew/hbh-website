@@ -27,11 +27,10 @@
   padding: 1%;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-#guest-tile h3 {
-  text-align: center;
+#guest-tile p {
+  text-align: left;
 }
 
 #headshot {

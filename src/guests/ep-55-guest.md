@@ -1,7 +1,8 @@
 ---
 name: Theo Mavratzakis
 position: Director, Tax Depreciation Australia
-guestepisodenumber: 55
-guestepisodetitle: Maximise your claims from your investment property
+guestepisodelist:
+  - episodename: "Maximise your claims from your investment property" 
+    episodenumber: 55
 headshot: assets/uploads/theo-mavratzakis.png
 ---

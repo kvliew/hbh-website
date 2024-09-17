@@ -17,6 +17,15 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Guest Episode Number", name: "guestepisodenumber", widget: "number"}
       - {label: "Guest Episode Title", name: "guestepisodetitle", widget: "string"}
+      - {label: "Guest Episode List", name: "guestepisodelist", widget: "list", 
+          fields:
+            - label: "Episode Name"
+              name: "episodename"
+              widget: "string"
+            - label: "Episode Number"
+              name: "episodenumber"
+              widget: "number"
+        }
       - {label: "Head Shot", name: "headshot", widget: "file"}
 
   - name: "resources"

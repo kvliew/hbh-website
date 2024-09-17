@@ -1,7 +1,8 @@
 ---
 name: Ryan Smits
 position: Sales Director, OpenLot.com.au
-guestepisodenumber: 50
-guestepisodetitle: Market update with openlot.com.au
+guestepisodelist:
+  - episodename: "Market update with openlot.com.au" 
+    episodenumber: 50
 headshot: assets/uploads/ryan-smits.png
 ---

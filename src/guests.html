@@ -27,8 +27,16 @@ preloadcss: "/styles/guest-page.css"
         {{ guest.data.position }}
       </h3>
       <br>
-      <p>
+      <!-- <p>
         Appeared in <a href="/posts/ep-{{guest.data.guestepisodenumber}}"> Episode {{ guest.data.guestepisodenumber }}, {{ guest.data.guestepisodetitle }}</a>
+      </p> -->
+      <p>
+        Appeared in
+        {% for item in guest.data.guestepisodelist %}
+          <p>
+            <a href="/posts/ep-{{item.episodenumber}}">Episode {{ item.episodenumber }}, {{ item.episodename }}</a>
+          </p>
+        {% endfor %}
       </p>
       <br>
       <p>

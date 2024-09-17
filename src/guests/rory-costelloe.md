@@ -2,7 +2,8 @@
 name: Rory Costelloe
 position: Founder, Villawood Properties
 description: 
-guestepisodenumber: 23
-guestepisodetitle: Insights from Rory Costelloe - Founder of Villawood Properties
+guestepisodelist:
+  - episodename: "Insights from Rory Costelloe - Founder of Villawood Properties" 
+    episodenumber: 23
 headshot: assets/uploads/rory-costelloe.png
 ---
