@@ -64,7 +64,7 @@ collections:
     fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "article.njk"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Article Number", name: "articlenumber", widget: "articlenumber"}
+      - {label: "Article Number", name: "articlenumber", widget: "number"}
       - {label: "Publish Date", name: "uploaded", widget: "date", format: "Do MMMM YYYY"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "string"}
