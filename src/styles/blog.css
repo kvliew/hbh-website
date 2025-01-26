@@ -2,7 +2,7 @@
   padding-bottom: 20px;
 }
 
-.blog h1, h2 {
+.blog h1, h2, p {
   text-align: center;
 }
 
@@ -36,11 +36,7 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .episodes {
-    padding: 5%;
-  }
-  .episode-card {
-    width: 100%;
+  #blog-container {
     display: flex;
     flex-direction: column;
   }
