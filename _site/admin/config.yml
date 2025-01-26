@@ -67,6 +67,5 @@ collections:
       - {label: "Article Number", name: "articlenumber", widget: "articlenumber"}
       - {label: "Publish Date", name: "uploaded", widget: "date", format: "Do MMMM YYYY"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-      - {label: "Duration", name: "duration", widget: "string", hint: "Please use 'XXm YYs' format instead of 'XX:YY' when filling in durations"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
