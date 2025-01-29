@@ -1,8 +1,10 @@
 .article-section {
   padding: 2% 5%;
+  background-color: black;
+  background: linear-gradient(to top, black 80%, #191414 100%)
 }
 
 .article-section a {
   color: #1DB954;
   font-family: 'Open Sans', sans-serif;
-}
+} 

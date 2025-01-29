@@ -2,11 +2,14 @@
 layout: article.njk
 title: Essential Insights from One of Australia’s Leading Finance Brokers
 articlenumber: 1
+thumbnail: assets/uploads/article-1-thumbnail.png
 uploaded: 12 April 2023
 description: Discover expert insights from one of Australia’s top finance brokers 
   on construction loans, government grants, and navigating the home buying process 
   with ease.
 ---
+
+![Alt text](/assets/uploads/article-1-thumbnail.png "title")
 
 In this episode of the Home Building Hub podcast, hosts Colin Bischof and Darren Brennan sit down with Mark Polatkesen, Founder and Managing Director of Mortgage Domayne, to discuss the ins and outs of financing for new home construction. With over $1.5 billion in loans settled and 20 years of experience, Mark’s insights provide invaluable knowledge for Australian home buyers and investors.
 
