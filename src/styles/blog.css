@@ -14,7 +14,8 @@
 }
 
 .blog-card {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   background-color: #11201c;
   gap: 10px;
   padding: 30px;

@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/transition-script.js");
   eleventyConfig.addCollection("articles", function(collection) {
     return collection.getFilteredByGlob("./src/articles/*.md")
-      .sort((a, b) => a.data.articlenumber - b.data.articlenumber);
+      .sort((a, b) => b.data.articlenumber - a.data.articlenumber);
   });
   eleventyConfig.addCollection("guests", function(collection) {
     return collection.getFilteredByGlob("./src/guests/*.md")

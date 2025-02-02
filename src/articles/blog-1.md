@@ -1,7 +1,7 @@
 ---
 layout: article.njk
 title: Essential Insights from One of Australia’s Leading Finance Brokers
-articlenumber: 1
+articlenumber: 2
 thumbnail: assets/uploads/article-1-thumbnail.png
 uploaded: 12 April 2023
 categorylist:

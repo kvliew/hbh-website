@@ -29,7 +29,7 @@ preloadcss: "/styles/blog.css"
         <p>
           Categories: 
           {% for item in post.data.categorylist %}
-            {{ item.category }},  
+            <span id="pill">{{ item.category }}</span>
           {% endfor %}
         </p>
         <br>
