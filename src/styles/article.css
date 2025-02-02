@@ -1,7 +1,15 @@
 .article-section {
   padding: 2% 20%;
   background-color: black;
-  background: linear-gradient(to top, black 80%, #191414 100%)
+  background: linear-gradient(to top, black 80%, #191414 100%);
+}
+
+.article-section li {
+  color: rgb(196, 192, 192);
+}
+
+.article-section ol ul {
+  margin-left: 20px;
 }
 
 .article-section a {

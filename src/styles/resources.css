@@ -16,6 +16,7 @@
 
 .resources-container li {
   font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
 }
 
 .resources-container a {

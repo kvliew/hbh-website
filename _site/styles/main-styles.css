@@ -12,7 +12,6 @@
   font-family: sans-serif;
   color: white;
   scroll-behavior: smooth;
-  list-style-type: none;
 }
 html, body {
   background-color: #191414;
@@ -203,6 +202,7 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+  list-style-type: none;
 }
 .recent-episode-item {
   color: black;

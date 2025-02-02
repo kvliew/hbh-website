@@ -29,40 +29,54 @@ Pro Tip: Remember that display homes are designed to inspire. Focus on the layou
 <br>
 
 ### Top Tips for Display Home Visits
-1.Do Your Homework
-Research builders and designs online before visiting.
-Identify floor plans that align with your needs.
-Focus on specific homes and builders that match your criteria, saving time and reducing overwhelm.
+<br>
 
-2.Be Honest About Your Budget
-Share your minimum and maximum budget with sales consultants.
-Provide a clear list of your must-haves and nice-to-haves.
-Being transparent allows consultants to find the best solutions within your financial range.
+1. Do Your Homework
+  - Research builders and designs online before visiting.
+  - Identify floor plans that align with your needs.
+  - Focus on specific homes and builders that match your criteria, saving time and reducing overwhelm.
 
-3.Ask the Right Questions
-Avoid asking, “How much is it as displayed?” Instead, ask, “What do most people spend when building this home?”
-Inquire about standard inclusions versus upgrades.
-Ask what upgrades are most popular and why buyers typically choose them.
+<br> 
 
-4.Take Photos and Notes
-Snap pictures of design features you like for future reference.
-Write down details about each home to avoid confusion later.
-Use your notes to compare homes and share ideas with consultants or family members.
+2. Be Honest About Your Budget
+  - Share your minimum and maximum budget with sales consultants.
+  - Provide a clear list of your must-haves and nice-to-haves.
+  - Being transparent allows consultants to find the best solutions within your financial range.
 
-5.Spend Time with the Sales Consultant
-Treat sales consultants as your allies. They can offer insights into:
-Standard and optional features.
-Design elements and layout ideas.
-Available land or promotions.
-A good consultant will guide you through the process and provide tailored solutions.
+<br>
 
-6.Limit Overwhelm
-Avoid visiting too many homes in one day; they’ll all start to blend together.
-Once you’ve seen enough, sit down with a consultant to refine your options.
+3. Ask the Right Questions
+  - Avoid asking, “How much is it as displayed?” Instead, ask, “What do most people spend when building this home?”
+  - Inquire about standard inclusions versus upgrades.
+  - Ask what upgrades are most popular and why buyers typically choose them.
 
-7.Enjoy the Experience, but Stay Grounded
-The first step is to enjoy the creativity and inspiration that display homes offer.
-Once the excitement subsides, shift your focus to practicalities like budgets, inclusions, and next steps.
+<br>
+
+4. Take Photos and Notes
+  - Snap pictures of design features you like for future reference.
+  - Write down details about each home to avoid confusion later.
+  - Use your notes to compare homes and share ideas with consultants or family members.
+
+<br>
+
+5. Spend Time with the Sales Consultant
+  - Treat sales consultants as your allies. They can offer insights into:
+  - Standard and optional features.
+  - Design elements and layout ideas.
+  - Available land or promotions.
+  - A good consultant will guide you through the process and provide tailored solutions.
+
+<br>
+
+6. Limit Overwhelm
+  - Avoid visiting too many homes in one day; they’ll all start to blend together.
+  - Once you’ve seen enough, sit down with a consultant to refine your options.
+
+<br>
+
+7. Enjoy the Experience, but Stay Grounded
+  - The first step is to enjoy the creativity and inspiration that display homes offer.
+  - Once the excitement subsides, shift your focus to practicalities like budgets, inclusions, and next steps.
 
 <br>
 
