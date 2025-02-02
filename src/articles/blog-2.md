@@ -14,6 +14,8 @@ categorylist:
 
 ![Alt text](/assets/uploads/article-2-thumbnail.png "title")
 
+<br>
+
 ### Top Tips When Visiting Display Homes
 Visiting display homes is one of the most exciting steps in the home-building journey. It’s your chance to see potential dream homes come to life and gather ideas for your new home. However, the experience can also be overwhelming if you’re not prepared. In this article, Colin Bischof and Darren Brennan from the Home Building Hub podcast share essential tips to help you make the most of your display home visits.
 
@@ -106,13 +108,19 @@ Q: Should I disclose my full budget to the consultant?
 
 A: Yes, being upfront helps the consultant tailor options that meet your financial and design needs, saving time and frustration.
 
+<br>
+
 Q: What’s the best time to visit display homes?
 
 A: Weekdays are often less crowded, giving you more time to ask questions and explore without feeling rushed.
 
+<br>
+
 Q: Are all the features in display homes included in the base price?
 
 A: No, many display homes feature upgrades. Always ask about standard inclusions versus extras.
+
+<br>
 
 Q: How do I prepare for a display home visit?
 
