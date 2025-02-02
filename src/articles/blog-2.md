@@ -125,3 +125,8 @@ A: No, many display homes feature upgrades. Always ask about standard inclusions
 Q: How do I prepare for a display home visit?
 
 A: Bring a checklist of your needs, a notepad for notes, and a phone or camera to capture features you like.
+
+<br>
+
+### Watch the Full Episode
+Check out the full episode: <a href="/posts/ep-5" id="intext-link" target="_blank">Top Tips When Visiting Display Homes</a>
