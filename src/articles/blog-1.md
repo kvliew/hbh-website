@@ -4,6 +4,10 @@ title: Essential Insights from One of Australia’s Leading Finance Brokers
 articlenumber: 1
 thumbnail: assets/uploads/article-1-thumbnail.png
 uploaded: 12 April 2023
+categorylist:
+  - category: "Finance & Budgeting" 
+  - category: "Pre-Construction"
+  - category: "News & Industry Insights"
 description: Discover expert insights from one of Australia’s top finance brokers 
   on construction loans, government grants, and navigating the home buying process 
   with ease.

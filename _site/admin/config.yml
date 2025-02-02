@@ -68,4 +68,6 @@ collections:
       - {label: "Publish Date", name: "uploaded", widget: "date", format: "Do MMMM YYYY"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "string"}
+      - {label: "Category List", name: "categorylist", widget: "list", 
+          fields: [{label: "category", name: "category", widget: "string"}]}
       - {label: "Body", name: "body", widget: "markdown"}

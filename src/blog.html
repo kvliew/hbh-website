@@ -22,6 +22,16 @@ preloadcss: "/styles/blog.css"
         <h2>
           <a class="episode-link" href="{{ post.url }}"> {{ post.data.title }}</a>
         </h2>
+        <p>
+          {{ post.data.uploaded }}
+        </p>
+        <br>
+        <p>
+          Categories: 
+          {% for item in post.data.categorylist %}
+            {{ item.category }},  
+          {% endfor %}
+        </p>
         <br>
         <p>
           {{ post.data.description }}

@@ -99,6 +99,17 @@ footer a:hover {
 .highlight {
   color: rgb(29, 185, 84);
 }
+.dropdown {
+  padding-bottom: 15px;
+}
+.dropdown-menu {
+  position: absolute;
+  padding: 1%;
+  visibility: hidden;
+}
+.dropdown:hover .dropdown-menu {
+  visibility: visible;
+}
 
 /* HOME PAGE */
 .landing-container {
