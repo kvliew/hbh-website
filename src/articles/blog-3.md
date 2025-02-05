@@ -111,7 +111,26 @@ Follow these steps to make a well-informed decision:
 
 **4. Compromises Are Common**
   - Most buyers will need to balance trade-offs, such as:
-    - Choosing a smaller home for a premium block location.
-    - Opting for a larger home in a less central estate.
+  - Choosing a smaller home for a premium block location.
+  - Opting for a larger home in a less central estate.
+
+<br>
+
+### Real-Life Examples and Lessons
+  - **Example 1:** A couple rushed into purchasing land without consulting a builder and later discovered their dream home wouldn’t fit. They had to resell the block, incurring unnecessary costs and delays.
+  - **Example 2:** Another buyer saved thousands by consulting a builder first, who identified a block with lower site costs just across the road from a more expensive option.
+
+<br>
+
+### Key Takeaways
+  - Consult a builder early to ensure the land suits your preferred house design and budget.
+  - Understand site costs and land conditions before making a purchase.
+  - Avoid rushing into decisions; align your choices with long-term goals.
+  - Use expert advice to navigate market conditions and land availability.
+
+<br>
+
+For more insights, listen to the full episode: <a href="/posts/ep-6" id="intext-link" target="_blank">Should You Buy House or Land First? …And Why?</a>
+
 
 
