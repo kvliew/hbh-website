@@ -45,9 +45,9 @@ Example: Darren shared a story about buyers who thought they had purchased a "fl
 
 3. Leverage Builder Expertise
   - Builders and their sales consultants have access to:
-    - Detailed land updates and availability.
-    - Engineering plans outlining land conditions.
-    - Relationships with developers to find blocks that fit your desired house design.
+  - Detailed land updates and availability.
+  - Engineering plans outlining land conditions.
+  - Relationships with developers to find blocks that fit your desired house design.
 
 <br> 
 
@@ -79,9 +79,9 @@ Follow these steps to make a well-informed decision:
 
 **Step 4: Evaluate Total Package Costs**
   - Work with your builder to finalize a house-and-land package price, including:
-    - Base home costs.
-    - Site preparation and compliance fees.
-    - Additional charges like stamp duty, council levies, and utility connections.
+  - Base home costs.
+  - Site preparation and compliance fees.
+  - Additional charges like stamp duty, council levies, and utility connections.
 
 **Step 5: Act Quickly but Thoughtfully**
   - Once you’ve aligned the house and land with your budget and preferences, act quickly to secure the opportunity.

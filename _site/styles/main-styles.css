@@ -110,9 +110,13 @@ footer a:hover {
   visibility: visible;
 }
 #pill {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  font-size: 11px;
   border-style: solid;
-  border-radius: 30%;
-  margin-right: 1%;
+  border-radius: 20px;
+  padding: 4px 10px;;
 }
 
 /* HOME PAGE */

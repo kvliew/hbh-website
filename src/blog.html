@@ -13,10 +13,13 @@ preloadcss: "/styles/blog.css"
     Discover actionable tips, insider knowledge, and unique insights inspired by our Home Building Hub podcast.
   </p>
   <br>
+  <input type="text" id="search" placeholder="Search items..." />
+  <br>
+  <br>
   <ul id="blog-container">
     {% assign recentPosts = collections.articles | reverse %}
     {% for post in recentPosts %}
-    <div class="blog-card">
+    <div class="blog-card" data-name="{{ post.data.title }}" data-tags="{{ post.data.categorylist }}">
       <img src="/{{ post.data.thumbnail }}" alt="article preview photo">
       <div class="content">
         <h2>
@@ -28,12 +31,14 @@ preloadcss: "/styles/blog.css"
         <br>
         <p>
           Categories: 
+          <div class="tag-container">
           {% for item in post.data.categorylist %}
             <span id="pill">{{ item.category }}</span>
           {% endfor %}
+          </div>
         </p>
         <br>
-        <p>
+        <p id="blog-description">
           {{ post.data.description }}
         </p>
       </div>
@@ -41,4 +46,4 @@ preloadcss: "/styles/blog.css"
     {% endfor %}
   </ul>
 </section>
-<script type="text/javascript" src="/transition-script.js"></script>
+<script type="text/javascript" src="/search.js"></script>

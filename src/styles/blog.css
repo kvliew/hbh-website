@@ -6,11 +6,21 @@
   text-align: center;
 }
 
+.blog input {
+  color: white;
+  background-color: #11201c;
+}
+
 #blog-container {
   display: grid;
   padding: 0 3%;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+}
+
+.tag-container {
+  display: flex;
+  gap: 5px;
 }
 
 .blog-card {
@@ -28,6 +38,10 @@
   width: 100%;
 }
 
+#blog-description {
+  text-align: left;
+}
+
 .episode-link:hover {
   color: rgb(29, 185, 84);
   transition: none;
@@ -37,5 +51,9 @@
   #blog-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+  .blog-card img {
+    display:none;
   }
 }
