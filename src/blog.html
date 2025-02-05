@@ -13,7 +13,7 @@ preloadcss: "/styles/blog.css"
     Discover actionable tips, insider knowledge, and unique insights inspired by our Home Building Hub podcast.
   </p>
   <br>
-  <input type="text" id="search" placeholder="Search items..." />
+  <!-- <input type="text" id="search" placeholder="Search items..." /> -->
   <br>
   <br>
   <ul id="blog-container">
@@ -29,14 +29,13 @@ preloadcss: "/styles/blog.css"
           {{ post.data.uploaded }}
         </p>
         <br>
-        <p>
-          Categories: 
-          <div class="tag-container">
-          {% for item in post.data.categorylist %}
-            <span id="pill">{{ item.category }}</span>
-          {% endfor %}
-          </div>
-        </p>
+        
+        <div class="tag-container">
+        {% for item in post.data.categorylist %}
+          <span id="pill">{{ item.category }}</span>
+        {% endfor %}
+        </div>
+        
         <br>
         <p id="blog-description">
           {{ post.data.description }}
