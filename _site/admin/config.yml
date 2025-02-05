@@ -60,7 +60,7 @@ collections:
     label: "Articles" 
     folder: "src/articles" 
     create: true 
-    slug: "blog-{{articlenumber}}" 
+    slug: "article-{{articlenumber}}" 
     fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "article.njk"}
       - {label: "Title", name: "title", widget: "string"}

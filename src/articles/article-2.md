@@ -131,11 +131,17 @@ Always focus on affordability and consult with an experienced broker for tailore
  
 ### FAQ
 
-Q: What is a guarantor loan? A: A guarantor loan allows a family member to use equity in their home to help secure your loan, reducing costs like mortgage insurance.
+**Q:** What is a guarantor loan? 
 
-Q: How do government grants work? A: Grants like the First Home Owner Grant provide financial assistance to eligible buyers. Conditions vary by state, so consulting a broker is crucial.
+**A:** A guarantor loan allows a family member to use equity in their home to help secure your loan, reducing costs like mortgage insurance.
 
-Q: How do I qualify for a construction loan? A: Qualification depends on your financial situation, deposit size, and the lender’s policies. Brokers can guide you through the process and improve your chances.
+**Q:** How do government grants work? 
+
+**A:** Grants like the First Home Owner Grant provide financial assistance to eligible buyers. Conditions vary by state, so consulting a broker is crucial.
+
+**Q:** How do I qualify for a construction loan? 
+
+**A:** Qualification depends on your financial situation, deposit size, and the lender’s policies. Brokers can guide you through the process and improve your chances.
 
 <br>
 
