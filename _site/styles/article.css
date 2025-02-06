@@ -1,0 +1,37 @@
+.article-section {
+  padding: 2% 20%;
+  background-color: black;
+  background: linear-gradient(to top, black 80%, #191414 100%);
+}
+
+.article-section li {
+  color: rgb(196, 192, 192);
+  margin-left: 20px;
+}
+
+.article-section a {
+  color: #3ba35f;
+  font-family: 'Open Sans', sans-serif;
+} 
+
+.article-section img {
+  width: 40%;
+}
+
+.article-section h3 {
+  color: #3ba35f;
+  font-size: x-large;
+}
+
+.article-section p {
+  color: rgb(196, 192, 192);
+}
+
+@media screen and (max-width: 1100px) {
+  .article-section img {
+    width: 100%;
+  }
+  .article-section {
+    padding: 2% 10%;
+  }
+}
