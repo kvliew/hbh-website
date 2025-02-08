@@ -3,7 +3,7 @@ layout: article.njk
 title: 4 Steps to Getting the Best Building Quotes
 articlenumber: 8
 uploaded: 22nd May 2023
-thumbnail: assets/uploads/article-2-thumbnail.png
+thumbnail: assets/uploads/article-8-thumbnail.png
 description: Discover how to get the best building quotes (and avoid costly mistakes) with four simple steps, including financial preparation, research, and expert consultation. 
 categorylist:
   - category: Pre-Construction

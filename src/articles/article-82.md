@@ -2,18 +2,14 @@
 layout: article.njk
 title: 2025 Interest Rate & Home Building Predictions
 articlenumber: 82
-uploaded: 27th May 2025
-thumbnail: assets/uploads/article-2-thumbnail.png
+uploaded: 27th January 2025
+thumbnail: assets/uploads/article-82-thumbnail.png
 description: Discover key predictions for 2025 on interest rates, home prices, land supply, and builder stability in Australia. 
 categorylist:
   - category: Finance & Budgeting
   - category: Pre-Construction
   - category: News & Industry Insights
 ---
-
-### 2025 Interest Rate & Home Building Predictions
-
-<br> 
 
 ### Introduction
 The Australian property market is evolving rapidly, and as we step into 2025, home buyers and investors are searching for expert insights into interest rates, land supply, home pricing, and builder stability. In this episode of the Home Building Hub Podcast, hosts Colin Bischof and Darren Brennan break down key predictions for 2025, helping you make informed decisions in a changing market.

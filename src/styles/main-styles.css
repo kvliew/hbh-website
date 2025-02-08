@@ -105,6 +105,7 @@ footer a:hover {
   position: absolute;
   padding: 1%;
   visibility: hidden;
+  list-style-type: none;
 }
 .dropdown:hover .dropdown-menu {
   visibility: visible;

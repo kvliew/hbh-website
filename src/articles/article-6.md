@@ -3,7 +3,7 @@ layout: article.njk
 title: Should You Buy House or Land First? …And Why?
 articlenumber: 6
 uploaded: 8th May 2023
-thumbnail: assets/uploads/article-2-thumbnail.png
+thumbnail: assets/uploads/article-6-thumbnail.png
 description: Discover whether you should buy a house or land first when building your dream home. This guide explores budgeting, site costs, and expert tips to help you make the best decision.
 categorylist:
   - category: Finance & Budgeting

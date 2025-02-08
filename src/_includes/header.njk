@@ -12,14 +12,13 @@
       <li><a href="/">Home</a></li>
       <li><a class="{{ 'highlight' if '/episodes' in page.url }}" href="/episodes">Episodes</a></li>
       <li><a class="{{ 'highlight' if '/guests' in page.url }}" href="/guests">Our Guests</a></li>
-      <li><a class="{{ 'highlight' if '/resources' in page.url }}" href="/resources">Resources</a></li>
-      {# <li class="dropdown">
+      {# <li><a class="{{ 'highlight' if '/resources' in page.url }}" href="/resources">Resources</a></li> #}
+      <li class="dropdown">
         <a class="{{ 'highlight' if '/resources' in page.url }}" href="/resources">Resources &#9662;</a>
         <ul class="dropdown-menu">
           <li><a class="{{ 'highlight' if '/blog' in page.url }}" href="/blog">Blog</a></li>
         </ul>
-      </li> #} 
-      {# DROPDOWN MENU UNCOMMENT #}
+      </li>
       <li><a class="{{ 'highlight' if '/meet-hosts' in page.url }}" href="/meet-hosts">Meet our Hosts</a></li>
       <li><a class="{{ 'highlight' if '/contact' in page.url }}" href="/contact">Contact</a></li>
     </ul>
