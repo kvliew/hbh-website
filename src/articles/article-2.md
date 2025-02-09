@@ -2,15 +2,15 @@
 layout: article.njk
 title: Essential Insights from One of Australia’s Leading Finance Brokers
 articlenumber: 2
-thumbnail: assets/uploads/article-2-thumbnail.png
 uploaded: 12th April 2023
+thumbnail: assets/uploads/article-2-thumbnail.png
+description: Discover expert insights from one of Australia’s top finance
+  brokers on construction loans, government grants, and navigating the home
+  buying process with ease.
 categorylist:
-  - finance
-  - construction
-  - news
-description: Discover expert insights from one of Australia’s top finance brokers 
-  on construction loans, government grants, and navigating the home buying process 
-  with ease.
+  - finance and construction
+  - pre-construction
+  - news and insights
 ---
 
 ![Alt text](/assets/uploads/article-1-thumbnail.png "title")
