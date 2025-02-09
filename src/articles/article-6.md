@@ -6,12 +6,12 @@ uploaded: 8th May 2023
 thumbnail: assets/uploads/article-6-thumbnail.png
 description: Discover whether you should buy a house or land first when building your dream home. This guide explores budgeting, site costs, and expert tips to help you make the best decision.
 categorylist:
-  - category: Finance & Budgeting
-  - category: Pre-Construction
-  - category: Legal & Contracts
+  - finance
+  - construction
+  - legal
 ---
 
-![Alt text](/assets/uploads/article-2-thumbnail.png "title")
+![Alt text](/assets/uploads/article-6-thumbnail.png "title")
 
 <br>
 

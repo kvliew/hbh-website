@@ -6,9 +6,13 @@ uploaded: 22nd May 2023
 thumbnail: assets/uploads/article-8-thumbnail.png
 description: Discover how to get the best building quotes (and avoid costly mistakes) with four simple steps, including financial preparation, research, and expert consultation. 
 categorylist:
-  - category: Pre-Construction
-  - category: Finance & Budgeting
+  - construction
+  - finance
 ---
+
+![Alt text](/assets/uploads/article-8-thumbnail.png "title")
+
+<br>
 
 ### 4 Steps to Getting the Best Building Quotes
 Building a new home is an exciting journey, but navigating the quoting process can be tricky. With rising construction costs and a competitive housing market, understanding how to secure the right building quote is crucial for avoiding costly mistakes. In this episode, Colin Bischof and Darren Brennan take you through four simple yet crucial steps to help you secure the best building quotes and ensure your home-building experience is smooth and informed.

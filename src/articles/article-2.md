@@ -5,9 +5,9 @@ articlenumber: 2
 thumbnail: assets/uploads/article-2-thumbnail.png
 uploaded: 12th April 2023
 categorylist:
-  - category: "Finance & Budgeting" 
-  - category: "Pre-Construction"
-  - category: "News & Industry Insights"
+  - finance
+  - construction
+  - news
 description: Discover expert insights from one of Australia’s top finance brokers 
   on construction loans, government grants, and navigating the home buying process 
   with ease.

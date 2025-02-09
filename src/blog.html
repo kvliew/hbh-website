@@ -15,11 +15,17 @@ preloadcss: "/styles/blog.css"
   <br>
   <input type="text" id="search" placeholder="Search" />
   <br>
+  <!-- <button data-filter="finance">Finance & Budgeting</button>
+  <br>
+  <button data-filter="legal">Legal & Contracts</button>
+  <br>
+  <button data-filter="all">All</button> -->
+  <br>
   <br>
   <ul id="blog-container">
     {% assign recentPosts = collections.articles | reverse %}
     {% for post in recentPosts %}
-    <div class="blog-card" data-name="{{ post.data.title }}" data-tags="{{ post.data.categorylist }}">
+    <div class="blog-card" data-name="{{ post.data.title }}" data-categories="{{ post.data.categorylist }}">
       <img src="/{{ post.data.thumbnail }}" alt="article preview photo">
       <div class="content">
         <h2>
@@ -32,7 +38,7 @@ preloadcss: "/styles/blog.css"
         
         <div class="tag-container">
         {% for item in post.data.categorylist %}
-          <span id="pill">{{ item.category }}</span>
+          <span id="pill">{{ item }}</span>
         {% endfor %}
         </div>
         

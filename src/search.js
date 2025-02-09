@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     Array.from(items).forEach(item => {
       const title = item.getAttribute("data-name").toLowerCase();
-      const tags = item.getAttribute("data-tags").split(",").map(tag => tag.trim().toLowerCase());
+      // const tags = item.getAttribute("data-categories").split(",").map(tag => tag.trim().toLowerCase());
 
-      if (title.includes(query) || tags.some(tag => tag.includes(query))) {
+      if (title.includes(query)) {
         item.style.display = "block";
       } else {
         item.style.display = "none";
