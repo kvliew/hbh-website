@@ -1,3 +1,4 @@
+// Search
 document.addEventListener("DOMContentLoaded", function() {
   const searchInput = document.getElementById("search");
   const itemsList = document.getElementById("blog-container");
@@ -19,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+// filter buttons logic
 let activeFilters = new Set();
-
 document.querySelectorAll("button[data-filter]").forEach(button => {
   button.addEventListener("click", function() {
       let filter = this.getAttribute("data-filter");
@@ -50,3 +51,19 @@ function filterPosts() {
       item.style.display = activeFilters.size === 0 || matches ? "block" : "none";
   });
 }
+
+// Filter Buttons for CSS
+document.querySelectorAll(".filter-button").forEach(button => {
+  button.addEventListener('click', () => {
+    if (button.getAttribute("data-filter") === 'all') {
+      // Reset all buttons
+      document.querySelectorAll(".filter-button").forEach(btn => {
+        btn.classList.remove("active");
+        btn.classList.remove("reset");
+      });
+    } else {
+      // Toggle active class for clicked filter
+      button.classList.toggle("active");
+    }
+  });
+});

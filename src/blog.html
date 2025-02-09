@@ -12,20 +12,29 @@ preloadcss: "/styles/blog.css"
   <p>
     Discover actionable tips, insider knowledge, and unique insights inspired by our Home Building Hub podcast.
   </p>
-  <br>
+  <div class="filters">
+    <button class="filter-button" data-filter="finance">Finance & Budgeting</button>
+    <button class="filter-button" data-filter="pre">Pre-Construction</button>
+    <button class="filter-button" data-filter="during">During Construction</button>
+    <button class="filter-button" data-filter="legal">Legal & Contracts</button>
+    <button class="filter-button" data-filter="first">First Home Buyer</button>
+    <button class="filter-button" data-filter="investor">Investor</button>
+    <button class="filter-button" data-filter="upsizing">Upsizing & Downsizing</button>
+    <button class="filter-button" data-filter="finance">Finance & Budgeting</button>
+    <button class="filter-button" data-filter="design">Design & Trends</button>
+    <button class="filter-button" data-filter="sustainability">Sustainability & Energy Efficiency</button>
+    <button class="filter-button" data-filter="smart">Smart Home & Tech</button>
+    <button class="filter-button" data-filter="news">News & Industry Insights</button>
+    <button class="filter-button" data-filter="all">All</button>
+  </div>
+
   <input type="text" id="search" placeholder="Search" />
-  <br>
-  <!-- <button data-filter="finance">Finance & Budgeting</button>
-  <br>
-  <button data-filter="legal">Legal & Contracts</button>
-  <br>
-  <button data-filter="all">All</button> -->
-  <br>
+  
   <br>
   <ul id="blog-container">
     {% assign recentPosts = collections.articles | reverse %}
     {% for post in recentPosts %}
-    <div class="blog-card" data-name="{{ post.data.title }}" data-categories="{{ post.data.categorylist }}">
+    <div class="blog-card" data-name="{{ post.data.title }}" data-categories="{{ post.data.categorylist |  }}">
       <img src="/{{ post.data.thumbnail }}" alt="article preview photo">
       <div class="content">
         <h2>
