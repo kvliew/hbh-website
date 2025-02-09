@@ -13,18 +13,18 @@ preloadcss: "/styles/blog.css"
     Discover actionable tips, insider knowledge, and unique insights inspired by our Home Building Hub podcast.
   </p>
   <div class="filters">
-    <button class="filter-button" data-filter="finance">Finance & Budgeting</button>
-    <button class="filter-button" data-filter="pre">Pre-Construction</button>
-    <button class="filter-button" data-filter="during">During Construction</button>
-    <button class="filter-button" data-filter="legal">Legal & Contracts</button>
-    <button class="filter-button" data-filter="first">First Home Buyer</button>
-    <button class="filter-button" data-filter="investor">Investor</button>
-    <button class="filter-button" data-filter="upsizing">Upsizing & Downsizing</button>
-    <button class="filter-button" data-filter="finance">Finance & Budgeting</button>
-    <button class="filter-button" data-filter="design">Design & Trends</button>
-    <button class="filter-button" data-filter="sustainability">Sustainability & Energy Efficiency</button>
-    <button class="filter-button" data-filter="smart">Smart Home & Tech</button>
-    <button class="filter-button" data-filter="news">News & Industry Insights</button>
+    <button class="filter-button" data-filter="1">Finance & Budgeting</button>
+    <button class="filter-button" data-filter="2">Pre-Construction</button>
+    <button class="filter-button" data-filter="3">During Construction</button>
+    <button class="filter-button" data-filter="4">Post-Construction</button>
+    <button class="filter-button" data-filter="5">Legal & Contracts</button>
+    <button class="filter-button" data-filter="6">First Home Buyer</button>
+    <button class="filter-button" data-filter="7">Investor</button>
+    <button class="filter-button" data-filter="8">Upsizing and Downsizing</button>
+    <button class="filter-button" data-filter="9">Design & Trends</button>
+    <button class="filter-button" data-filter="10">Sustainability & Energy Efficiency</button>
+    <button class="filter-button" data-filter="11">Smart Home & Tech</button>
+    <button class="filter-button" data-filter="12">News & Industry Insights</button>
     <button class="filter-button" data-filter="all">All</button>
   </div>
 
@@ -34,7 +34,7 @@ preloadcss: "/styles/blog.css"
   <ul id="blog-container">
     {% assign recentPosts = collections.articles | reverse %}
     {% for post in recentPosts %}
-    <div class="blog-card" data-name="{{ post.data.title }}" data-categories="{{ post.data.categorylist |  }}">
+    <div class="blog-card" data-name="{{ post.data.title }}" data-categories="{{ post.data.categorylist }}">
       <img src="/{{ post.data.thumbnail }}" alt="article preview photo">
       <div class="content">
         <h2>
@@ -47,7 +47,7 @@ preloadcss: "/styles/blog.css"
         
         <div class="tag-container">
         {% for item in post.data.categorylist %}
-          <span id="pill">{{ item }}</span>
+          <span id="pill">{{ item | filtername }}</span>
         {% endfor %}
         </div>
         

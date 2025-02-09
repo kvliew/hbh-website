@@ -43,11 +43,7 @@ document.querySelectorAll("button[data-filter]").forEach(button => {
 function filterPosts() {
   document.querySelectorAll(".blog-card").forEach(item => {
       const categories = item.getAttribute("data-categories");
-      // .replace(/ /g, "-").replace(/&/g, "and")
-      console.log(categories);
-
       const matches = [...activeFilters].every(filter => categories.includes(filter));
-
       item.style.display = activeFilters.size === 0 || matches ? "block" : "none";
   });
 }

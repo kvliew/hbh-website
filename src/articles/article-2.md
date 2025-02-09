@@ -8,9 +8,9 @@ description: Discover expert insights from one of Australia’s top finance
   brokers on construction loans, government grants, and navigating the home
   buying process with ease.
 categorylist:
-  - finance and construction
-  - pre-construction
-  - news and insights
+  - 1
+  - 2
+  - 12
 ---
 
 ![Alt text](/assets/uploads/article-1-thumbnail.png "title")

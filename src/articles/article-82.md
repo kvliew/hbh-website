@@ -6,9 +6,9 @@ uploaded: 27th January 2025
 thumbnail: assets/uploads/article-82-thumbnail.png
 description: Discover key predictions for 2025 on interest rates, home prices, land supply, and builder stability in Australia. 
 categorylist:
-  - finance
-  - construction
-  - news
+  - 1
+  - 2
+  - 12
 ---
 
 ![Alt text](/assets/uploads/article-82-thumbnail.png "title")

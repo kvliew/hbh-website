@@ -11,7 +11,7 @@
     <br>
     <p>
       {% for item in categorylist %}
-        <span id="pill">{{ item }} </span>
+        <span id="pill">{{ item | filtername }} </span>
       {% endfor %}
     </p>
     <br>
