@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom, #191414 95%, black 100%);
 }
 
 .guests a {

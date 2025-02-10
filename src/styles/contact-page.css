@@ -4,6 +4,7 @@
   align-items: center;
   padding-bottom: 5%;
   line-height: 2;
+  background: linear-gradient(to bottom, #191414 80%, black 100%);
 }
 
 .contact-message {
