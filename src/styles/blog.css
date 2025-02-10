@@ -93,7 +93,21 @@
     flex-direction: column;
     justify-content: center;
   }
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
   .blog-card img {
-    display:none;
+    width:70%;
+  }
+  #search {
+    width: 70vw;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

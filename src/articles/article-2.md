@@ -10,7 +10,7 @@ description: Discover expert insights from one of Australia’s top finance
 categorylist:
   - Finance & Budgeting
   - Pre-Construction
-  - News & Indusctry Insights
+  - News & Industry Insights
 ---
 
 ![Alt text](/assets/uploads/article-1-thumbnail.png "title")

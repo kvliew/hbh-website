@@ -45,7 +45,7 @@ function filterPosts() {
       const categories = item.getAttribute("data-categories");
       console.log(categories);
       const matches = [...activeFilters].every(filter => categories.includes(filter));
-      item.style.display = activeFilters.size === 0 || matches ? "block" : "none";
+      item.style.display = activeFilters.size === 0 || matches ? "flex" : "none";
   });
 }
 
