@@ -6,8 +6,8 @@ uploaded: 22nd May 2023
 thumbnail: assets/uploads/article-8-thumbnail.png
 description: Discover how to get the best building quotes (and avoid costly mistakes) with four simple steps, including financial preparation, research, and expert consultation. 
 categorylist:
-  - 2
-  - 1
+  - Finance & Budgeting
+  - Pre-Construction
 ---
 
 ![Alt text](/assets/uploads/article-8-thumbnail.png "title")

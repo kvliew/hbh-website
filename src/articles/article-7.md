@@ -6,7 +6,7 @@ uploaded: 15th May 2023
 thumbnail: assets/uploads/article-7-thumbnail.png
 description: This article explores house and land packages, detailing how they work, pricing factors, whether they are exclusive, and expert tips to help make informed decisions when selecting a package.
 categorylist:
-  - 2
+  - Pre-Construction
 ---
 
 ![Alt text](/assets/uploads/article-7-thumbnail.png "title")

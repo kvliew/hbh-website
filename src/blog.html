@@ -13,18 +13,18 @@ preloadcss: "/styles/blog.css"
     Discover actionable tips, insider knowledge, and unique insights inspired by our Home Building Hub podcast.
   </p>
   <div class="filters">
-    <button class="filter-button" data-filter="1">Finance & Budgeting</button>
-    <button class="filter-button" data-filter="2">Pre-Construction</button>
-    <button class="filter-button" data-filter="3">During Construction</button>
-    <button class="filter-button" data-filter="4">Post-Construction</button>
-    <button class="filter-button" data-filter="5">Legal & Contracts</button>
-    <button class="filter-button" data-filter="6">First Home Buyer</button>
-    <button class="filter-button" data-filter="7">Investor</button>
-    <button class="filter-button" data-filter="8">Upsizing and Downsizing</button>
-    <button class="filter-button" data-filter="9">Design & Trends</button>
-    <button class="filter-button" data-filter="10">Sustainability & Energy Efficiency</button>
-    <button class="filter-button" data-filter="11">Smart Home & Tech</button>
-    <button class="filter-button" data-filter="12">News & Industry Insights</button>
+    <button class="filter-button" data-filter="Finance & Budgeting">Finance & Budgeting</button>
+    <button class="filter-button" data-filter="Pre-Construction">Pre-Construction</button>
+    <button class="filter-button" data-filter="During Construction">During Construction</button>
+    <button class="filter-button" data-filter="Post-Construction">Post-Construction</button>
+    <button class="filter-button" data-filter="Legal & Contracts">Legal & Contracts</button>
+    <button class="filter-button" data-filter="First Home Buyer">First Home Buyer</button>
+    <button class="filter-button" data-filter="Investor">Investor</button>
+    <button class="filter-button" data-filter="Upsizing and Downsizing">Upsizing and Downsizing</button>
+    <button class="filter-button" data-filter="Design & Trends">Design & Trends</button>
+    <button class="filter-button" data-filter="Sustainability & Energy Efficiency">Sustainability & Energy Efficiency</button>
+    <button class="filter-button" data-filter="Smart Home & Tech">Smart Home & Tech</button>
+    <button class="filter-button" data-filter="News & Industry Insights">News & Industry Insights</button>
     <button class="filter-button" data-filter="all">All</button>
   </div>
 
@@ -47,7 +47,7 @@ preloadcss: "/styles/blog.css"
         
         <div class="tag-container">
         {% for item in post.data.categorylist %}
-          <span id="pill">{{ item | filtername }}</span>
+          <span id="pill">{{ item }}</span>
         {% endfor %}
         </div>
         
