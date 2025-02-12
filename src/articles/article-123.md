@@ -2,7 +2,7 @@
 layout: article.njk
 title: Test
 articlenumber: 123
-uploaded: 12O December 1902
+uploaded: 14 July 1902
 thumbnail: assets/uploads/coming-soon.jpg
 description: Description
 categorylist:
