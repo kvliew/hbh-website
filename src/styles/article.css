@@ -9,6 +9,10 @@
   margin-left: 20px;
 }
 
+.article-section ol {
+  margin-top: 15px;
+}
+
 .article-section a {
   color: #3ba35f;
   font-family: 'Open Sans', sans-serif;
@@ -18,9 +22,10 @@
   width: 40%;
 }
 
-.article-section h3 {
+.article-section h1, h2, h3 {
   color: #3ba35f;
   font-size: x-large;
+  margin-top: 20px;
 }
 
 .article-section p {

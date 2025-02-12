@@ -14,12 +14,8 @@ categorylist:
 
 ![Alt text](/assets/uploads/article-5-thumbnail.png "title")
 
-<br>
-
 ### Top Tips When Visiting Display Homes
 Visiting display homes is one of the most exciting steps in the home-building journey. It’s your chance to see potential dream homes come to life and gather ideas for your new home. However, the experience can also be overwhelming if you’re not prepared. In this article, Colin Bischof and Darren Brennan from the Home Building Hub podcast share essential tips to help you make the most of your display home visits.
-
-<br>
 
 ### What Are Display Homes All About?
 Display homes serve as showpieces for builders to inspire and showcase their craftsmanship. They often include:
@@ -28,38 +24,27 @@ Inspiration: Like a brochure brought to life, these homes provide a tangible exp
 Lead Generation: Builders use display homes to connect with potential buyers, so expect follow-up calls and emails if you provide your details.
 Pro Tip: Remember that display homes are designed to inspire. Focus on the layout and essential features rather than being swept away by the furniture and upgrades.
 
-<br>
-
 ### Top Tips for Display Home Visits
-<br>
 
 1. Do Your Homework
   - Research builders and designs online before visiting.
   - Identify floor plans that align with your needs.
   - Focus on specific homes and builders that match your criteria, saving time and reducing overwhelm.
 
-<br> 
-
 2. Be Honest About Your Budget
   - Share your minimum and maximum budget with sales consultants.
   - Provide a clear list of your must-haves and nice-to-haves.
   - Being transparent allows consultants to find the best solutions within your financial range.
-
-<br>
 
 3. Ask the Right Questions
   - Avoid asking, “How much is it as displayed?” Instead, ask, “What do most people spend when building this home?”
   - Inquire about standard inclusions versus upgrades.
   - Ask what upgrades are most popular and why buyers typically choose them.
 
-<br>
-
 4. Take Photos and Notes
   - Snap pictures of design features you like for future reference.
   - Write down details about each home to avoid confusion later.
   - Use your notes to compare homes and share ideas with consultants or family members.
-
-<br>
 
 5. Spend Time with the Sales Consultant
   - Treat sales consultants as your allies. They can offer insights into:
@@ -68,40 +53,28 @@ Pro Tip: Remember that display homes are designed to inspire. Focus on the layou
   - Available land or promotions.
   - A good consultant will guide you through the process and provide tailored solutions.
 
-<br>
-
 6. Limit Overwhelm
   - Avoid visiting too many homes in one day; they’ll all start to blend together.
   - Once you’ve seen enough, sit down with a consultant to refine your options.
 
-<br>
-
 7. Enjoy the Experience, but Stay Grounded
   - The first step is to enjoy the creativity and inspiration that display homes offer.
   - Once the excitement subsides, shift your focus to practicalities like budgets, inclusions, and next steps.
-
-<br>
 
 ### Emerging Trends in Display Homes
 
 Sustainable Features: Many display homes now showcase energy-efficient designs and eco-friendly materials.
 Virtual Reality (VR) Tours: Some builders offer VR tours, allowing you to explore homes digitally without visiting in person.
 
-<br>
-
 ### Common Pitfalls to Avoid
 Misinterpreting Upgrades: Don’t assume that everything you see in a display home is included in the base price.
 Overloading Visits: Seeing too many homes in one day can lead to decision fatigue and confusion.
-
-<br>
 
 ### Key Takeaways
 Be Prepared: Research, plan, and know your budget before visiting display homes.
 Ask Questions: Use sales consultants as a resource to gain clarity on inclusions, pricing, and design options.
 Stay Organized: Take photos, notes, and only visit a manageable number of homes at a time.
 Work with a Trusted Consultant: Build rapport with someone who aligns with your values and goals.
-
-<br>
 
 ### Frequently Asked Questions
 Q: Should I disclose my full budget to the consultant?

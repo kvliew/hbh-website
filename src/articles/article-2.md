@@ -17,12 +17,7 @@ categorylist:
 
 In this episode of the Home Building Hub podcast, hosts Colin Bischof and Darren Brennan sit down with Mark Polatkesen, Founder and Managing Director of Mortgage Domayne, to discuss the ins and outs of financing for new home construction. With over $1.5 billion in loans settled and 20 years of experience, Mark’s insights provide invaluable knowledge for Australian home buyers and investors.
 
-<br>
-
 Below, we highlight some of the key takeaways from their discussion on using finance brokers, navigating interest rates, government grants, and more.
-
-<br>
-
 ### The Role of a Finance Broker vs. Going Direct to a Bank
 
 Mark explains why working with a finance broker offers more flexibility and personalized service compared to dealing directly with a bank:
@@ -31,8 +26,6 @@ Tailored Solutions: Brokers analyze policies beyond just interest rates to ensur
 Efficiency: Instead of visiting multiple banks, a broker provides expert guidance with a variety of options tailored to your needs.
 
 Pro Tip: Are you unsure whether to go with a broker or your bank? A broker’s expertise can make all the difference when navigating the complexities of construction loans, which require understanding different stages like deposits and approvals.
-
-<br>
 
 ### Why Specializing in Construction Finance Matters
 
@@ -43,8 +36,6 @@ Strategic Planning: Construction finance allows for long-term strategies, as cli
 Volume Experience: Mortgage Domayne settles approximately $90 million in lending per month, with 70% focused on house and land packages.
 Example: Mark shares that his team recently helped a client navigate delays in land titles by securing a flexible pre-approval that accommodated changing timelines, avoiding unnecessary stress
 
-<br>
-
 ### Demystifying Interest Rates and Buyer Confidence
 
 Interest rates have been a hot topic, and Mark provides clarity:
@@ -52,8 +43,6 @@ Interest rates have been a hot topic, and Mark provides clarity:
 The cash rate set by the Reserve Bank of Australia (RBA) affects home loan interest rates, but each bank adds its own margins.
 Interest rates rose significantly from 0.1% in May 2022, leading to reduced borrowing capacity.
 Buyer Confidence: Despite higher rates, property ownership remains advantageous due to long-term capital growth and the ability to build equity.
-
-<br>
  
 ### FAQs on Interest Rates:
 
@@ -62,13 +51,9 @@ How do rising rates affect me? Higher rates reduce borrowing capacity. For insta
 Can rates go back down? Economic indicators like inflation will dictate future rate changes. Consult a broker for tailored advice.
 Expert Advice: Focus on what you can afford, not just your maximum borrowing capacity. This ensures manageable repayments in any interest rate scenario.
 
-<br>
-
 ### Government Grants and Incentives for New Home Buyers
 
 Government schemes play a vital role in helping first-time buyers enter the market:
-
-<br>
 
 ### Key Programs:
 
@@ -84,13 +69,11 @@ Related Resources:
 
 <a href="https://www.housingaustralia.gov.au/" target="_blank">Australian Government Home Guarantee Schemes</a>
 
-<br> 
+<br>
 
 Real Savings Example: A first-time buyer in Victoria purchasing a $550,000 property saved over $25,000 through a combination of the First Home Owner Grant and stamp duty concessions.
 
 Mark emphasizes the importance of consulting a broker to ensure eligibility, as requirements can vary between programs.
-
-<br>
 
 ### The Value of Guarantor Loans
 
@@ -101,8 +84,6 @@ Benefits: Avoid mortgage insurance and increase borrowing capacity.
 Temporary Arrangement: Brokers like Mark review guarantor loans regularly to release the guarantor when possible.
 Example: A first-time buyer reduced upfront costs by over $15,000 with a guarantor loan, entering the property market earlier than expected. However, it’s essential to consider the guarantor’s liability and impact on their own borrowing capacity.
 
-<br>
-
 ### Key Tips for Home Buyers and Investors
 
 Mark offers several key tips for anyone navigating the home buying process:
@@ -110,14 +91,10 @@ Mark offers several key tips for anyone navigating the home buying process:
 Know Your Budget: Focus on what you can afford in repayments, not just your borrowing capacity.
 Shop Around: Avoid being loyal to one bank—a broker can present better options.
 Speak to a Broker: An experienced broker understands policy differences across lenders and can guide you through complex decisions.
-
-<br>
  
 ### Final Thoughts and How to Connect with Mortgage Domayne
 
 For personalized guidance on your home loan journey, you can visit Mortgage Domayne’s website at <a href="https://www.mortgagedomayne.com.au" target="_blank">www.mortgagedomayne.com.au</a>. Mortgage Domayne specializes in finding tailored solutions for buyers and investors in both Victoria and Queensland.
-
-<br>
 
 ### Key Takeaways
 
@@ -126,8 +103,6 @@ Specialized brokers simplify construction loans and timelines, making the proces
 Government grants can make first homes more affordable—don’t miss opportunities like the First Home Owner Grant.
 Guarantor loans can help buyers avoid mortgage insurance but come with considerations for the guarantor.
 Always focus on affordability and consult with an experienced broker for tailored advice.
-
-<br>
  
 ### FAQ
 
@@ -143,21 +118,17 @@ Always focus on affordability and consult with an experienced broker for tailore
 
 **A:** Qualification depends on your financial situation, deposit size, and the lender’s policies. Brokers can guide you through the process and improve your chances.
 
-<br>
-
 ### Key Terms Glossary
 
 Cash Rate: The interest rate set by the Reserve Bank of Australia that influences lending rates.
-<br>
-Guarantor Loan: A loan supported by a family member’s property equity to reduce borrowing costs.
-<br>
-First Home Owner Grant: A government initiative offering financial assistance to eligible first-time buyers.
-<br>
-Stamp Duty: A tax paid on property purchases, often reduced or exempted for first-home buyers.
-<br>
-Construction Loan: A type of loan specifically designed for financing new home construction, with funds released in stages.
 
-<br>
+Guarantor Loan: A loan supported by a family member’s property equity to reduce borrowing costs.
+
+First Home Owner Grant: A government initiative offering financial assistance to eligible first-time buyers.
+
+Stamp Duty: A tax paid on property purchases, often reduced or exempted for first-home buyers.
+
+Construction Loan: A type of loan specifically designed for financing new home construction, with funds released in stages.
 
 ### Listen to the Full Episode
 
