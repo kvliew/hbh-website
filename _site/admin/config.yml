@@ -49,7 +49,7 @@ collections:
       - {label: "iHeart Link", name: "iheart", widget: "string"}
       - {label: "Amazon Music Link", name: "amazonmusic", widget: "string"}
       # - {label: "Google Podcasts Link", name: "googlepodcasts", widget: "string"}
-      - {label: "Publish Date", name: "uploaded", widget: "date", format: "Do MMMM YYYY"}
+      - {label: "Publish Date", name: "uploaded", widget: "string"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Duration", name: "duration", widget: "string", hint: "Please use 'XXm YYs' format instead of 'XX:YY' when filling in durations"}
       - {label: "Description", name: "description", widget: "string"}
@@ -66,7 +66,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Article Number", name: "articlenumber", widget: "number"}
       # - {label: "Publish Date", name: "uploaded", widget: "date", format: "Do MMMM YYYY"}
-      - {label: "Publish Date", name: "uploaded", widget: "datetime", date_format: "DD MMMM YYYY", default: "{{now}}"}
+      - {label: "Publish Date", name: "uploaded", widget: "string"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Category List", name: "categorylist", widget: "list", default: ["Finance & Budgeting", "Pre-Construction", "Design & Trends"]}
