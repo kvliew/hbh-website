@@ -69,5 +69,5 @@ collections:
       - {label: "Publish Date", name: "uploaded", widget: "datetime", date_format: "DD MMMM YYYY"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Category List", name: "categorylist", widget: "list"}
+      - {label: "Category List", name: "categorylist", widget: "list", default: ["Finance & Budgeting", "Pre-Construction", "Design & Trends"]}
       - {label: "Body", name: "body", widget: "markdown"}
