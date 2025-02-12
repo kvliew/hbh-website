@@ -13,6 +13,10 @@
   margin-top: 15px;
 }
 
+.article-section ul {
+  margin-left: 15px;
+}
+
 .article-section a {
   color: #3ba35f;
   font-family: 'Open Sans', sans-serif;
