@@ -34,7 +34,7 @@ preloadcss: "/styles/blog.css"
   <ul id="blog-container">
     {% assign recentPosts = collections.articles | reverse %}
     {% for post in recentPosts %}
-    <div class="blog-card" data-name="{{ post.data.title }}" data-categories="{{ post.data.categorylist }}">
+    <div class="blog-card hidden" data-name="{{ post.data.title }}" data-categories="{{ post.data.categorylist }}">
       <img src="/{{ post.data.thumbnail }}" alt="article preview photo">
       <div class="content">
         <h2>
@@ -61,3 +61,4 @@ preloadcss: "/styles/blog.css"
   </ul>
 </section>
 <script type="text/javascript" src="/search.js"></script>
+<script type="text/javascript" src="/transition-script.js"></script>
