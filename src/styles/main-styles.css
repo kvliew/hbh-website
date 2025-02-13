@@ -105,10 +105,10 @@ footer a:hover {
   position: absolute;
   visibility: hidden;
   list-style-type: none;
-  padding: 10px 0px;
+  padding: 20px 0px;
 }
 .dropdown-menu li a {
-  padding: 10px 100px 10px 0px;
+  padding: 10px 100px 20px 0px;
 }
 .dropdown:hover .dropdown-menu {
   visibility: visible;
