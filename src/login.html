@@ -1,0 +1,16 @@
+---
+title: Login | HBH Portal
+layout: "base.njk"
+permalink: "login/"
+preloadcss: "/styles/login.css"
+---
+<section class="login">
+  <h1>Welcome to the Home Building Hub Perks Portal</h1>
+  <form class="login-form-wrapper">
+    <input id="login-email" placeholder="hello@email.com" type="email" required="required"/>
+    <input id="login-password" placeholder="password" type="password" required="required" autocomplete="current-password webauthn"/>
+    <button id="login-button" type="submit">Login</button>
+  </form>
+</section>
+
+<script type="module" src="/firebase/login.js" defer></script>

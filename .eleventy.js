@@ -4,6 +4,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/watch-now-script.js");
   eleventyConfig.addPassthroughCopy("./src/mobile-menu-script.js");
   eleventyConfig.addPassthroughCopy("./src/transition-script.js");
+  eleventyConfig.addPassthroughCopy("./src/firebase/register.js");
+  eleventyConfig.addPassthroughCopy("./src/firebase/login.js");
+  eleventyConfig.addPassthroughCopy("./src/firebase/perks.js");
   eleventyConfig.addPassthroughCopy("./src/search.js");
   // eleventyConfig.addFilter('stringify', (data) => {
   //   return data;

@@ -1,0 +1,16 @@
+---
+title: Register | HBH Portal
+layout: "base.njk"
+permalink: "register/"
+preloadcss: "/styles/register.css"
+---
+
+<section class="register">
+  <form class="register-form-wrapper">
+    <input id="signup-email" placeholder="hello@email.com" type="email" required="required"/>
+    <input id="signup-password" placeholder="password" required="required" type="password" autocomplete="current-password webauthn"/>
+    <button id="register-button" type="submit">Register</button>
+  </form>
+</section>
+
+<script type="module" src="/firebase/register.js" defer></script>
