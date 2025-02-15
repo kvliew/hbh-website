@@ -4,12 +4,17 @@ layout: "base.njk"
 permalink: "dashboard/"
 preloadcss: "/styles/dashboard.css"
 ---
-<section class="perks">
-  <h1>
-    Welcome to the Home Building Hub Perks Portal
-  </h1>
-  <br>
-  <button id="signout">Sign Out</button>
+<section class="dashboard">
+  <div id="loading">
+    <h1>Loading...</h1>
+  </div>
+  <div id="dashboard-content">
+    <h1>
+      Welcome to the Home Building Hub Perks Portal
+    </h1>
+    <br>
+    <button id="signout">Sign Out</button>
+  </div>
 </section>
 
 <script type="module" src="/firebase/dashboard.js" defer></script>

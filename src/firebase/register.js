@@ -1,22 +1,11 @@
 // Import the functions you need from the SDKs you need
+import { firebaseConfig } from './firebase-config.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js'
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-auth.js";
 import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCMCwQhx4iXdzo9Hu7LFUcuAcbvQNq4KVI",
-  authDomain: "home-building-hub.firebaseapp.com",
-  projectId: "home-building-hub",
-  storageBucket: "home-building-hub.firebasestorage.app",
-  messagingSenderId: "119388808309",
-  appId: "1:119388808309:web:2454604d19c9f1bc69043c",
-  measurementId: "G-XV8EVLYX5E"
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -63,9 +52,9 @@ submit.addEventListener("click", async (e) => {
       buildingStage: buildingStage,
     });
     console.log("User data added to Firestore successfully!");
+    window.location.href = "/dashboard";
   } catch(error) {
     console.error("Error during registration:", error.message);
     alert(error.message);
   }
-  window.location.href = "/dashboard";
 });
