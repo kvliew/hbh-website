@@ -31,7 +31,7 @@ login.addEventListener("click", function(e) {
     .then((userCredential) => {
       userCredential.user;
       alert('logging in');
-      window.location.href = "/perks";
+      window.location.href = "/dashboard";
     })
     .catch((error) => {
       const errorCode = error.code;
