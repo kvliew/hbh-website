@@ -7,7 +7,7 @@ preloadcss: "/styles/register.css"
 
 <section class="register">
   <h1>Register for Home Building Hub Perks</h1>
-  <form class="register-form-wrapper">
+  <form id="register-form">
     <input placeholder="First Name" id="first-name">
     <input placeholder="Last Name" id="last-name">
     <input placeholder="State" id="state">
@@ -16,6 +16,9 @@ preloadcss: "/styles/register.css"
     <input id="signup-password" placeholder="password" required="required" type="password" autocomplete="current-password webauthn"/>
     <button id="register-button" type="submit">Register</button>
   </form>
+  <p>
+    Already have an account with us? Login <a href="/login">here</a>.
+  </p>
 </section>
 
 <script type="module" src="/firebase/register.js" defer></script>

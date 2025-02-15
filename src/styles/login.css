@@ -6,9 +6,14 @@
   gap: 2vh;
 }
 
+.login a {
+  color: rgb(29, 185, 84);
+}
+
 .login-form-wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .login-form-wrapper input {

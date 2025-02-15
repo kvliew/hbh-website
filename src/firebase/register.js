@@ -23,8 +23,18 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-// Store egister button as a const 
+// Store form elements
 const submit = document.getElementById("register-button");
+const form = document.getElementById("register-form");
+
+// Handle pressing enter on register form
+form.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+      e.preventDefault();
+      submit.click();
+      console.log('clicked');
+  }
+});
 
 // Register new user
 submit.addEventListener("click", async (e) => {
@@ -53,9 +63,9 @@ submit.addEventListener("click", async (e) => {
       buildingStage: buildingStage,
     });
     console.log("User data added to Firestore successfully!");
-    window.location.href = "/dashboard";
   } catch(error) {
     console.error("Error during registration:", error.message);
     alert(error.message);
   }
+  window.location.href = "/dashboard";
 });
