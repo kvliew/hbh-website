@@ -291,6 +291,17 @@ button {
   header {
     width: 100%;
     padding: 15px 8%;
+    position: fixed;
+    background: #191414;
+    top: 0;  
+    height: 140px;
+    z-index: 9999;
+  }
+  body {
+    margin-top: 140px;
+  }
+  header img {
+    width: 50%;
   }
   #nav-links {
     display: none;
@@ -358,6 +369,9 @@ button {
     background-color: #191414;
   }
   #menu-overlay {
+    position: fixed;
+    background: #191414;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,6 +379,7 @@ button {
     padding: 5vh;
     gap: 30px;
     font-size: 1.5rem;
+    z-index: 9999;
   }
   #disclaimer p {
     width: 90%;
