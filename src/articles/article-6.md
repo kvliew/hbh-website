@@ -11,8 +11,6 @@ categorylist:
   - legal
 ---
 
-![Alt text](/assets/uploads/article-6-thumbnail.png "title")
-
 Building your dream home starts with a crucial question: should you buy the house or the land first? This decision can significantly impact your budget, timeline, and overall success. By making the right choice, you can avoid costly mistakes and set yourself up for a smooth and enjoyable building process. In this detailed guide, we’ll share insights from the Home Building Hub podcast with Colin Bischof and Darren Brennan to help you make an informed decision.
 
 ### Why This Question Matters
