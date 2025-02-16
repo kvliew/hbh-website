@@ -17,9 +17,7 @@ login.addEventListener("click", function(e) {
   const email = document.getElementById("login-email").value;
   const password = document.getElementById("login-password").value;
   signInWithEmailAndPassword(auth, email, password)
-    .then((userCredential) => {
-      userCredential.user;
-      alert('logging in');
+    .then(() => {
       window.location.href = "/dashboard";
     })
     .catch((error) => {

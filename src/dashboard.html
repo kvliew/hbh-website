@@ -1,5 +1,5 @@
 ---
-title: Perks Portal | HBH Portal
+title: Perks Dashboard | HBH Portal
 layout: "base.njk"
 permalink: "dashboard/"
 preloadcss: "/styles/dashboard.css"
@@ -10,9 +10,13 @@ preloadcss: "/styles/dashboard.css"
   </div>
   <div id="dashboard-content">
     <h1>
-      Welcome to the Home Building Hub Perks Portal
+      Welcome, <span id="first-name"></span>!
     </h1>
-    <br>
+    <p>
+      Building Stage: <span id="building-stage"></span>
+    </p>
+    <div id="perks-container">
+    </div>
     <button id="signout">Sign Out</button>
   </div>
 </section>
