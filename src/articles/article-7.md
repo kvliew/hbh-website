@@ -8,7 +8,7 @@ description: This article explores house and land packages, detailing how they
   work, pricing factors, whether they are exclusive, and expert tips to help
   make informed decisions when selecting a package.
 categorylist:
-  - Pre-Construction
+  - pre
 ---
 ![Alt text](/assets/uploads/article-7-thumbnail.png "title")
 

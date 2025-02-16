@@ -8,8 +8,8 @@ description: Discover how to get the best building quotes (and avoid costly
   mistakes) with four simple steps, including financial preparation, research,
   and expert consultation.
 categorylist:
-  - Finance & Budgeting
-  - Pre-Construction
+  - finance
+  - pre
 ---
 ![Alt text](/assets/uploads/article-8-thumbnail.png "title")
 
