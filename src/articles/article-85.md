@@ -121,7 +121,7 @@ Yes, but negotiations are usually around upgrades or promotions rather than majo
 
 ## **Listen to the Full Episode**
 
-For a more detailed breakdown, listen to the full episode:[ **How to Compare Builders Quotes Properly**](https://homebuildinghub.com.au/posts/ep-85/).
+For a more detailed breakdown, listen to the full episode:<a href="/posts/ep-85" id="intext-link" target="_blank">How to Compare Builders Quotes Properly</a>.
 
 ## **About the Home Building Hub Podcast**
 
