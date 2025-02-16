@@ -32,7 +32,7 @@ preloadcss: "/styles/blog.css"
   
   <br>
   <ul id="blog-container">
-    {% assign recentPosts = collections.articles | reverse %}
+    {% assign recentPosts = collections.articles %}
     {% for post in recentPosts %}
     <div class="blog-card hidden" data-name="{{ post.data.title }}" data-categories="{{ post.data.categorylist }}">
       <img src="/{{ post.data.thumbnail }}" alt="article preview photo">

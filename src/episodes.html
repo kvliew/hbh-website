@@ -15,7 +15,7 @@ preloadcss: "/styles/episodes-page.css"
     {% assign recentPosts = collections.posts | reverse %}
     {% for post in recentPosts %}
     <!-- <li class="hidden"> -->
-      <div class="episode-card hidden" data-name="Episode {{ post.data.number }} {{ post.data.title }}">
+      <div class="episode-card hidden" data-name="Episode {{ post.data.number }} {{ post.data.title }} {{ post.data.description }}">
         <img src="/{{ post.data.thumbnail }}" alt="episode preview photo"></img>
         <div class="content">
           <h2>
