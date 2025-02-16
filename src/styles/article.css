@@ -32,6 +32,12 @@
   margin-top: 20px;
 }
 
+.article-section h1 strong,
+.article-section h2 strong,
+.article-section h3 strong {
+  color: #3ba35f;
+}
+
 .article-section p {
   color: rgb(196, 192, 192);
 }
