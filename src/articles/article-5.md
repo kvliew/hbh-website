@@ -7,9 +7,9 @@ thumbnail: assets/uploads/article-5-thumbnail.png
 description: A practical guide for homebuyers to navigate display homes, ask the
   right questions, and make informed decisions.
 categorylist:
-  - Finance & Budgeting
-  - Legal & Contracts
-  - Design & Trends
+  - finance
+  - legal
+  - design
 ---
 
 ![Alt text](/assets/uploads/article-5-thumbnail.png "title")
