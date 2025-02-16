@@ -16,10 +16,6 @@ categorylist:
 
 When building a new home, comparing builder quotes can be a challenging process. With different inclusions, promotions, and pricing structures, it’s easy to feel overwhelmed. In this episode of the *Home Building Hub Podcast*, hosts Colin Bischof and Darren Brennan break down the key aspects of comparing builder quotes properly to ensure you’re making an informed decision.
 
-
-
-
-
 ## **Why Comparing Quotes is Difficult**
 
 Many home buyers struggle with comparing builder quotes because they don’t always review them on a like-for-like basis—what Colin and Darren call *apples to apples* comparisons. Builders use different wording, promotional structures, and pricing methods, making it difficult to see what’s included and what’s missing.
@@ -32,10 +28,6 @@ Some common mistakes home buyers make include:
 * Being swayed by promotions without understanding their true value
 
 To help simplify the process, Colin and Darren have outlined three core areas to focus on when comparing builder quotes.
-
-
-
-
 
 ## **1. Understanding Base Price and Standard Inclusions**
 
@@ -59,10 +51,6 @@ The base price of a home typically represents the retail price for the standard 
 
 Taking time to properly assess the base price and inclusions will help you avoid unexpected costs later.
 
-
-
-
-
 ## **2. Site Costs and Additional Charges**
 
 Site costs cover the work required to prepare your land for construction. These costs can vary significantly based on factors like soil type, fall, fill and estate requirements.
@@ -77,10 +65,6 @@ Site costs cover the work required to prepare your land for construction. These 
 
 Always ask your builder to clearly outline site costs so you can avoid any hidden surprises.
 
-
-
-
-
 ## **3. Comparing Builder Promotions**
 
 Promotions are one of the trickiest aspects of builder quotes. Builders offer deals like *“Pay $10,000 for $30,000 worth of upgrades”* or *“Free site costs”* to make their quotes more appealing.
@@ -93,10 +77,6 @@ Promotions are one of the trickiest aspects of builder quotes. Builders offer de
 * **Beware of exclusions.** Some promotions may exclude essential costs, such as bushfire compliance or estate requirements.
 
 Since promotions are complex, Colin and Darren recommend letting your builder’s sales consultant do the comparison for you. Their goal is to win your business, so they’ll highlight the differences and help you understand the best deal.
-
-
-
-
 
 ## **Final Thoughts: Choosing the Right Builder for You**
 
@@ -116,10 +96,6 @@ At the end of the day, the best builder for you isn’t necessarily the cheapest
 * Fixed site costs provide certainty, while provisional costs can lead to unexpected expenses.
 * Builder promotions can be confusing—itemise and compare them carefully.
 * Your final decision should be based on quality, trust, and what suits your needs, not just the lowest price.
-
-
-
-
 
 ## **FAQs**
 
@@ -143,27 +119,15 @@ A turnkey package includes extras like landscaping, fencing, driveways, and wind
 
 Yes, but negotiations are usually around upgrades or promotions rather than major price reductions.
 
-
-
-
-
 ## **Listen to the Full Episode**
 
 For a more detailed breakdown, listen to the full episode:[ **How to Compare Builders Quotes Properly**](https://homebuildinghub.com.au/posts/ep-85/).
-
-
-
-
 
 ## **About the Home Building Hub Podcast**
 
 The *Home Building Hub Podcast*, hosted by industry experts Colin Bischof and Darren Brennan, is Australia’s premier resource for new home buyers. With weekly episodes featuring special guests, the podcast provides objective, high-quality insights into the home building process—completely free and without sales pitches. From understanding financing options to navigating the complexities of building a new home, each episode is packed with actionable advice and tips.
 
 Explore more episodes at[ www.homebuildinghub.com.au](http://www.homebuildinghub.com.au/) and join our growing community of informed home buyers.
-
-
-
-
 
 ## **Disclaimer**
 
