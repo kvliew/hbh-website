@@ -122,6 +122,18 @@ footer a:hover {
   border-radius: 20px;
   padding: 4px 10px;;
 }
+.search {
+  margin-left: 5%;
+  margin-bottom: 1%;
+  width: 20vw;
+  padding: 10px;
+  height: 50px;
+  font-size: medium;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #11201c;
+}
 
 /* HOME PAGE */
 .landing-container {
@@ -222,15 +234,11 @@ button {
   flex-direction: column;
   justify-content: space-between;
   transition: 0.3s;
-  box-shadow: 3px 3px 10px black;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
   background-image: linear-gradient(to bottom, #0a1210, #0c1a17, #0c221c, #092a22, #053227);
 }
-.recent-episode-item img {
-  width: 100%;
-}
 .recent-episode-item:hover {
-  transform: scale(1.01);
-  box-shadow: 3px 0px 10px #074e3b;
+  box-shadow: 3px 0px 10px #052c22;
 }
 .placeholder-thumbnail {
   background-color: black;

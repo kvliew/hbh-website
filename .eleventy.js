@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/mobile-menu-script.js");
   eleventyConfig.addPassthroughCopy("./src/transition-script.js");
   eleventyConfig.addPassthroughCopy("./src/search.js");
+  eleventyConfig.addPassthroughCopy("./src/search-episodes.js");
   // eleventyConfig.addFilter('stringify', (data) => {
   //   return data;
   // });
