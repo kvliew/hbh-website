@@ -28,11 +28,11 @@ preloadcss: "/styles/blog.css"
     <button class="filter-button" data-filter="all">All</button>
   </div>
 
-  <input type="text" id="search" placeholder="Search" />
+  <input type="text" id="search" class="search" placeholder="Search" />
   
   <br>
   <ul id="blog-container">
-    {% assign recentPosts = collections.articles | reverse %}
+    {% assign recentPosts = collections.articles %}
     {% for post in recentPosts %}
     <div class="blog-card hidden" data-name="{{ post.data.title }}" data-categories="{{ post.data.categorylist }}">
       <img src="/{{ post.data.thumbnail }}" alt="article preview photo">

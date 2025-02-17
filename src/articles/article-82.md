@@ -11,7 +11,6 @@ categorylist:
   - pre
   - news
 ---
-![Alt text](/assets/uploads/article-82-thumbnail.png "title")
 
 ### Introduction
 

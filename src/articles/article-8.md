@@ -11,7 +11,6 @@ categorylist:
   - finance
   - pre
 ---
-![Alt text](/assets/uploads/article-8-thumbnail.png "title")
 
 ### 4 Steps to Getting the Best Building Quotes
 

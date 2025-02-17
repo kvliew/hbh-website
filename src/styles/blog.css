@@ -8,11 +8,6 @@
   text-align: center;
 }
 
-.blog input {
-  color: white;
-  background-color: #11201c;
-}
-
 #blog-container {
   display: grid;
   padding: 0 3%;
@@ -48,17 +43,6 @@
 .episode-link:hover {
   color: rgb(29, 185, 84);
   transition: none;
-}
-
-#search {
-  margin-left: 5%;
-  margin-bottom: 1%;
-  width: 20vw;
-  padding: 10px;
-  height: 50px;
-  font-size: medium;
-  border-radius: 20px;
-  border: none;
 }
 
 .filters {

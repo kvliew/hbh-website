@@ -11,13 +11,15 @@
     <br>
     <p>
       {% for item in categorylist %}
-        <span id="pill">{{ item  }} </span>
+        <span id="pill">{{ item | filtername }} </span>
       {% endfor %}
     </p>
     <br>
     <p>
       {{ description }}
     </p>
+    <br>
+    <img src="/assets/uploads/article-{{ articlenumber }}-thumbnail.png" alt="alt-text">
     <br>
     {{ content | safe }}
   </section>

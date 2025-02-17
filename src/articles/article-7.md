@@ -10,7 +10,6 @@ description: This article explores house and land packages, detailing how they
 categorylist:
   - pre
 ---
-![Alt text](/assets/uploads/article-7-thumbnail.png "title")
 
 ### What is a House and Land Package? …and Are They Exclusive?
 

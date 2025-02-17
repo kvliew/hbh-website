@@ -98,20 +98,24 @@ footer a:hover {
 .highlight {
   color: rgb(29, 185, 84);
 }
-.dropdown {
-  padding-bottom: 15px;
+#resources {
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
 }
 .dropdown-menu {
   position: absolute;
-  visibility: hidden;
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
-  padding: 20px 0px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
 }
-.dropdown-menu li a {
-  padding: 10px 100px 20px 0px;
+.dropdown-menu a {
+  margin-top: 10px;
+  padding: 1%;
 }
 .dropdown:hover .dropdown-menu {
-  visibility: visible;
+  opacity: 1;
 }
 #pill {
   display: inline-flex;
@@ -121,6 +125,18 @@ footer a:hover {
   border-style: solid;
   border-radius: 20px;
   padding: 4px 10px;;
+}
+.search {
+  margin-left: 5%;
+  margin-bottom: 1%;
+  width: 20vw;
+  padding: 10px;
+  height: 50px;
+  font-size: medium;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #11201c;
 }
 
 /* HOME PAGE */
@@ -222,15 +238,11 @@ button {
   flex-direction: column;
   justify-content: space-between;
   transition: 0.3s;
-  box-shadow: 3px 3px 10px black;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
   background-image: linear-gradient(to bottom, #0a1210, #0c1a17, #0c221c, #092a22, #053227);
 }
-.recent-episode-item img {
-  width: 100%;
-}
 .recent-episode-item:hover {
-  transform: scale(1.01);
-  box-shadow: 3px 0px 10px #074e3b;
+  box-shadow: 3px 0px 10px #052c22;
 }
 .placeholder-thumbnail {
   background-color: black;

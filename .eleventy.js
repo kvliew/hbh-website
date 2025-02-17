@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/firebase/dashboard.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/firebase-config.js");
   eleventyConfig.addPassthroughCopy("./src/search.js");
+  eleventyConfig.addPassthroughCopy("./src/search-episodes.js");
   // eleventyConfig.addFilter('stringify', (data) => {
   //   return data;
   // });

@@ -1,4 +1,4 @@
-// Search
+// Search Articles
 document.addEventListener("DOMContentLoaded", function() {
   const searchInput = document.getElementById("search");
   const itemsList = document.getElementById("blog-container");

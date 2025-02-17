@@ -9,11 +9,13 @@ preloadcss: "/styles/episodes-page.css"
     All Episodes
   </h1>
   <br>
+  <input id="search-episodes" type="text" class="search" placeholder="Search" />
+  <br>
   <ul id="episodes-container">
     {% assign recentPosts = collections.posts | reverse %}
     {% for post in recentPosts %}
-    <li class="hidden">
-      <div class="episode-card">
+    <!-- <li class="hidden"> -->
+      <div class="episode-card hidden" data-name="Episode {{ post.data.number }} {{ post.data.title }} {{ post.data.description }}">
         <img src="/{{ post.data.thumbnail }}" alt="episode preview photo"></img>
         <div class="content">
           <h2>
@@ -60,8 +62,9 @@ preloadcss: "/styles/episodes-page.css"
           </div>
         </div>
       </div>
-    </li>
+    <!-- </li> -->
   {% endfor %}
   </ul>
 </section>
 <script type="text/javascript" src="/transition-script.js"></script>
+<script type="text/javascript" src="/search-episodes.js"></script>

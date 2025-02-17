@@ -4,8 +4,12 @@
   background: linear-gradient(to top, black 80%, #191414 100%);
 }
 
+.article-section h1, h2, h3, li, p, strong, a {
+  color: rgb(247, 245, 245);
+  font-family: 'Open Sans', sans-serif;
+}
+
 .article-section li {
-  color: rgb(196, 192, 192);
   margin-left: 20px;
 }
 
@@ -19,7 +23,6 @@
 
 .article-section a {
   color: #3ba35f;
-  font-family: 'Open Sans', sans-serif;
 } 
 
 .article-section img {
@@ -32,8 +35,10 @@
   margin-top: 20px;
 }
 
-.article-section p {
-  color: rgb(196, 192, 192);
+.article-section h1 strong,
+.article-section h2 strong,
+.article-section h3 strong {
+  color: #3ba35f;
 }
 
 @media screen and (max-width: 1100px) {

@@ -12,8 +12,6 @@ categorylist:
   - design
 ---
 
-![Alt text](/assets/uploads/article-5-thumbnail.png "title")
-
 ### Top Tips When Visiting Display Homes
 Visiting display homes is one of the most exciting steps in the home-building journey. It’s your chance to see potential dream homes come to life and gather ideas for your new home. However, the experience can also be overwhelming if you’re not prepared. In this article, Colin Bischof and Darren Brennan from the Home Building Hub podcast share essential tips to help you make the most of your display home visits.
 
