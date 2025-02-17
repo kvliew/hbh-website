@@ -16,13 +16,12 @@
   align-items: center;
 }
 
-#register-form input {
+#register-form input, select {
   width: 25vw;
   border-style: solid;
   border-color: white;
-  border-radius: 10px;
   margin: 5px 0px 10px 0px;
-  border-width: 2px;
+  border-width: 1px;
   font-size: medium;
   padding: 10px;
   color: white;

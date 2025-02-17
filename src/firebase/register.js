@@ -30,12 +30,14 @@ submit.addEventListener("click", async (e) => {
   e.preventDefault();
 
   // Capture user input
-  const email = document.getElementById("signup-email").value;
-  const password = document.getElementById("signup-password").value;
   const firstName = document.getElementById("first-name").value;
   const lastName = document.getElementById("last-name").value;
-  const state = document.getElementById("state").value;
+  const region = document.getElementById("region").value;
   const buildingStage = document.getElementById("building-stage").value;
+  const buyerType = document.getElementById("buyer-type").value;
+  const mobileNumber = document.getElementById("mobile-number").value;
+  const email = document.getElementById("signup-email").value;
+  const password = document.getElementById("signup-password").value;
 
   try {
     // Add new user
@@ -47,9 +49,11 @@ submit.addEventListener("click", async (e) => {
     await setDoc (doc(db, "users", user.uid), {
       firstName: firstName,
       lastName: lastName,
-      email: email,
-      state: state,
+      region: region,
       buildingStage: buildingStage,
+      buyerType: buyerType,
+      mobileNumber: mobileNumber,
+      email: email,
     });
     console.log("User data added to Firestore successfully!");
     window.location.href = "/dashboard";
