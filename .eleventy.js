@@ -1,18 +1,15 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src//styles/");
   eleventyConfig.addPassthroughCopy("./src/assets/");
-  eleventyConfig.addPassthroughCopy("./src/watch-now-script.js");
-  eleventyConfig.addPassthroughCopy("./src/mobile-menu-script.js");
-  eleventyConfig.addPassthroughCopy("./src/transition-script.js");
+  eleventyConfig.addPassthroughCopy("./src/scripts/watch-now-script.js");
+  eleventyConfig.addPassthroughCopy("./src/scripts/mobile-menu-script.js");
+  eleventyConfig.addPassthroughCopy("./src/scripts/transition-script.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/register.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/login.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/dashboard.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/firebase-config.js");
-  eleventyConfig.addPassthroughCopy("./src/search.js");
-  eleventyConfig.addPassthroughCopy("./src/search-episodes.js");
-  // eleventyConfig.addFilter('stringify', (data) => {
-  //   return data;
-  // });
+  eleventyConfig.addPassthroughCopy("./src/scripts/search.js");
+  eleventyConfig.addPassthroughCopy("./src/scripts/search-episodes.js");
   eleventyConfig.addCollection("articles", function(collection) {
     return collection.getFilteredByGlob("./src/articles/*.md")
       .sort((a, b) => b.data.articlenumber - a.data.articlenumber);
