@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/assets/");
   eleventyConfig.addPassthroughCopy("./src/scripts/watch-now-script.js");
   eleventyConfig.addPassthroughCopy("./src/scripts/mobile-menu-script.js");
+  eleventyConfig.addPassthroughCopy("./src/scripts/web-navbar.js");
   eleventyConfig.addPassthroughCopy("./src/scripts/transition-script.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/register.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/login.js");
