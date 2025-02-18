@@ -31,14 +31,15 @@ hr {
 a {
   text-decoration: none;
   color: white;
-  transition: color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
   font-family: 'Montserrat', sans-serif;
 }
 header a {
   font-size: larger;
 }
 header a:hover {
-  color: rgb(29, 185, 84);
+  /* color: rgb(29, 185, 84); */
+  background-color: #3e3232;
 }
 header {
   display: flex;
@@ -119,12 +120,14 @@ footer a:hover {
   transition: background-color 0.5s ease-out, color 0.5s ease-out;
 }
 #resources-text:hover {
-  color: rgb(29, 185, 84);
+  background-color: #3e3232;
 }
 #resources-text.show {
   background-color: #3e3232;
   color: white;
 }
+
+/* DROPDOWN MENU */
 .dropdown-menu {
   position: absolute;
   width: 100%;
@@ -148,6 +151,8 @@ footer a:hover {
   visibility: visible;
   background-color: #191414;
 }
+
+/* Article Elements */
 #pill {
   display: inline-flex;
   align-items: center;
@@ -295,7 +300,6 @@ button {
   padding: 3px;
 }
 .socials {
-  /* padding-top: 10px; */
   display: flex;
   gap: 10px;
   align-items: center;
@@ -305,7 +309,6 @@ button {
   display: flex;
   align-items: center;
   gap: 7px;
-  /* border-style: solid; */
   padding: 8px;
   border-radius: 3px;
   border-color: white;
