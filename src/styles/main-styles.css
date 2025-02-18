@@ -44,7 +44,20 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 19px 6%;
+  padding: 10px 6%;
+  background: #191414;
+  transition: padding 0.3s ease;
+}
+header.scrolled {
+  top: 0;
+  position: fixed;
+  height: 110px;
+  z-index: 9999;
+  width: 100%;
+}
+#logo.scrolled {
+  width: 150px;
+  height: 95px;
 }
 @keyframes fillSvg {
   0% {
@@ -98,27 +111,42 @@ footer a:hover {
 .highlight {
   color: rgb(29, 185, 84);
 }
-#resources {
+#resources-text {
   font-family: 'Montserrat', sans-serif;
   font-size: larger;
   cursor: pointer;
+  padding: 0px 10px;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+#resources-text:hover {
+  color: rgb(29, 185, 84);
+}
+#resources-text.show {
+  background-color: #3e3232;
+  color: white;
 }
 .dropdown-menu {
   position: absolute;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   list-style-type: none;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.4s ease-in-out;
+  border: 1px solid #555;
+  margin-top: 5px;
 }
 .dropdown-menu a {
-  margin-top: 10px;
-  padding: 1%;
+  padding: 15px 0px;
+  width: 100%;
+  text-align: center;
 }
-.dropdown.show .dropdown-menu {
+#resources-dropdown.show .dropdown-menu {
   opacity: 1;
   visibility: visible;
+  background-color: #191414;
 }
 #pill {
   display: inline-flex;
@@ -209,9 +237,6 @@ button {
   font-weight: 600;
   color: black;
 }
-/* button:hover {
-  transform: scale(1.1);
-} */
 .secondary-container {
   background-color: #001F17;
   padding: 10%;
