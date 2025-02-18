@@ -34,22 +34,23 @@ a {
   transition: background-color 0.5s ease-out;
   font-family: 'Montserrat', sans-serif;
 }
-header a {
+#nav-bar a {
   font-size: larger;
 }
-header a:hover {
+#nav-bar a:hover {
   /* color: rgb(29, 185, 84); */
   background-color: #3e3232;
 }
-header {
+#nav-bar {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px 6%;
   background: #191414;
   transition: padding 0.3s ease;
+  /* height: 200px; */
 }
-header.scrolled {
+#nav-bar.scrolled {
   top: 0;
   position: fixed;
   height: 110px;
