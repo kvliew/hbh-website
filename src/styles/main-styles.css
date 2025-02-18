@@ -112,6 +112,11 @@ footer a:hover {
 .highlight {
   color: rgb(29, 185, 84);
 }
+
+/* DROPDOWN MENU */
+#resources-dropdown {
+  position: relative;
+}
 #resources-text {
   font-family: 'Montserrat', sans-serif;
   font-size: larger;
@@ -126,8 +131,6 @@ footer a:hover {
   background-color: #3e3232;
   color: white;
 }
-
-/* DROPDOWN MENU */
 .dropdown-menu {
   position: absolute;
   width: 100%;
