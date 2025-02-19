@@ -26,8 +26,6 @@ header {
 }
 header.scrolled {
   height: 100px;
-  /* background: linear-gradient(180deg, #191414, #222222); */
-  background-color: #1f1f1f;
 }
 #logo {
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
