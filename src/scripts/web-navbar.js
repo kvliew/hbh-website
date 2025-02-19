@@ -18,16 +18,14 @@ document.addEventListener('click', (e) => {
   }
 });
 
-window.addEventListener('scroll', function() {
-  if (window.innerWidth > 1100) {
-    if (window.scrollY > 50) {
-      navBar.classList.add('scrolled');
-      logo.classList.add('scrolled');
-      // navBar.classList.add('sticky-nav');
-    } else {
-      navBar.classList.remove('scrolled');
-      logo.classList.remove('scrolled');
-      // document.body.classList.remove('sticky-nav');
-    }
-  }
-});
+// window.addEventListener('scroll', function() {
+//   if (window.innerWidth > 1100) {
+//     if (window.scrollY > 50) {
+//       navBar.classList.add('scrolled');
+//       logo.classList.add('scrolled');
+//     } else {
+//       navBar.classList.remove('scrolled');
+//       logo.classList.remove('scrolled');
+//     }
+//   }
+// });
