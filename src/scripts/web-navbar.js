@@ -1,9 +1,13 @@
-const navBar = document.getElementById("nav-bar");
-const logo = document.getElementById("logo");
+// DROPDOWN
 const dropdown = document.getElementById("resources-dropdown");
 const resourcesLabel = document.getElementById("resources-text");
 // const arrow = document.getElementById("dropdown-arrow");
 
+// NAVIGATION BAR
+const navBar = document.getElementById("nav-bar");
+const logo = document.getElementById("logo");
+
+// DROPDOWN
 dropdown.addEventListener('click', function() {
   dropdown.classList.toggle('show');
   resourcesLabel.classList.toggle('show');
@@ -18,14 +22,15 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// window.addEventListener('scroll', function() {
-//   if (window.innerWidth > 1100) {
-//     if (window.scrollY > 50) {
-//       navBar.classList.add('scrolled');
-//       logo.classList.add('scrolled');
-//     } else {
-//       navBar.classList.remove('scrolled');
-//       logo.classList.remove('scrolled');
-//     }
-//   }
-// });
+// NAVIGATION BAR
+window.addEventListener('scroll', function() {
+  if (window.innerWidth > 1100) {
+    if (window.scrollY > 10) {
+      navBar.classList.add('scrolled');
+      logo.classList.add('scrolled');
+    } else {
+      navBar.classList.remove('scrolled');
+      logo.classList.remove('scrolled');
+    }
+  }
+});
