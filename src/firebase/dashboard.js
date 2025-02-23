@@ -17,74 +17,20 @@ const logout = document.getElementById("signout");
 const loading = document.getElementById("loading");
 const dashboardContent = document.getElementById("dashboard-content");
 
-// Fetch User Details
-const uid = user.uid;
-const userDocRef = doc(db, "users", uid);
-const userDocSnap = await getDoc(userDocRef);
-
-// Fetch Perks
-async function fetchPerks() {
-  const perksGrid = document.getElementById("perks-container");
-  const perksCollection = collection(db, "perks");
-
-  try {
-    const querySnapshot = await getDocs(perksCollection);
-    const perksGrid = document.getElementById('perks-container');
-
-    querySnapshot.forEach((doc) => {
-      const perk = doc.data();
-      const perkElement = document.createElement('li');
-      perkElement.classList.add('perk-item');
-
-      // Create and append the perk name (h3)
-      const perkName = document.createElement('h3');
-      perkName.textContent = perk.Name;
-      perkElement.appendChild(perkName);
-      console.log(perk.Name);
-
-      // Create and append the perk description (p)
-      const perkDescription = document.createElement('p');
-      perkDescription.textContent = perk.Description;
-      perkElement.appendChild(perkDescription);
-      console.log(perk.Description);
-
-      // Create button
-      const redeemButton = document.createElement('button');
-      redeemButton.textContent = "Redeem Perk";
-      perkElement.appendChild(redeemButton);
-
-      // Handle Perk Redemption
-      redeemButton.addEventListener('click', async() => {
-        const response = await fetch("/.netlify/functions/redeem-perk", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-              userEmail: userDocSnap.data().email, // Fetch authenticated user's email
-              perkName: perk.Name,
-              perkDescription: perk.Description,
-              providerEmail: perk.email, // This stays hidden on the server side
-          }),
-      });
-      const result = await response.json();
-      alert(result.message);
-      });
-
-      // Append the new list item to the grid
-      perksGrid.appendChild(perkElement);
-    });
-  } catch(error) {
-    console.error("Error fetching perks: ", error);
-  }
-}
+// User Variables
 
 // Get User Details
 onAuthStateChanged(auth, async (user) => {
   if (user) {
     // User is signed in, see docs for a list of available properties
     // https://firebase.google.com/docs/reference/js/auth.user
+
+    // Fetch User Details
+    const uid = user.uid;
+    const userDocRef = doc(db, "users", uid);
     
     try {
-
+      const userDocSnap = await getDoc(userDocRef);
       if(userDocSnap.exists()) {
         console.log(userDocSnap.data());
         document.getElementById("first-name").textContent = userDocSnap.data().firstName;
@@ -105,6 +51,73 @@ onAuthStateChanged(auth, async (user) => {
     window.location.href = "/login";
   }
 });
+
+// Fetch Perks
+async function fetchPerks() {
+  const perksGrid = document.getElementById("perks-container");
+  const perksCollection = collection(db, "perks");
+
+  try {
+    const querySnapshot = await getDocs(perksCollection);
+    const perksGrid = document.getElementById('perks-container');
+
+    querySnapshot.forEach((doc) => {
+      const perk = doc.data();
+      const perkElement = document.createElement('li');
+      perkElement.classList.add('perk-item');
+
+      // Create and append the perk name (h3)
+      const perkName = document.createElement('h3');
+      perkName.textContent = perk.Name;
+      perkElement.appendChild(perkName);
+
+      // Create and append the perk description (p)
+      const perkDescription = document.createElement('p');
+      perkDescription.textContent = perk.Description;
+      perkElement.appendChild(perkDescription);
+
+      // Create button
+      const redeemButton = document.createElement('button');
+      redeemButton.textContent = "Redeem Perk";
+      perkElement.appendChild(redeemButton);
+
+      // Handle Perk Redemption
+      const baseUrl = window.location.origin;
+      const apiEndPoint = `${baseUrl}/.netlify/functions/sendPerkRedemption`
+      redeemButton.addEventListener('click', async() => {
+        try {
+          const response = await fetch(apiEndPoint, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                  userEmail: "khinvyn@gmail.com",
+                  perkName: perk.Name,
+                  perkDescription: perk.Description,
+                  providerEmail: perk.Email,
+              }),
+          });
+  
+          // Check if the response is not OK (e.g., 4xx or 5xx errors)
+          if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+          }
+  
+          const result = await response.json();
+          alert(result.message);
+      } catch (error) {
+          // Log the error message to the console and show a user-friendly message
+          console.error('There was an error!', error);
+          alert('There was an error processing your perk redemption. Please try again later.');
+      }
+      });
+
+      // Append the new list item to the grid
+      perksGrid.appendChild(perkElement);
+    });
+  } catch(error) {
+    console.error("Error fetching perks: ", error);
+  }
+}
 
 logout.addEventListener("click", function(e) {
   signOut(auth);

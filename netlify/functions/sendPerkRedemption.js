@@ -8,6 +8,21 @@ exports.handler = async (event, context) => {
   if (event.httpMethod === 'POST') {
     const { userEmail, perkName, perkDescription, providerEmail } = JSON.parse(event.body);
 
+    const headers = {
+      "Access-Control-Allow-Origin": "*", // Allows all origins, adjust if needed
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+    };
+  
+    if (event.httpMethod === "OPTIONS") {
+      // Handle OPTIONS request for pre-flight check
+      return {
+        statusCode: 200,
+        headers,
+        body: "",
+      };
+    }
+
     // Create the email content
     const msg = {
       to: providerEmail, // Perk provider's email
@@ -33,9 +48,10 @@ exports.handler = async (event, context) => {
       } else {
         errorMessage = error.message || errorMessage;
       }
+      console.log(errorMessage);
       return {
         statusCode: 500,
-        body: JSON.stringify({ error: errorMessage }), 
+        body: JSON.stringify({ error: errorMessage }),
       };
     
     }
