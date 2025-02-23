@@ -64,17 +64,23 @@ async function fetchPerks(userEmail) {
 
     querySnapshot.forEach((doc) => {
       const perk = doc.data();
+      console.log(perk.contactEmail);
       const perkElement = document.createElement('li');
       perkElement.classList.add('perk-item');
 
+      // Create and append the company name (h1)
+      const perkCompany = document.createElement('h1');
+      perkCompany.textContent = perk.company;
+      perkElement.appendChild(perkCompany);
+
       // Create and append the perk name (h3)
       const perkName = document.createElement('h3');
-      perkName.textContent = perk.Name;
+      perkName.textContent = perk.name;
       perkElement.appendChild(perkName);
 
       // Create and append the perk description (p)
       const perkDescription = document.createElement('p');
-      perkDescription.textContent = perk.Description;
+      perkDescription.textContent = perk.description;
       perkElement.appendChild(perkDescription);
 
       // Create button
@@ -92,9 +98,10 @@ async function fetchPerks(userEmail) {
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({
                   userEmail: userEmail,
-                  perkName: perk.Name,
-                  perkDescription: perk.Description,
-                  providerEmail: perk.Email,
+                  perkName: perk.name,
+                  perkDescription: perk.description,
+                  providerEmail: perk.contactEmail,
+                  id: doc.id,
               }),
           });
   
