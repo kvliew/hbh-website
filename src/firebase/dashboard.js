@@ -19,6 +19,7 @@ const dashboardContent = document.getElementById("dashboard-content");
 
 // User Variables
 
+
 // Get User Details
 onAuthStateChanged(auth, async (user) => {
   if (user) {
@@ -31,18 +32,18 @@ onAuthStateChanged(auth, async (user) => {
     
     try {
       const userDocSnap = await getDoc(userDocRef);
+      const userEmail = userDocSnap.data().email;
       if(userDocSnap.exists()) {
         console.log(userDocSnap.data());
         document.getElementById("first-name").textContent = userDocSnap.data().firstName;
         document.getElementById("building-stage").textContent = userDocSnap.data().buildingStage;
+        fetchPerks(userEmail);
       } else {
         console.log("No user found");
       }
     } catch(error) {
       console.error("Error Fetching: " + error.message)
     }
-
-    fetchPerks();
 
     dashboardContent.style.display = "flex";
     loading.style.display = "none";
@@ -53,7 +54,7 @@ onAuthStateChanged(auth, async (user) => {
 });
 
 // Fetch Perks
-async function fetchPerks() {
+async function fetchPerks(userEmail) {
   const perksGrid = document.getElementById("perks-container");
   const perksCollection = collection(db, "perks");
 
@@ -90,7 +91,7 @@ async function fetchPerks() {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({
-                  userEmail: "khinvyn@gmail.com",
+                  userEmail: userEmail,
                   perkName: perk.Name,
                   perkDescription: perk.Description,
                   providerEmail: perk.Email,
