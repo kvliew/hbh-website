@@ -17,6 +17,11 @@ const logout = document.getElementById("signout");
 const loading = document.getElementById("loading");
 const dashboardContent = document.getElementById("dashboard-content");
 
+// Fetch User Details
+const uid = user.uid;
+const userDocRef = doc(db, "users", uid);
+const userDocSnap = await getDoc(userDocRef);
+
 // Fetch Perks
 async function fetchPerks() {
   const perksGrid = document.getElementById("perks-container");
@@ -48,6 +53,22 @@ async function fetchPerks() {
       redeemButton.textContent = "Redeem Perk";
       perkElement.appendChild(redeemButton);
 
+      // Handle Perk Redemption
+      redeemButton.addEventListener('click', async() => {
+        const response = await fetch("/.netlify/functions/redeem-perk", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+              userEmail: userDocSnap.data().email, // Fetch authenticated user's email
+              perkName: perk.Name,
+              perkDescription: perk.Description,
+              providerEmail: perk.email, // This stays hidden on the server side
+          }),
+      });
+      const result = await response.json();
+      alert(result.message);
+      });
+
       // Append the new list item to the grid
       perksGrid.appendChild(perkElement);
     });
@@ -56,17 +77,13 @@ async function fetchPerks() {
   }
 }
 
+// Get User Details
 onAuthStateChanged(auth, async (user) => {
   if (user) {
     // User is signed in, see docs for a list of available properties
     // https://firebase.google.com/docs/reference/js/auth.user
     
-    // Fetch User Details
-    const uid = user.uid;
-    const userDocRef = doc(db, "users", uid);
-    
     try {
-      const userDocSnap = await getDoc(userDocRef);
 
       if(userDocSnap.exists()) {
         console.log(userDocSnap.data());
