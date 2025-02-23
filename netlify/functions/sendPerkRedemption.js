@@ -26,7 +26,7 @@ exports.handler = async (event, context) => {
     // Create the email content
     const msg = {
       to: providerEmail, // Perk provider's email
-      cc: 'hello@hbh.com.au',
+      cc: 'hello@homebuildinghub.com.au',
       from: 'khinvyn@gmail.com',
       subject: `New Perk Redemption: ${perkName}`,
       text: `A user has redeemed the perk: ${perkName}.\n\nDescription: ${perkDescription}\n\nUser's email: ${userEmail}`,
