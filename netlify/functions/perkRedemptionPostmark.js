@@ -1,7 +1,7 @@
 const postmark = require('postmark');
 
 // Initialize the Postmark client with your server API key
-const client = new postmark.ServerClient('1db94519-d0d2-47e6-ac87-69bb1cd151b8');
+const client = new postmark.ServerClient(process.env.POSTMARK_API_KEY);
 
 exports.handler = async (event, context) => {
   // Check if the request is a POST
