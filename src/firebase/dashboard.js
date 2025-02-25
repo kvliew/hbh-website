@@ -17,9 +17,6 @@ const logout = document.getElementById("signout");
 const loading = document.getElementById("loading");
 const dashboardContent = document.getElementById("dashboard-content");
 
-// User Variables
-
-
 // Get User Details
 onAuthStateChanged(auth, async (user) => {
   if (user) {
