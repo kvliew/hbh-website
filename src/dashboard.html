@@ -10,14 +10,89 @@ preloadcss: "/styles/dashboard.css"
   </div>
   <div id="dashboard-content">
     <h1>
-      Welcome, <span id="first-name"></span>!
+      Welcome, <span id="welcome-name"></span>!
     </h1>
     <p>
-      Building Stage: <span id="building-stage"></span>
+      Building Stage: <span id="welcome-building-stage"></span>
     </p>
     <div id="perks-container">
     </div>
+
+    <div id="overlay">
+      <form id="redeem-form">
+        <span class="close">&times;</span>
+        <input placeholder="First Name" id="first-name">
+        <input placeholder="Last Name" id="last-name">
+        <select id="region" name="region" required>
+          <option disabled selected>Select your Preferred Build Region</option>
+          <optgroup label="Victoria (VIC)">
+            <option value="VIC - Melbourne West">Melbourne West</option>
+            <option value="VIC - Melbourne North">Melbourne North</option>
+            <option value="VIC - Melbourne South East">Melbourne South East</option>
+            <option value="VIC - Melbourne East">Melbourne East</option>
+            <option value="VIC - Geelong">Geelong</option>
+            <option value="VIC - Ballarat">Ballarat</option>
+            <option value="VIC - Bendigo">Bendigo</option>
+            <option value="VIC - Gippsland">Gippsland</option>
+            <option value="VIC - Other">Other</option>
+          </optgroup>
+          <optgroup label="New South Wales (NSW)">
+            <option value="NSW - Sydney North West">Sydney North West</option>
+            <option value="NSW - Sydney South West">Sydney South West</option>
+            <option value="NSW - Newcastle (The Hunter Region)">Newcastle (Hunter Region)</option>
+            <option value="NSW - Central Coast">Central Coast</option>
+            <option value="NSW - Wollongong (Illawarra-Shoalhaven Region)">Wollongong (Illawarra-Shoalhaven)</option>
+            <option value="NSW - Other">Other</option>
+          </optgroup>
+          <optgroup label="Queensland (QLD)">
+            <option value="QLD - Brisbane">Brisbane</option>
+            <option value="QLD - Gold Coast">Gold Coast</option>
+            <option value="QLD - Sunshine Coast">Sunshine Coast</option>
+            <option value="QLD - Toowoomba">Toowoomba</option>
+            <option value="QLD - Townsville (North Queensland Region)">Townsville (North QLD)</option>
+            <option value="QLD - Cairns (Far North Queensland Region)">Cairns (Far North QLD)</option>
+            <option value="QLD - Hervey Bay (Wide Bay–Burnett Region)">Hervey Bay (Wide Bay-Burnett)</option>
+            <option value="QLD - Other">Other</option>
+          </optgroup>
+          <optgroup label="South Australia (SA)">
+            <option value="SA - Adelaide North">Adelaide North</option>
+            <option value="SA - Adelaide South">Adelaide South</option>
+            <option value="SA - Adelaide Hills">Adelaide Hills</option>
+            <option value="SA - Other">Other</option>
+          </optgroup>
+          <optgroup label="Western Australia (WA)">
+            <option value="WA - Perth North East">Perth North East</option>
+            <option value="WA - Perth North West">Perth North West</option>
+            <option value="WA - Perth South East">Perth South East</option>
+            <option value="WA - Perth South West">Perth South West</option>
+            <option value="WA - Mandurah (Peel Region)">Mandurah (Peel Region)</option>
+            <option value="WA - Bunbury (The South West Region)">Bunbury (South West)</option>
+            <option value="WA - Other">Other</option>
+          </optgroup>
+        </select>
+        <select name="building-stage" id="building-stage">
+          <option disabled selected>Select Building Stage</option>
+          <option value="Homework Stage (No Builder selected)">Homework Stage (No Builder selected)</option>
+          <option value="Pre-Site Stage (Builder Selected)">Pre-Site Stage (Builder Selected)</option>
+          <option value="On-Site Stage (Under Construction)">On-Site Stage (Under Construction)</option>
+          <option value="Post-Construction (Home Completed)">Post-Construction (Home Completed)</option>
+        </select>
+        <select name="buyer-type" id="buyer-type">
+          <option disabled selected>Select Buyer Type</option>
+          <option value="First Home Buyer">First Home Buyer</option>
+          <option value="Investor">Investor</option>
+          <option value="Upsizer">Upsizer</option>
+          <option value="Downsizer">Downsizer</option>
+        </select>
+        <input placeholder="Mobile (0400000000)" id="mobile-number" pattern="^04\d{8}$">
+        <input id="signup-email" placeholder="hello@email.com" type="email" required="required"/>
+        <br>
+        <button id="submit-redemption" type="submit">Submit</button>
+      </form>
+    </div>
+
     <button id="signout">Sign Out</button>
+    <br>
   </div>
 </section>
 

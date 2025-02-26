@@ -12,10 +12,32 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-// Get VARs
+// Server variables
 const logout = document.getElementById("signout");
 const loading = document.getElementById("loading");
 const dashboardContent = document.getElementById("dashboard-content");
+
+// Front End Redemption Form
+// Hide redemption form when clicking outside the form
+const overlay = document.getElementById("overlay");
+const submitRedemption = document.getElementById("submit-redemption");
+overlay.addEventListener("click", (event) => {
+  if (event.target === overlay) {
+    overlay.style.display = "none";
+  }
+});
+// Store redemption form fields in variables
+const firstNameForm = document.getElementById("first-name");
+const lastNameForm = document.getElementById("last-name");
+const regionForm = document.getElementById("region");
+const buildingStageForm = document.getElementById("building-stage");
+const buyerTypeForm = document.getElementById("buyer-type");
+const mobileNumberForm = document.getElementById("mobile-number");
+const signupEmailForm = document.getElementById("signup-email");
+
+// API endpoint
+const baseUrl = window.location.origin;
+const apiEndPoint = `${baseUrl}/.netlify/functions/sendPerkRedemption`
 
 // Get User Details
 onAuthStateChanged(auth, async (user) => {
@@ -29,12 +51,11 @@ onAuthStateChanged(auth, async (user) => {
     
     try {
       const userDocSnap = await getDoc(userDocRef);
-      const userEmail = userDocSnap.data().email;
       if(userDocSnap.exists()) {
         console.log(userDocSnap.data());
-        document.getElementById("first-name").textContent = userDocSnap.data().firstName;
-        document.getElementById("building-stage").textContent = userDocSnap.data().buildingStage;
-        fetchPerks(userEmail);
+        document.getElementById("welcome-name").textContent = userDocSnap.data().firstName;
+        document.getElementById("welcome-building-stage").textContent = userDocSnap.data().buildingStage;
+        fetchPerks(userDocSnap);
       } else {
         console.log("No user found");
       }
@@ -51,8 +72,7 @@ onAuthStateChanged(auth, async (user) => {
 });
 
 // Fetch Perks
-async function fetchPerks(userEmail) {
-  const perksGrid = document.getElementById("perks-container");
+async function fetchPerks(userDocSnap) {
   const perksCollection = collection(db, "perks");
 
   try {
@@ -61,7 +81,6 @@ async function fetchPerks(userEmail) {
 
     querySnapshot.forEach((doc) => {
       const perk = doc.data();
-      console.log(perk.contactEmail);
       const perkElement = document.createElement('li');
       perkElement.classList.add('perk-item');
 
@@ -85,35 +104,10 @@ async function fetchPerks(userEmail) {
       redeemButton.textContent = "Redeem Perk";
       perkElement.appendChild(redeemButton);
 
-      // Handle Perk Redemption
-      const baseUrl = window.location.origin;
-      const apiEndPoint = `${baseUrl}/.netlify/functions/sendPerkRedemption`
+
+      // Handle redemption
       redeemButton.addEventListener('click', async() => {
-        try {
-          const response = await fetch(apiEndPoint, {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({
-                  userEmail: userEmail,
-                  perkName: perk.name,
-                  perkDescription: perk.description,
-                  providerEmail: perk.contactEmail,
-                  id: doc.id,
-              }),
-          });
-  
-          // Check if the response is not OK (e.g., 4xx or 5xx errors)
-          if (!response.ok) {
-              throw new Error(`HTTP error! status: ${response.status}`);
-          }
-  
-          const result = await response.json();
-          alert(result.message);
-      } catch (error) {
-          // Log the error message to the console and show a user-friendly message
-          console.error('There was an error!', error);
-          alert('There was an error processing your perk redemption. Please try again later.');
-      }
+        openRedemptionForm(perk.name, perk.description, perk.contactEmail, userDocSnap);
       });
 
       // Append the new list item to the grid
@@ -124,6 +118,54 @@ async function fetchPerks(userEmail) {
   }
 }
 
+
+function openRedemptionForm(perkName, perkDescription, perkEmail, userDocSnap) {
+  overlay.style.display = "flex";
+
+  // Pre fill user details
+  firstNameForm.value = userDocSnap.data().firstName;
+  lastNameForm.value = userDocSnap.data().lastName;
+  regionForm.value = userDocSnap.data().region;
+  buildingStageForm.value = userDocSnap.data().buildingStage;
+  buyerTypeForm.value = userDocSnap.data().buyerType;
+  mobileNumberForm.value = userDocSnap.data().mobileNumber;
+  signupEmailForm.value = userDocSnap.data().email;
+
+  // Store the perk data for submission
+  overlay.dataset.perkName = perkName;
+  overlay.dataset.perkDescription = perkDescription;
+  overlay.dataset.perkEmail = perkEmail;
+}
+
+// Handle Redemption
+submitRedemption.addEventListener('click', async() => {
+  try {
+    const response = await fetch(apiEndPoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            userEmail: signupEmailForm.value,
+            perkName: overlay.dataset.perkName,
+            perkDescription: overlay.dataset.perkDescription,
+            providerEmail: overlay.dataset.perkEmail,
+        }),
+    });
+    
+    // Check if the response is OK (status code 200)
+    if (!response.ok) {
+      // If response status is not OK (not in the 2xx range), throw an error
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    const result = await response.json();
+    alert(result.message);
+
+  } catch (error) {
+    console.error('There was an error!', error);
+    alert('There was an error processing your perk redemption. Please try again later.');
+  }
+});
+
+// Handle Logout
 logout.addEventListener("click", function(e) {
   signOut(auth);
   // window.location.href = "/login";
