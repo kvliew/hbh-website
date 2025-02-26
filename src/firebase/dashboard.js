@@ -138,7 +138,8 @@ function openRedemptionForm(perkName, perkDescription, perkEmail, userDocSnap) {
 }
 
 // Handle Redemption
-submitRedemption.addEventListener('click', async() => {
+submitRedemption.addEventListener('click', async(event) => {
+  event.preventDefault();
   try {
     const response = await fetch(apiEndPoint, {
         method: "POST",
@@ -150,7 +151,7 @@ submitRedemption.addEventListener('click', async() => {
             providerEmail: overlay.dataset.perkEmail,
         }),
     });
-    
+
     // Check if the response is OK (status code 200)
     if (!response.ok) {
       // If response status is not OK (not in the 2xx range), throw an error
@@ -158,7 +159,7 @@ submitRedemption.addEventListener('click', async() => {
     }
     const result = await response.json();
     alert(result.message);
-
+    overlay.style.display = "none";
   } catch (error) {
     console.error('There was an error!', error);
     alert('There was an error processing your perk redemption. Please try again later.');
