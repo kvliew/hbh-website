@@ -2,7 +2,7 @@
 import { firebaseConfig } from "./firebase-config.js";
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js'
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-auth.js";
-import { getFirestore, getDoc, getDocs, doc, collection } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js";
+import { getFirestore, getDoc, updateDoc, arrayUnion, getDocs, doc, collection } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -43,6 +43,8 @@ const signupEmailForm = document.getElementById("signup-email");
 const baseUrl = window.location.origin;
 const apiEndPoint = `${baseUrl}/.netlify/functions/sendPerkRedemption`
 
+let currentUserId = null;
+
 // Get User Details
 onAuthStateChanged(auth, async (user) => {
   if (user) {
@@ -50,8 +52,8 @@ onAuthStateChanged(auth, async (user) => {
     // https://firebase.google.com/docs/reference/js/auth.user
 
     // Fetch User Details
-    const uid = user.uid;
-    const userDocRef = doc(db, "users", uid);
+    currentUserId = user.uid;
+    const userDocRef = doc(db, "users", currentUserId);
     
     try {
       const userDocSnap = await getDoc(userDocRef);
@@ -85,6 +87,7 @@ async function fetchPerks(userDocSnap) {
 
     querySnapshot.forEach((doc) => {
       const perk = doc.data();
+      const perkId = doc.id;
       const perkElement = document.createElement('li');
       perkElement.classList.add('perk-item');
 
@@ -103,16 +106,24 @@ async function fetchPerks(userDocSnap) {
       perkDescription.textContent = perk.description;
       perkElement.appendChild(perkDescription);
 
-      // Create button
-      const redeemButton = document.createElement('button');
-      redeemButton.textContent = "Redeem Perk";
-      perkElement.appendChild(redeemButton);
+      // Create button CONDITIONAL
+      if (perk.redeemedBy && perk.redeemedBy.includes(currentUserId)) {
+        // User has already redeemed the perk, show message
+        const redeemedMessage = document.createElement('p');
+        redeemedMessage.textContent = "Perk Redeemed";
+        redeemedMessage.classList.add('redeemed-message');
+        perkElement.appendChild(redeemedMessage);
+      } else {
+        // User has not redeemed the perk, create the redeem button
+        const redeemButton = document.createElement('button');
+        redeemButton.textContent = "Redeem Perk";
+        perkElement.appendChild(redeemButton);
 
-
-      // Handle redemption
-      redeemButton.addEventListener('click', async() => {
-        openRedemptionForm(perk.name, perk.description, perk.contactEmail, userDocSnap);
-      });
+        // Handle redemption
+        redeemButton.addEventListener('click', async() => {
+          openRedemptionForm(perk.name, perk.description, perk.contactEmail, userDocSnap, perkId);
+        });
+      }
 
       // Append the new list item to the grid
       perksGrid.appendChild(perkElement);
@@ -123,7 +134,7 @@ async function fetchPerks(userDocSnap) {
 }
 
 
-function openRedemptionForm(perkName, perkDescription, perkEmail, userDocSnap) {
+function openRedemptionForm(perkName, perkDescription, perkEmail, userDocSnap, perkId) {
   overlay.style.display = "flex";
 
   // Pre fill user details
@@ -139,11 +150,18 @@ function openRedemptionForm(perkName, perkDescription, perkEmail, userDocSnap) {
   overlay.dataset.perkName = perkName;
   overlay.dataset.perkDescription = perkDescription;
   overlay.dataset.perkEmail = perkEmail;
+  overlay.dataset.perkId = perkId;
 }
 
 // Handle Redemption
 submitRedemption.addEventListener('click', async(event) => {
   event.preventDefault();
+
+  const perkRef = doc(db, "perks", overlay.dataset.perkId);
+  await updateDoc(perkRef, {
+    redeemedBy: arrayUnion(currentUserId)
+  });
+
   try {
     const response = await fetch(apiEndPoint, {
         method: "POST",
@@ -153,6 +171,7 @@ submitRedemption.addEventListener('click', async(event) => {
             perkName: overlay.dataset.perkName,
             perkDescription: overlay.dataset.perkDescription,
             providerEmail: overlay.dataset.perkEmail,
+            currentUserId: currentUserId,
         }),
     });
 
@@ -162,8 +181,8 @@ submitRedemption.addEventListener('click', async(event) => {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     const result = await response.json();
-    alert(result.message);
     overlay.style.display = "none";
+    window.location.reload();
   } catch (error) {
     console.error('There was an error!', error);
     alert('There was an error processing your perk redemption. Please try again later.');
@@ -173,5 +192,4 @@ submitRedemption.addEventListener('click', async(event) => {
 // Handle Logout
 logout.addEventListener("click", function(e) {
   signOut(auth);
-  // window.location.href = "/login";
 });
