@@ -20,11 +20,15 @@ const dashboardContent = document.getElementById("dashboard-content");
 // Front End Redemption Form
 // Hide redemption form when clicking outside the form
 const overlay = document.getElementById("overlay");
+const close = document.getElementById("close-redemption-form");
 const submitRedemption = document.getElementById("submit-redemption");
 overlay.addEventListener("click", (event) => {
   if (event.target === overlay) {
     overlay.style.display = "none";
   }
+});
+close.addEventListener("click", (event) => {
+  overlay.style.display = "none";
 });
 // Store redemption form fields in variables
 const firstNameForm = document.getElementById("first-name");

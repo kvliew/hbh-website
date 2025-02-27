@@ -59,6 +59,7 @@
   align-items: center;
   background-color: rgb(37, 35, 35);
   padding: 3%;
+  position: relative;
 }
 
 #redeem-form input, select {
@@ -73,9 +74,12 @@
   background-color: rgba(0,0,0,0);
 }
 
-.close {
+#close-redemption-form {
   font-size: 50px;
   cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 15px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -85,5 +89,11 @@
   }
   .perk-item {
     width: 90%;
+  }
+  #redeem-form {
+    padding: 10%;
+  }
+  #redeem-form input, select {
+    width: 70vw;
   }
 }
