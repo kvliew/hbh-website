@@ -106,7 +106,7 @@ header.scrolled {
     position: fixed;
     background: #191414;
     top: 0;  
-    height: 200px;
+    height: 140px;
     z-index: 9999;
   }
   header img {
