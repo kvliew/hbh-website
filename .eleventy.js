@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/scripts/transition-script.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/register.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/login.js");
+  eleventyConfig.addPassthroughCopy("./src/firebase/reset-password.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/dashboard.js");
   eleventyConfig.addPassthroughCopy("./src/firebase/firebase-config.js");
   eleventyConfig.addPassthroughCopy("./src/scripts/search.js");

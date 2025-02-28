@@ -32,8 +32,8 @@ header.scrolled {
 }
 
 #logo.scrolled {
-  width: 140px;
-  height: 90px;
+  width: 90px;
+  height: 70px;
 }
 @keyframes fillSvg {
   0% {
@@ -106,11 +106,11 @@ header.scrolled {
     position: fixed;
     background: #191414;
     top: 0;  
-    height: 100px;
+    height: 200px;
     z-index: 9999;
   }
   header img {
-    width: 50%;
+    width: 40%;
   }
   #nav-links {
     display: none;

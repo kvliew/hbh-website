@@ -10,8 +10,9 @@ import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/fir
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const login = document.getElementById("login-button");
+const loginStatus = document.getElementById("login-status");
 
-// Register new user
+// Login User
 login.addEventListener("click", function(e) {
   e.preventDefault();
   const email = document.getElementById("login-email").value;
@@ -23,7 +24,13 @@ login.addEventListener("click", function(e) {
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
-      console.log(errorCode)
-      console.log(errorMessage)
+      const errorMessages = {
+        "auth/invalid-credential": "Invalid credentials. Please try again.",
+        "auth/invalid-email": "Invalid Email. Please try again",
+      };
+      loginStatus.textContent = errorMessages[errorCode] || "Login failed. Please try again.";
+      loginStatus.style.color = "red";
+      console.log(errorCode);
+      console.log(errorMessage);
     });
 });
