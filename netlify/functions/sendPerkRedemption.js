@@ -1,4 +1,5 @@
 const sgMail = require('@sendgrid/mail');
+// require('dotenv').config();
 
 // This will fetch the SendGrid API key from the Netlify environment variables
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
