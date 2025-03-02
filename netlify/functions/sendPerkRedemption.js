@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
   // Check if the request is a POST
   if (event.httpMethod === 'POST') {
 
-    const { userEmail, perkName, perkDescription, providerEmail } = JSON.parse(event.body);
+    const { firstName, lastName, region, buildingStage, buyerType, mobileNumber, userEmail, perkName, perkDescription, providerEmail } = JSON.parse(event.body);
 
     const headers = {
       "Access-Control-Allow-Origin": "*", // Allows all origins, adjust if needed
@@ -30,8 +30,15 @@ exports.handler = async (event, context) => {
       cc: 'hello@homebuildinghub.com.au',
       from: 'Home Building Hub <hello@homebuildinghub.com.au>',
       subject: `New Perk Redemption: ${perkName}`,
-      text: `A user has redeemed the perk: ${perkName}.\n\nDescription: ${perkDescription}\n\nUser's email: ${userEmail}`,
-      html: `<p>A user has redeemed the perk: <strong>${perkName}</strong>.</p><p>Description: ${perkDescription}</p><p><strong>User's email:</strong> ${userEmail}</p>`,
+      text: `A Home Building Hub Subscriber has redeemed the perk: ${perkName}.\n\nDescription: ${perkDescription}\n\nName: ${firstName} ${lastName}\nMobile Number: ${mobileNumber}\nEmail: ${userEmail}\nRegion: ${region}\nBuilding Stage: ${buildingStage}\nBuyer Type: ${buyerType}\n`,
+      html: `<p>A Home Building Hub Subscriber has redeemed the perk: <strong>${perkName}</strong>.</p>
+         <p><strong>Description:</strong> ${perkDescription}</p>
+         <p><strong>Name:</strong> ${firstName} ${lastName}</p>
+         <p><strong>Mobile Number:</strong> ${mobileNumber}</p>
+         <p><strong>Email:</strong> ${userEmail}</p>
+         <p><strong>Region:</strong> ${region}</p>
+         <p><strong>Building Stage:</strong> ${buildingStage}</p>
+         <p><strong>Buyer Type:</strong> ${buyerType}</p>`,
     };
 
     try {

@@ -167,11 +167,16 @@ submitRedemption.addEventListener('click', async(event) => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+            firstName: firstNameForm.value,
+            lastName: lastNameForm.value,
+            region: regionForm.value,
+            buildingStage: buildingStageForm.value,
+            buyerType: buyerTypeForm.value,
+            mobileNumber: mobileNumberForm.value,
             userEmail: signupEmailForm.value,
             perkName: overlay.dataset.perkName,
             perkDescription: overlay.dataset.perkDescription,
             providerEmail: overlay.dataset.perkEmail,
-            currentUserId: currentUserId,
         }),
     });
 
