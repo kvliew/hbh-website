@@ -15,6 +15,63 @@ preloadcss: "/styles/dashboard.css"
     <p>
       Building Stage: <span id="welcome-building-stage"></span>
     </p>
+    <br>
+
+    <div id="filter-container">
+      <fieldset>
+        <legend>Select your Preferred Build Region</legend>
+        <strong>Victoria (VIC)</strong><br>
+        <label><input type="checkbox" class="region-filter" value="VIC - Melbourne West"> Melbourne West</label>
+        <label><input type="checkbox" class="region-filter" value="VIC - Melbourne North"> Melbourne North</label>
+        <label><input type="checkbox" class="region-filter" value="VIC - Melbourne South East"> Melbourne South East</label>
+        <label><input type="checkbox" class="region-filter" value="VIC - Melbourne East"> Melbourne East</label>
+        <label><input type="checkbox" class="region-filter" value="VIC - Geelong"> Geelong</label>
+        <label><input type="checkbox" class="region-filter" value="VIC - Ballarat"> Ballarat</label>
+        <label><input type="checkbox" class="region-filter" value="VIC - Bendigo"> Bendigo</label>
+        <label><input type="checkbox" class="region-filter" value="VIC - Gippsland"> Gippsland</label>
+        <label><input type="checkbox" class="region-filter" value="VIC - Other"> Other</label>
+        <br>
+        <br><strong>New South Wales (NSW)</strong><br>
+        <label><input type="checkbox" class="region-filter" value="NSW - Sydney North West"> Sydney North West</label>
+        <label><input type="checkbox" class="region-filter" value="NSW - Sydney South West"> Sydney South West</label>
+        <label><input type="checkbox" class="region-filter" value="NSW - Newcastle (The Hunter Region)"> Newcastle (Hunter Region)</label>
+        <label><input type="checkbox" class="region-filter" value="NSW - Central Coast"> Central Coast</label>
+        <label><input type="checkbox" class="region-filter" value="NSW - Wollongong (Illawarra-Shoalhaven Region)"> Wollongong (Illawarra-Shoalhaven)</label>
+        <label><input type="checkbox" class="region-filter" value="NSW - Other"> Other</label>
+        <br>
+        <br><strong>Queensland (QLD)</strong><br>
+        <label><input type="checkbox" class="region-filter" value="QLD - Brisbane"> Brisbane</label>
+        <label><input type="checkbox" class="region-filter" value="QLD - Gold Coast"> Gold Coast</label>
+        <label><input type="checkbox" class="region-filter" value="QLD - Sunshine Coast"> Sunshine Coast</label>
+        <label><input type="checkbox" class="region-filter" value="QLD - Toowoomba"> Toowoomba</label>
+        <label><input type="checkbox" class="region-filter" value="QLD - Townsville (North Queensland Region)"> Townsville (North QLD)</label>
+        <label><input type="checkbox" class="region-filter" value="QLD - Cairns (Far North Queensland Region)"> Cairns (Far North QLD)</label>
+        <label><input type="checkbox" class="region-filter" value="QLD - Hervey Bay (Wide Bay–Burnett Region)"> Hervey Bay (Wide Bay-Burnett)</label>
+        <label><input type="checkbox" class="region-filter" value="QLD - Other"> Other</label>
+        <br>
+        <br><strong>South Australia (SA)</strong><br>
+        <label><input type="checkbox" class="region-filter" value="SA - Adelaide North"> Adelaide North</label>
+        <label><input type="checkbox" class="region-filter" value="SA - Adelaide South"> Adelaide South</label>
+        <label><input type="checkbox" class="region-filter" value="SA - Adelaide Hills"> Adelaide Hills</label>
+        <label><input type="checkbox" class="region-filter" value="SA - Other"> Other</label>
+        <br>
+        <br><strong>Western Australia (WA)</strong><br>
+        <label><input type="checkbox" class="region-filter" value="WA - Perth North East"> Perth North East</label>
+        <label><input type="checkbox" class="region-filter" value="WA - Perth North West"> Perth North West</label>
+        <label><input type="checkbox" class="region-filter" value="WA - Perth South East"> Perth South East</label>
+        <label><input type="checkbox" class="region-filter" value="WA - Perth South West"> Perth South West</label>
+        <label><input type="checkbox" class="region-filter" value="WA - Mandurah (Peel Region)"> Mandurah (Peel Region)</label>
+        <label><input type="checkbox" class="region-filter" value="WA - Bunbury (The South West Region)"> Bunbury (South West)</label>
+        <label><input type="checkbox" class="region-filter" value="WA - Other"> Other</label>
+      </fieldset>
+    
+      <button id="apply-filters-btn">Apply Filters</button>
+      <button id="clear-filters-btn">Clear Filters</button>
+    </div>
+    
+
+    <!-- <ul id="perks-container"></ul> -->
+
     <div id="perks-container">
     </div>
 

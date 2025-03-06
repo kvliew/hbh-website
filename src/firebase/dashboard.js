@@ -43,6 +43,9 @@ const signupEmailForm = document.getElementById("signup-email");
 const baseUrl = window.location.origin;
 const apiEndPoint = `${baseUrl}/.netlify/functions/sendPerkRedemption`
 
+
+// User VARs
+let userDocSnap = null;
 let currentUserId = null;
 
 // Get User Details
@@ -56,12 +59,11 @@ onAuthStateChanged(auth, async (user) => {
     const userDocRef = doc(db, "users", currentUserId);
     
     try {
-      const userDocSnap = await getDoc(userDocRef);
+      userDocSnap = await getDoc(userDocRef);
       if(userDocSnap.exists()) {
-        console.log(userDocSnap.data());
         document.getElementById("welcome-name").textContent = userDocSnap.data().firstName;
         document.getElementById("welcome-building-stage").textContent = userDocSnap.data().buildingStage;
-        fetchPerks(userDocSnap);
+        fetchPerks(userDocSnap, []);
       } else {
         console.log("No user found");
       }
@@ -78,16 +80,24 @@ onAuthStateChanged(auth, async (user) => {
 });
 
 // Fetch Perks
-async function fetchPerks(userDocSnap) {
+async function fetchPerks(userDocSnap, selectedRegions = []) {
   const perksCollection = collection(db, "perks");
+  const perksGrid = document.getElementById('perks-container');
+  perksGrid.innerHTML = "";
 
   try {
     const querySnapshot = await getDocs(perksCollection);
-    const perksGrid = document.getElementById('perks-container');
 
     querySnapshot.forEach((doc) => {
       const perk = doc.data();
       const perkId = doc.id;
+
+      // Check if the perk belongs to the selected region
+      if (selectedRegions.length > 0 && !selectedRegions.includes(perk.region)) {
+        return; // Skip items that do not match the filter
+      }
+
+      // Create perk elements
       const perkElement = document.createElement('li');
       perkElement.classList.add('perk-item');
 
@@ -105,6 +115,11 @@ async function fetchPerks(userDocSnap) {
       const perkDescription = document.createElement('p');
       perkDescription.textContent = perk.description;
       perkElement.appendChild(perkDescription);
+
+      // Create and append region (p)
+      const perkRegion = document.createElement('p');
+      perkRegion.textContent = perk.region;
+      perkElement.appendChild(perkRegion);
 
       // Create button CONDITIONAL
       if (perk.redeemedBy && perk.redeemedBy.includes(currentUserId)) {
@@ -133,7 +148,27 @@ async function fetchPerks(userDocSnap) {
   }
 }
 
+// Handle Region filter
+document.getElementById("apply-filters-btn").addEventListener("click", () => {
+  const selectedRegions = Array.from(document.querySelectorAll('.region-filter:checked'))
+    .map(checkbox => checkbox.value);
 
+  if (userDocSnap) {
+    fetchPerks(userDocSnap, selectedRegions);
+  } else {
+    console.error("User data not loaded yet.");
+  }
+});
+
+// Clear region filter
+document.getElementById("clear-filters-btn").addEventListener("click", () => {
+  document.querySelectorAll('.region-filter').forEach(checkbox => {
+    checkbox.checked = false;
+  });
+  fetchPerks([]);
+});
+
+// Redemption form
 function openRedemptionForm(perkName, perkDescription, perkEmail, userDocSnap, perkId) {
   overlay.style.display = "flex";
 
