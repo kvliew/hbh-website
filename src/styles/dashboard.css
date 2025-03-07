@@ -86,6 +86,27 @@
   right: 15px;
 }
 
+/* Filters */
+.checkbox-button input[type="checkbox"] {
+  display: none; /* Hide the checkbox itself */
+}
+.checkbox-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #163a23;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+.checkbox-button.clicked {
+  background-color: #4ddd82;
+  color: black;
+}
+
 @media screen and (max-width: 1000px) {
   #perks-container {
     flex-direction: column;

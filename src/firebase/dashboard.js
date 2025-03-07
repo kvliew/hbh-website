@@ -148,7 +148,23 @@ async function fetchPerks(userDocSnap, selectedRegions = []) {
   }
 }
 
-// Handle Region filter
+// Handle filter colour change
+const checkboxes = document.querySelectorAll('.checkbox-button input[type="checkbox"]');
+  // Add event listeners for each checkbox to toggle the 'checked' class
+  checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+      const label = this.parentElement;
+
+      // Toggle the 'checked' class on the label when the checkbox is checked or unchecked
+      if (this.checked) {
+        label.classList.add('clicked');
+      } else {
+        label.classList.remove('clicked');
+      }
+    });
+  });
+
+// Handle Region filter fetches
 document.getElementById("apply-filters-btn").addEventListener("click", () => {
   const selectedRegions = Array.from(document.querySelectorAll('.region-filter:checked'))
     .map(checkbox => checkbox.value);
@@ -162,8 +178,13 @@ document.getElementById("apply-filters-btn").addEventListener("click", () => {
 
 // Clear region filter
 document.getElementById("clear-filters-btn").addEventListener("click", () => {
+  // uncheck all boxes
   document.querySelectorAll('.region-filter').forEach(checkbox => {
     checkbox.checked = false;
+  });
+  // remove 'clicked' class from all labels
+  document.querySelectorAll('.checkbox-button').forEach(label => {
+    label.classList.remove('clicked');
   });
   fetchPerks([]);
 });
