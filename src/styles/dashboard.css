@@ -87,6 +87,9 @@
 }
 
 /* Filters */
+fieldset {
+  border-style: none;
+}
 .checkbox-button input[type="checkbox"] {
   display: none; /* Hide the checkbox itself */
 }

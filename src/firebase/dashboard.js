@@ -93,7 +93,7 @@ async function fetchPerks(userDocSnap, selectedRegions = []) {
       const perkId = doc.id;
 
       // Check if the perk belongs to the selected region
-      if (selectedRegions.length > 0 && !selectedRegions.includes(perk.region)) {
+      if (selectedRegions.length > 0 && !(selectedRegions.includes(perk.region) || perk.region === "Nationwide")) {
         return; // Skip items that do not match the filter
       }
 
