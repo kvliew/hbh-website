@@ -93,7 +93,7 @@ async function fetchPerks(userDocSnap, selectedRegions = []) {
       const perkId = doc.id;
 
       // Check if the perk belongs to the selected region
-      if (selectedRegions.length > 0 && !(selectedRegions.includes(perk.region) || perk.region === "Nationwide")) {
+      if (selectedRegions.length > 0 && !perk.region.some(r => selectedRegions.includes(r) || r === "Nationwide")) {
         return; // Skip items that do not match the filter
       }
 
@@ -116,10 +116,17 @@ async function fetchPerks(userDocSnap, selectedRegions = []) {
       perkDescription.textContent = perk.description;
       perkElement.appendChild(perkDescription);
 
-      // Create and append region (p)
-      const perkRegion = document.createElement('p');
-      perkRegion.textContent = perk.region;
-      perkElement.appendChild(perkRegion);
+      // Create and append perk region container (div)
+      const perkRegionContainer = document.createElement('div');
+      perkRegionContainer.classList.add('region-container');
+      perk.region.forEach(region => {
+        const regionSpan = document.createElement('span');
+        regionSpan.textContent = region;
+        regionSpan.classList.add('region-pill'); // Add the class for styling
+        perkRegionContainer.appendChild(regionSpan);
+      });
+    
+      perkElement.appendChild(perkRegionContainer);
 
       // Create button CONDITIONAL
       if (perk.redeemedBy && perk.redeemedBy.includes(currentUserId)) {
@@ -148,7 +155,7 @@ async function fetchPerks(userDocSnap, selectedRegions = []) {
   }
 }
 
-// Handle filter colour change
+// Handle filter buttons
 const checkboxes = document.querySelectorAll('.checkbox-button input[type="checkbox"]');
   // Add event listeners for each checkbox to toggle the 'checked' class
   checkboxes.forEach(checkbox => {

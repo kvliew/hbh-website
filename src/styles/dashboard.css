@@ -43,6 +43,21 @@
   margin-top: auto;
 }
 
+.region-container {
+  display: flex;
+  gap: 5px;
+}
+
+.region-pill {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 4px 10px;
+}
+
 #overlay {
   display: none;
   align-items: center;
